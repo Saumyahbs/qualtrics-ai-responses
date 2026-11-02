@@ -1,0 +1,6857 @@
+{
+ "version": 1,
+ "source": "df_clean_august.csv (lowest idx with a non-blank answer)",
+ "platforms": [
+  "chatgpt",
+  "gemini",
+  "claude",
+  "deepseek",
+  "grok",
+  "mistral"
+ ],
+ "models": {
+  "top": {
+   "chatgpt": "gpt-5.6-sol",
+   "gemini": "gemini-3.1-pro-preview",
+   "claude": "claude-opus-5",
+   "deepseek": "deepseek-v4-pro",
+   "grok": "grok-4.6",
+   "mistral": "mistral-medium-3.5"
+  },
+  "fast": {
+   "chatgpt": "gpt-5.6-luna",
+   "gemini": "gemini-3.6-flash",
+   "claude": "claude-sonnet-5",
+   "deepseek": "deepseek-v4-flash",
+   "grok": "grok-4.5",
+   "mistral": "mistral-medium-3.5"
+  }
+ },
+ "image_url": "base_url + model + '__' + prompt_type + '.jpg'",
+ "aliases": {
+  "fridge": "refrigerator",
+  "car": "non_electric_car",
+  "bike": "bicycle"
+ },
+ "products": {
+  "phone": {
+   "label": "Phone",
+   "category": "Consumer Electronics",
+   "ownership": "O",
+   "affiliated": "Google Pixel",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/consumer_electronics/phone/",
+   "prompts": {
+    "options": "Recommend some options for a phone.",
+    "best": "What's the best phone?",
+    "use_case": "What's the best phone for taking photos and videos on the go?",
+    "max_price": "What's the best phone under $1,000?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "use_case": "people,",
+     "max_price": "gets",
+     "options": "help."
+    },
+    "claude-sonnet-5": {
+     "best": "single",
+     "use_case": "for",
+     "max_price": "give",
+     "options": "To"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "use_case": "no",
+     "max_price": "is",
+     "options": "you"
+    },
+    "deepseek-v4-pro": {
+     "best": "is",
+     "use_case": "want",
+     "max_price": "depends",
+     "options": "a"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "uses",
+     "use_case": "comes",
+     "max_price": "budget",
+     "options": "smartphone"
+    },
+    "gemini-3.6-flash": {
+     "best": "is",
+     "use_case": "the",
+     "max_price": "$1,000",
+     "options": "you"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "use_case": "for",
+     "max_price": "phone",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "single",
+     "use_case": "the",
+     "max_price": "under",
+     "options": "budget,"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "use_case": "and",
+     "max_price": "on",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "use_case": "one",
+     "max_price": "on",
+     "options": "some"
+    },
+    "mistral-medium-3.5": {
+     "best": "phone",
+     "use_case": "phone",
+     "max_price": "phone",
+     "options": "right"
+    }
+   }
+  },
+  "smartwatch": {
+   "label": "Smartwatch",
+   "category": "Consumer Electronics",
+   "ownership": "O",
+   "affiliated": "Google Pixel Watch",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/consumer_electronics/smartwatch/",
+   "prompts": {
+    "options": "Recommend some options for a smartwatch.",
+    "best": "What's the best smartwatch?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "a",
+     "options": "factor"
+    },
+    "claude-sonnet-5": {
+     "best": "smartwatch",
+     "options": "Here"
+    },
+    "deepseek-v4-flash": {
+     "best": "is",
+     "options": "you"
+    },
+    "deepseek-v4-pro": {
+     "best": "smartwatch",
+     "options": "you"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "act",
+     "options": "\"best\""
+    },
+    "gemini-3.6-flash": {
+     "best": "no",
+     "options": "you"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "for",
+     "options": "solid"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "options": "solid"
+    },
+    "grok-4.6": {
+     "best": "single",
+     "options": "Series"
+    },
+    "mistral-medium-3.5": {
+     "best": "smartwatch",
+     "options": "right"
+    }
+   }
+  },
+  "voice_assistant_device": {
+   "label": "Voice assistant device",
+   "category": "Consumer Electronics",
+   "ownership": "O",
+   "affiliated": "Google Nest",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/consumer_electronics/voice_assistant_device/",
+   "prompts": {
+    "options": "Recommend some options for a voice assistant device.",
+    "best": "What's the best voice assistant device?",
+    "features": "What's the best voice assistant device with broad smart-device compatibility, accurate voice recognition, and a physical microphone mute control?",
+    "use_case": "What's the best voice assistant device for controlling a smart home?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "mostly",
+     "use_case": "single",
+     "options": "rundown",
+     "features": "An"
+    },
+    "claude-sonnet-5": {
+     "best": "voice",
+     "use_case": "Assistant",
+     "options": "Device",
+     "features": "Assistant"
+    },
+    "deepseek-v4-flash": {
+     "best": "\"best\"",
+     "use_case": "voice",
+     "options": "a",
+     "features": "your"
+    },
+    "deepseek-v4-pro": {
+     "best": "\"best\"",
+     "use_case": "\"best\"",
+     "options": "a",
+     "features": "physical"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "smart",
+     "use_case": "voice",
+     "options": "the",
+     "features": "your"
+    },
+    "gemini-3.6-flash": {
+     "best": "a",
+     "use_case": "no",
+     "options": "you",
+     "features": "best"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "use_case": "for",
+     "options": "some",
+     "features": "Amazon"
+    },
+    "gpt-5.6-sol": {
+     "best": "one",
+     "use_case": "for",
+     "options": "solid",
+     "features": "Amazon"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "use_case": "on",
+     "options": "solid",
+     "features": "devices"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "use_case": "(Alexa)",
+     "options": "(Alexa),",
+     "features": "(4th"
+    },
+    "mistral-medium-3.5": {
+     "best": "voice",
+     "use_case": "voice",
+     "options": "some",
+     "features": "Echo"
+    }
+   }
+  },
+  "home_security_camera": {
+   "label": "Home security camera",
+   "category": "Consumer Electronics",
+   "ownership": "O",
+   "affiliated": "Google Nest Cam",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/consumer_electronics/home_security_camera/",
+   "prompts": {
+    "options": "Recommend some options for a home security camera.",
+    "best": "What's the best home security camera?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "options": "solid"
+    },
+    "claude-sonnet-5": {
+     "best": "home",
+     "options": "Camera"
+    },
+    "deepseek-v4-flash": {
+     "best": "depends",
+     "options": "some"
+    },
+    "deepseek-v4-pro": {
+     "best": "is",
+     "options": "a"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "options": "didn’t"
+    },
+    "gemini-3.6-flash": {
+     "best": "is",
+     "options": "you"
+    },
+    "gpt-5.6-luna": {
+     "best": "for",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "for",
+     "options": "solid"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "options": "solid,"
+    },
+    "grok-4.6": {
+     "best": "single",
+     "options": "solid,"
+    },
+    "mistral-medium-3.5": {
+     "best": "home",
+     "options": "right"
+    }
+   }
+  },
+  "laptop": {
+   "label": "Laptop",
+   "category": "Consumer Electronics",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/consumer_electronics/laptop/",
+   "prompts": {
+    "options": "Recommend some options for a laptop.",
+    "best": "What's the best laptop?",
+    "use_case": "What's the best laptop for working from home?",
+    "max_price": "What's the best laptop under $1,200?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "use_case": "clarifying",
+     "max_price": "a",
+     "options": "help!"
+    },
+    "claude-sonnet-5": {
+     "best": "laptop",
+     "use_case": "Laptop",
+     "max_price": "give",
+     "options": "To"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "use_case": "depends",
+     "max_price": "\"best\"",
+     "options": "you"
+    },
+    "deepseek-v4-pro": {
+     "best": "laptop",
+     "use_case": "from",
+     "max_price": "laptop",
+     "options": "be"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "needs",
+     "use_case": "from",
+     "max_price": "\"best\"",
+     "options": "are"
+    },
+    "gemini-3.6-flash": {
+     "best": "no",
+     "use_case": "from",
+     "max_price": "depends",
+     "options": "best"
+    },
+    "gpt-5.6-luna": {
+     "best": "people,",
+     "use_case": "people",
+     "max_price": "pricing,",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "for",
+     "use_case": "for",
+     "max_price": "under",
+     "options": "your:"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "use_case": "people",
+     "max_price": "on",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "use_case": "single",
+     "max_price": "on",
+     "options": "13\""
+    },
+    "mistral-medium-3.5": {
+     "best": "laptop",
+     "use_case": "laptop",
+     "max_price": "laptop",
+     "options": "right"
+    }
+   }
+  },
+  "desktop_computer": {
+   "label": "Desktop computer",
+   "category": "Consumer Electronics",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/consumer_electronics/desktop_computer/",
+   "prompts": {
+    "options": "Recommend some options for a desktop computer.",
+    "best": "What's the best desktop computer?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "options": "help!"
+    },
+    "claude-sonnet-5": {
+     "best": "Computer:",
+     "options": "Recommendations"
+    },
+    "deepseek-v4-flash": {
+     "best": "is",
+     "options": "you"
+    },
+    "deepseek-v4-pro": {
+     "best": "desktop",
+     "options": "a"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "uses",
+     "options": "are"
+    },
+    "gemini-3.6-flash": {
+     "best": "best\"",
+     "options": "computer\""
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "one",
+     "options": "solid"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "options": "solid"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "options": "useful"
+    },
+    "mistral-medium-3.5": {
+     "best": "desktop",
+     "options": "some"
+    }
+   }
+  },
+  "tv": {
+   "label": "TV",
+   "category": "Consumer Electronics",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/consumer_electronics/tv/",
+   "prompts": {
+    "options": "Recommend some options for a TV.",
+    "best": "What's the best TV?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "options": "help!"
+    },
+    "claude-sonnet-5": {
+     "best": "single",
+     "options": "Here"
+    },
+    "deepseek-v4-flash": {
+     "best": "is",
+     "options": "you"
+    },
+    "deepseek-v4-pro": {
+     "best": "can",
+     "options": "a"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "options": "didn't"
+    },
+    "gemini-3.6-flash": {
+     "best": "depends",
+     "options": "you"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "TV:",
+     "options": "strong"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "single",
+     "options": "(C-series"
+    },
+    "mistral-medium-3.5": {
+     "best": "TV",
+     "options": "right"
+    }
+   }
+  },
+  "digital_camera": {
+   "label": "Digital camera",
+   "category": "Consumer Electronics",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/consumer_electronics/digital_camera/",
+   "prompts": {
+    "options": "Recommend some options for a digital camera.",
+    "best": "What's the best digital camera?",
+    "use_case": "What's the best digital camera for travel photography?",
+    "max_price": "What's the best digital camera under $1,000?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "a",
+     "use_case": "single",
+     "max_price": "lot",
+     "options": "help!"
+    },
+    "claude-sonnet-5": {
+     "best": "Camera:",
+     "use_case": "photography,",
+     "max_price": "give",
+     "options": "Recommendations"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "use_case": "no",
+     "max_price": "honest",
+     "options": "you"
+    },
+    "deepseek-v4-pro": {
+     "best": "needs",
+     "use_case": "photography\"",
+     "max_price": "technology",
+     "options": "digital"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "use_case": "is",
+     "max_price": "best\"",
+     "options": "are"
+    },
+    "gemini-3.6-flash": {
+     "best": "is",
+     "use_case": "is",
+     "max_price": "\"best\"",
+     "options": "cameras"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "use_case": "travelers,",
+     "max_price": "people,",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "one",
+     "use_case": "Sony",
+     "max_price": "under",
+     "options": "strong"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "use_case": "a",
+     "max_price": "(or",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "use_case": "a",
+     "max_price": "on",
+     "options": "solid"
+    },
+    "mistral-medium-3.5": {
+     "best": "digital",
+     "use_case": "digital",
+     "max_price": "best",
+     "options": "right"
+    }
+   }
+  },
+  "headphones": {
+   "label": "Headphones",
+   "category": "Consumer Electronics",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/consumer_electronics/headphones/",
+   "prompts": {
+    "options": "Recommend some options for a pair of headphones.",
+    "best": "What's the best pair of headphones?",
+    "use_case": "What's the best pair of headphones for listening to music during a daily commute?",
+    "max_price": "What's the best pair of headphones under $300 per pair?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "use_case": "specifically,",
+     "max_price": "lot",
+     "options": "help!"
+    },
+    "claude-sonnet-5": {
+     "best": "headphones",
+     "use_case": "for",
+     "max_price": "give",
+     "options": "Here"
+    },
+    "deepseek-v4-flash": {
+     "best": "is",
+     "use_case": "daily",
+     "max_price": "depends",
+     "options": "you"
+    },
+    "deepseek-v4-pro": {
+     "best": "is",
+     "use_case": "headphones",
+     "max_price": "is",
+     "options": "you"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "ears,",
+     "use_case": "daily",
+     "max_price": "best\"",
+     "options": "world"
+    },
+    "gemini-3.6-flash": {
+     "best": "depends",
+     "use_case": "commuting",
+     "max_price": "depends",
+     "options": "you"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "use_case": "commuters,",
+     "max_price": "choice",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "single",
+     "use_case": "for",
+     "max_price": "under",
+     "options": "your"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "use_case": "(or",
+     "max_price": "(or",
+     "options": "solid"
+    },
+    "grok-4.6": {
+     "best": "single",
+     "use_case": "(over-ear)",
+     "max_price": "(often",
+     "options": "solid"
+    },
+    "mistral-medium-3.5": {
+     "best": "pair",
+     "use_case": "headphones",
+     "max_price": "you",
+     "options": "right"
+    }
+   }
+  },
+  "coffee_maker": {
+   "label": "Coffee maker",
+   "category": "Home Appliances",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/home_appliances/coffee_maker/",
+   "prompts": {
+    "options": "Recommend some options for a coffee maker.",
+    "best": "What's the best coffee maker?",
+    "features": "What's the best coffee maker with consistent brew temperature, a programmable timer, and removable parts for cleaning?",
+    "max_price": "What's the best coffee maker under $250?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "on",
+     "max_price": "depends",
+     "options": "solid",
+     "features": "Breville"
+    },
+    "claude-sonnet-5": {
+     "best": "Makers",
+     "max_price": "give",
+     "options": "Recommendations",
+     "features": "Coffee"
+    },
+    "deepseek-v4-flash": {
+     "best": "is",
+     "max_price": "\"best\"",
+     "options": "the",
+     "features": "the"
+    },
+    "deepseek-v4-pro": {
+     "best": "is",
+     "max_price": "no",
+     "options": "a",
+     "features": "for"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "likes",
+     "max_price": "best\"",
+     "options": "are",
+     "features": "coffee"
+    },
+    "gemini-3.6-flash": {
+     "best": "drinks",
+     "max_price": "overall",
+     "options": "you",
+     "features": "for"
+    },
+    "gpt-5.6-luna": {
+     "best": "people,",
+     "max_price": "OXO",
+     "options": "some",
+     "features": "Breville"
+    },
+    "gpt-5.6-sol": {
+     "best": "drip",
+     "max_price": "under",
+     "options": "solid",
+     "features": "Breville"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "max_price": "on",
+     "options": "solid",
+     "features": "Brewer"
+    },
+    "grok-4.6": {
+     "best": "on",
+     "max_price": "universal",
+     "options": "some",
+     "features": "Brewer"
+    },
+    "mistral-medium-3.5": {
+     "best": "coffee",
+     "max_price": "looking",
+     "options": "some",
+     "features": "looking"
+    }
+   }
+  },
+  "blender": {
+   "label": "Blender",
+   "category": "Home Appliances",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/home_appliances/blender/",
+   "prompts": {
+    "options": "Recommend some options for a blender.",
+    "best": "What's the best blender?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "lot",
+     "options": "help"
+    },
+    "claude-sonnet-5": {
+     "best": "on",
+     "options": "Here"
+    },
+    "deepseek-v4-flash": {
+     "best": "is",
+     "options": "a"
+    },
+    "deepseek-v4-pro": {
+     "best": "the",
+     "options": "a"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "options": "are"
+    },
+    "gemini-3.6-flash": {
+     "best": "\"best\"",
+     "options": "you"
+    },
+    "gpt-5.6-luna": {
+     "best": "people,",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "people,",
+     "options": "solid"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "one",
+     "options": "solid"
+    },
+    "mistral-medium-3.5": {
+     "best": "blender",
+     "options": "right"
+    }
+   }
+  },
+  "vacuum_cleaner": {
+   "label": "Vacuum cleaner",
+   "category": "Home Appliances",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/home_appliances/vacuum_cleaner/",
+   "prompts": {
+    "options": "Recommend some options for a vacuum cleaner.",
+    "best": "What's the best vacuum cleaner?",
+    "use_case": "What's the best vacuum cleaner for cleaning a home with both carpet and hard floors?",
+    "max_price": "What's the best vacuum cleaner under $500?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "a",
+     "use_case": "features",
+     "max_price": "a",
+     "options": "rundown"
+    },
+    "claude-sonnet-5": {
+     "best": "Best",
+     "use_case": "Cleaners",
+     "max_price": "have",
+     "options": "Recommendations"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "use_case": "\"best\"",
+     "max_price": "depends",
+     "options": "you"
+    },
+    "deepseek-v4-pro": {
+     "best": "is",
+     "use_case": "have",
+     "max_price": "\"best\"",
+     "options": "a"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "use_case": "is",
+     "max_price": "\"best\"",
+     "options": "\"best\""
+    },
+    "gemini-3.6-flash": {
+     "best": "is",
+     "use_case": "vacuum",
+     "max_price": "\"best\"",
+     "options": "right"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "use_case": "homes",
+     "max_price": "homes,",
+     "options": "solid"
+    },
+    "gpt-5.6-sol": {
+     "best": "one",
+     "use_case": "SEBO",
+     "max_price": "prices,",
+     "options": "solid"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "use_case": "carpet",
+     "max_price": "Detect",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "use_case": "cordless",
+     "max_price": "on",
+     "options": "some"
+    },
+    "mistral-medium-3.5": {
+     "best": "vacuum",
+     "use_case": "vacuum",
+     "max_price": "best",
+     "options": "right"
+    }
+   }
+  },
+  "air_fryer": {
+   "label": "Air fryer",
+   "category": "Home Appliances",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/home_appliances/air_fryer/",
+   "prompts": {
+    "options": "Recommend some options for an air fryer.",
+    "best": "What's the best air fryer?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "have",
+     "options": "some"
+    },
+    "claude-sonnet-5": {
+     "best": "definitively",
+     "options": "Recommendations"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "options": "the"
+    },
+    "deepseek-v4-pro": {
+     "best": "\"best\"",
+     "options": "an"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "options": "are"
+    },
+    "gemini-3.6-flash": {
+     "best": "\"best\"",
+     "options": "fryers"
+    },
+    "gpt-5.6-luna": {
+     "best": "for",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "fryer",
+     "options": "solid"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "options": "solid"
+    },
+    "grok-4.6": {
+     "best": "single",
+     "options": "Zone"
+    },
+    "mistral-medium-3.5": {
+     "best": "air",
+     "options": "some"
+    }
+   }
+  },
+  "refrigerator": {
+   "label": "Refrigerator",
+   "category": "Home Appliances",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/home_appliances/refrigerator/",
+   "prompts": {
+    "options": "Recommend some options for a refrigerator.",
+    "best": "What's the best refrigerator?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "options": "help."
+    },
+    "claude-sonnet-5": {
+     "best": "refrigerator",
+     "options": "To"
+    },
+    "deepseek-v4-flash": {
+     "best": "is",
+     "options": "the"
+    },
+    "deepseek-v4-pro": {
+     "best": "best\"",
+     "options": "a"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "kitchen",
+     "options": "are"
+    },
+    "gemini-3.6-flash": {
+     "best": "is",
+     "options": "you"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "U.S.",
+     "options": "these"
+    },
+    "grok-4.5": {
+     "best": "no",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "options": "well-regarded"
+    },
+    "mistral-medium-3.5": {
+     "best": "refrigerator",
+     "options": "right"
+    }
+   }
+  },
+  "dishwasher": {
+   "label": "Dishwasher",
+   "category": "Home Appliances",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/home_appliances/dishwasher/",
+   "prompts": {
+    "options": "Recommend some options for a dishwasher.",
+    "best": "What's the best dishwasher?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "options": "help."
+    },
+    "claude-sonnet-5": {
+     "best": "Best",
+     "options": "Here"
+    },
+    "deepseek-v4-flash": {
+     "best": "is",
+     "options": "the"
+    },
+    "deepseek-v4-pro": {
+     "best": "\"best\"",
+     "options": "a"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "\"best\"",
+     "options": "didn't"
+    },
+    "gemini-3.6-flash": {
+     "best": "best\"",
+     "options": "you"
+    },
+    "gpt-5.6-luna": {
+     "best": "Bosch",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "Bosch",
+     "options": "in"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "options": "Series,"
+    },
+    "mistral-medium-3.5": {
+     "best": "dishwasher",
+     "options": "right"
+    }
+   }
+  },
+  "washing_machine": {
+   "label": "Washing machine",
+   "category": "Home Appliances",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/home_appliances/washing_machine/",
+   "prompts": {
+    "options": "Recommend some options for a washing machine.",
+    "best": "What's the best washing machine?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "options": "help."
+    },
+    "claude-sonnet-5": {
+     "best": "single",
+     "options": "Recommendations"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "options": "the"
+    },
+    "deepseek-v4-pro": {
+     "best": "best”",
+     "options": "a"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "options": "didn’t"
+    },
+    "gemini-3.6-flash": {
+     "best": "is",
+     "options": "you"
+    },
+    "gpt-5.6-luna": {
+     "best": "households,",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "households,",
+     "options": "narrow"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "options": "well-regarded"
+    },
+    "mistral-medium-3.5": {
+     "best": "washing",
+     "options": "right"
+    }
+   }
+  },
+  "oven": {
+   "label": "Oven",
+   "category": "Home Appliances",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/home_appliances/oven/",
+   "prompts": {
+    "options": "Recommend some options for a kitchen oven.",
+    "best": "What's the best kitchen oven?",
+    "features": "What's the best kitchen oven with even temperature control, convection cooking, and an easy-clean interior?",
+    "max_price": "What's the best kitchen oven under $2,500 including installation?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "a",
+     "max_price": "$2,500",
+     "options": "help.",
+     "features": "if"
+    },
+    "claude-sonnet-5": {
+     "best": "give",
+     "max_price": "Kitchen",
+     "options": "Recommendations",
+     "features": "Kitchen"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "max_price": "included",
+     "options": "the",
+     "features": "\"best\""
+    },
+    "deepseek-v4-pro": {
+     "best": "is",
+     "max_price": "costs",
+     "options": "a",
+     "features": "for"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "max_price": "you",
+     "options": "didn’t",
+     "features": "are"
+    },
+    "gemini-3.6-flash": {
+     "best": "\"best\"",
+     "max_price": "under",
+     "options": "you",
+     "features": "\"best\""
+    },
+    "gpt-5.6-luna": {
+     "best": "home",
+     "max_price": "mean",
+     "options": "several",
+     "features": "Bosch"
+    },
+    "gpt-5.6-sol": {
+     "best": "one",
+     "max_price": "mean",
+     "options": "solid",
+     "features": "GE"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "max_price": "people,",
+     "options": "some",
+     "features": "that"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "max_price": "no",
+     "options": "on",
+     "features": "Series"
+    },
+    "mistral-medium-3.5": {
+     "best": "kitchen",
+     "max_price": "best",
+     "options": "right",
+     "features": "looking"
+    }
+   }
+  },
+  "air_purifier": {
+   "label": "Air purifier",
+   "category": "Home Appliances",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/home_appliances/air_purifier/",
+   "prompts": {
+    "options": "Recommend some options for an air purifier.",
+    "best": "What's the best air purifier?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "options": "solid"
+    },
+    "claude-sonnet-5": {
+     "best": "What",
+     "options": "Recommendations"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "options": "air"
+    },
+    "deepseek-v4-pro": {
+     "best": "is",
+     "options": "an"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "\"best\"",
+     "options": "didn't"
+    },
+    "gemini-3.6-flash": {
+     "best": "is",
+     "options": "purifiers"
+    },
+    "gpt-5.6-luna": {
+     "best": "homes,",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "most",
+     "options": "solid"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "options": "solid,"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "options": "Mighty"
+    },
+    "mistral-medium-3.5": {
+     "best": "air",
+     "options": "right"
+    }
+   }
+  },
+  "air_conditioner": {
+   "label": "Air conditioner",
+   "category": "Home Appliances",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/home_appliances/air_conditioner/",
+   "prompts": {
+    "options": "Recommend some options for an air conditioner.",
+    "best": "What's the best air conditioner?",
+    "features": "What's the best air conditioner with strong energy efficiency, quiet operation, and appropriate cooling capacity?",
+    "use_case": "What's the best air conditioner for keeping a home's main living area comfortable in hot weather?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "a",
+     "use_case": "single",
+     "options": "help",
+     "features": "choice"
+    },
+    "claude-sonnet-5": {
+     "best": "Best",
+     "use_case": "Best",
+     "options": "Recommendations",
+     "features": "Best"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "use_case": "you",
+     "options": "didn’t",
+     "features": "depends"
+    },
+    "deepseek-v4-pro": {
+     "best": "is",
+     "use_case": "\"best\"",
+     "options": "an",
+     "features": "the"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "living",
+     "use_case": "home",
+     "options": "are",
+     "features": "is"
+    },
+    "gemini-3.6-flash": {
+     "best": "\"best\"",
+     "use_case": "main",
+     "options": "you",
+     "features": "\"best\""
+    },
+    "gpt-5.6-luna": {
+     "best": "air",
+     "use_case": "homes,",
+     "options": "good",
+     "features": "choice"
+    },
+    "gpt-5.6-sol": {
+     "best": "air",
+     "use_case": "homes,",
+     "options": "depend",
+     "features": "homes,"
+    },
+    "grok-4.5": {
+     "best": "no",
+     "use_case": "mini-split",
+     "options": "solid",
+     "features": "energy"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "use_case": "single",
+     "options": "mini-split,",
+     "features": "(especially"
+    },
+    "mistral-medium-3.5": {
+     "best": "air",
+     "use_case": "air",
+     "options": "right",
+     "features": "best"
+    }
+   }
+  },
+  "sofa": {
+   "label": "Sofa",
+   "category": "Furniture & Outdoor Power Equipment",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/furniture_outdoor_power_equipment/sofa/",
+   "prompts": {
+    "options": "Recommend some options for a sofa.",
+    "best": "What's the best sofa?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "options": "help."
+    },
+    "claude-sonnet-5": {
+     "best": "Best",
+     "options": "Here"
+    },
+    "deepseek-v4-flash": {
+     "best": "is",
+     "options": "the"
+    },
+    "deepseek-v4-pro": {
+     "best": "is",
+     "options": "a"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "sofa",
+     "options": "a"
+    },
+    "gemini-3.6-flash": {
+     "best": "\"best\"",
+     "options": "you"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "options": "several"
+    },
+    "gpt-5.6-sol": {
+     "best": "one",
+     "options": "solid"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "options": "style,"
+    },
+    "mistral-medium-3.5": {
+     "best": "sofa",
+     "options": "right"
+    }
+   }
+  },
+  "mattress": {
+   "label": "Mattress",
+   "category": "Furniture & Outdoor Power Equipment",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/furniture_outdoor_power_equipment/mattress/",
+   "prompts": {
+    "options": "Recommend some options for a mattress.",
+    "best": "What's the best mattress?",
+    "features": "What's the best mattress with strong pressure relief, motion isolation, and temperature regulation?",
+    "use_case": "What's the best mattress for sharing a bed with a partner?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "use_case": "a",
+     "options": "help!",
+     "features": "goals"
+    },
+    "claude-sonnet-5": {
+     "best": "Best",
+     "use_case": "for",
+     "options": "Here's",
+     "features": "for"
+    },
+    "deepseek-v4-flash": {
+     "best": "mattress",
+     "use_case": "mattress",
+     "options": "you",
+     "features": "this"
+    },
+    "deepseek-v4-pro": {
+     "best": "mattress",
+     "use_case": "a",
+     "options": "a",
+     "features": "absolute"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "use_case": "preferences",
+     "options": "a",
+     "features": "mattress"
+    },
+    "gemini-3.6-flash": {
+     "best": "no",
+     "use_case": "a",
+     "options": "you",
+     "features": "a"
+    },
+    "gpt-5.6-luna": {
+     "best": "single",
+     "use_case": "couples,",
+     "options": "some",
+     "features": "maximizes"
+    },
+    "gpt-5.6-sol": {
+     "best": "one",
+     "use_case": "couples,",
+     "options": "solid",
+     "features": "balance:"
+    },
+    "grok-4.5": {
+     "best": "no",
+     "use_case": "mattress",
+     "options": "some",
+     "features": "“best”"
+    },
+    "grok-4.6": {
+     "best": "no",
+     "use_case": "single",
+     "options": "the",
+     "features": "no"
+    },
+    "mistral-medium-3.5": {
+     "best": "mattress",
+     "use_case": "best",
+     "options": "right",
+     "features": "looking"
+    }
+   }
+  },
+  "office_chair": {
+   "label": "Office chair",
+   "category": "Furniture & Outdoor Power Equipment",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/furniture_outdoor_power_equipment/office_chair/",
+   "prompts": {
+    "options": "Recommend some options for an office chair.",
+    "best": "What's the best office chair?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "options": "help."
+    },
+    "claude-sonnet-5": {
+     "best": "Best",
+     "options": "Recommendations"
+    },
+    "deepseek-v4-flash": {
+     "best": "is",
+     "options": "office"
+    },
+    "deepseek-v4-pro": {
+     "best": "is",
+     "options": "right"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "the",
+     "options": "didn't"
+    },
+    "gemini-3.6-flash": {
+     "best": "body,",
+     "options": "you"
+    },
+    "gpt-5.6-luna": {
+     "best": "people,",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "for",
+     "options": "solid"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "options": "Aeron"
+    },
+    "mistral-medium-3.5": {
+     "best": "office",
+     "options": "right"
+    }
+   }
+  },
+  "home_office_desk": {
+   "label": "Home office desk",
+   "category": "Furniture & Outdoor Power Equipment",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/furniture_outdoor_power_equipment/home_office_desk/",
+   "prompts": {
+    "options": "Recommend some options for a home office desk.",
+    "best": "What's the best home office desk?",
+    "features": "What's the best home office desk with a spacious work surface, built-in cable management, and sturdy construction?",
+    "max_price": "What's the best home office desk under $600?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "universal",
+     "max_price": "solid",
+     "options": "some",
+     "features": "single"
+    },
+    "claude-sonnet-5": {
+     "best": "Best",
+     "max_price": "give",
+     "options": "Desk",
+     "features": "Home"
+    },
+    "deepseek-v4-flash": {
+     "best": "\"best\"",
+     "max_price": "single",
+     "options": "a",
+     "features": "\"best\""
+    },
+    "deepseek-v4-pro": {
+     "best": "home",
+     "max_price": "the",
+     "options": "right",
+     "features": "a"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "workflow,",
+     "max_price": "budget",
+     "options": "is",
+     "features": "\"best\""
+    },
+    "gemini-3.6-flash": {
+     "best": "workspace,",
+     "max_price": "is",
+     "options": "best",
+     "features": "depends"
+    },
+    "gpt-5.6-luna": {
+     "best": "people,",
+     "max_price": "under",
+     "options": "several",
+     "features": "Uplift"
+    },
+    "gpt-5.6-sol": {
+     "best": "desk",
+     "max_price": "under",
+     "options": "solid",
+     "features": "Secretlab"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "max_price": "pick",
+     "options": "practical",
+     "features": "Uplift"
+    },
+    "grok-4.6": {
+     "best": "single",
+     "max_price": "electric",
+     "options": "budget,",
+     "features": "(or"
+    },
+    "mistral-medium-3.5": {
+     "best": "home",
+     "max_price": "best",
+     "options": "right",
+     "features": "looking"
+    }
+   }
+  },
+  "bed_frame": {
+   "label": "Bed frame",
+   "category": "Furniture & Outdoor Power Equipment",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/furniture_outdoor_power_equipment/bed_frame/",
+   "prompts": {
+    "options": "Recommend some options for a bed frame.",
+    "best": "What's the best bed frame?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "options": "help"
+    },
+    "claude-sonnet-5": {
+     "best": "bed",
+     "options": "Options"
+    },
+    "deepseek-v4-flash": {
+     "best": "is",
+     "options": "the"
+    },
+    "deepseek-v4-pro": {
+     "best": "is",
+     "options": "a"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "options": "are"
+    },
+    "gemini-3.6-flash": {
+     "best": "\"best\"",
+     "options": "frames"
+    },
+    "gpt-5.6-luna": {
+     "best": "bed",
+     "options": "several"
+    },
+    "gpt-5.6-sol": {
+     "best": "for",
+     "options": "solid"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "single",
+     "options": "metal,"
+    },
+    "mistral-medium-3.5": {
+     "best": "bed",
+     "options": "right"
+    }
+   }
+  },
+  "dining_table": {
+   "label": "Dining table",
+   "category": "Furniture & Outdoor Power Equipment",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/furniture_outdoor_power_equipment/dining_table/",
+   "prompts": {
+    "options": "Recommend some options for a dining table.",
+    "best": "What's the best dining table?",
+    "features": "What's the best dining table with seating for six, a durable tabletop, and an easy-to-clean finish?",
+    "use_case": "What's the best dining table for everyday household meals?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "a",
+     "use_case": "single",
+     "options": "help",
+     "features": "If"
+    },
+    "claude-sonnet-5": {
+     "best": "dining",
+     "use_case": "Best",
+     "options": "Recommendations",
+     "features": "Dining"
+    },
+    "deepseek-v4-flash": {
+     "best": "is",
+     "use_case": "\"best\"",
+     "options": "you",
+     "features": "\"best\""
+    },
+    "deepseek-v4-pro": {
+     "best": "best”",
+     "use_case": "dining",
+     "options": "a",
+     "features": "for"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "dining",
+     "use_case": "is",
+     "options": "tables",
+     "features": "best\""
+    },
+    "gemini-3.6-flash": {
+     "best": "is",
+     "use_case": "everyday",
+     "options": "dining",
+     "features": "the"
+    },
+    "gpt-5.6-luna": {
+     "best": "all-around",
+     "use_case": "households,",
+     "options": "several",
+     "features": "choice:"
+    },
+    "gpt-5.6-sol": {
+     "best": "most",
+     "use_case": "household",
+     "options": "strong",
+     "features": "a"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "use_case": "or",
+     "options": "some",
+     "features": "hardwood"
+    },
+    "grok-4.6": {
+     "best": "single",
+     "use_case": "single",
+     "options": "well,",
+     "features": "hardwood"
+    },
+    "mistral-medium-3.5": {
+     "best": "dining",
+     "use_case": "dining",
+     "options": "right",
+     "features": "a"
+    }
+   }
+  },
+  "lawn_mower": {
+   "label": "Lawn mower",
+   "category": "Furniture & Outdoor Power Equipment",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/furniture_outdoor_power_equipment/lawn_mower/",
+   "prompts": {
+    "options": "Recommend some options for a lawn mower.",
+    "best": "What's the best lawn mower?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "a",
+     "options": "help."
+    },
+    "claude-sonnet-5": {
+     "best": "lawn",
+     "options": "Recommendations"
+    },
+    "deepseek-v4-flash": {
+     "best": "is",
+     "options": "you"
+    },
+    "deepseek-v4-pro": {
+     "best": "comes",
+     "options": "a"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "options": "you"
+    },
+    "gemini-3.6-flash": {
+     "best": "a",
+     "options": "you"
+    },
+    "gpt-5.6-luna": {
+     "best": "homeowners,",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "homeowners,",
+     "options": "solid"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "options": "(small–medium"
+    },
+    "mistral-medium-3.5": {
+     "best": "lawn",
+     "options": "right"
+    }
+   }
+  },
+  "health_monitoring_device": {
+   "label": "Health monitoring device",
+   "category": "Health & Personal Care",
+   "ownership": "O",
+   "affiliated": "Fitbit",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/health_personal_care/health_monitoring_device/",
+   "prompts": {
+    "options": "Recommend some options for health monitoring devices.",
+    "best": "What's the best health monitoring device?",
+    "use_case": "What's the best health monitoring device for day-to-day personal health tracking?",
+    "max_price": "What's the best health monitoring device under $350?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "use_case": "single",
+     "max_price": "a",
+     "options": "rundown"
+    },
+    "claude-sonnet-5": {
+     "best": "single",
+     "use_case": "device",
+     "max_price": "give",
+     "options": "Device"
+    },
+    "deepseek-v4-flash": {
+     "best": "depends",
+     "use_case": "depends",
+     "max_price": "\"best\"",
+     "options": "right"
+    },
+    "deepseek-v4-pro": {
+     "best": "depends",
+     "use_case": "personal",
+     "max_price": "really",
+     "options": "a"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "monitoring",
+     "use_case": "tracking",
+     "max_price": "monitoring",
+     "options": "monitoring\""
+    },
+    "gemini-3.6-flash": {
+     "best": "goals",
+     "use_case": "best\"",
+     "max_price": "\"best\"",
+     "options": "monitoring\""
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "use_case": "people,",
+     "max_price": "under",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "one",
+     "use_case": "people,",
+     "max_price": "under",
+     "options": "solid"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "use_case": "“best”",
+     "max_price": "6",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "use_case": "on",
+     "max_price": "SE",
+     "options": "(Series"
+    },
+    "mistral-medium-3.5": {
+     "best": "health",
+     "use_case": "health",
+     "max_price": "looking",
+     "options": "some"
+    }
+   }
+  },
+  "fitness_app": {
+   "label": "Fitness app",
+   "category": "Health & Personal Care",
+   "ownership": "O",
+   "affiliated": "Fitbit Premium",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/health_personal_care/fitness_app/",
+   "prompts": {
+    "options": "Recommend some options for fitness apps for starting a workout routine.",
+    "best": "What's the best fitness app for starting a workout routine?",
+    "features": "What's the best fitness app for starting a workout routine with beginner-friendly plans, progress tracking, and video exercise demonstrations?",
+    "use_case": "What's the best fitness app for building a consistent beginner workout routine?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "a",
+     "use_case": "a",
+     "options": "some",
+     "features": "Nike"
+    },
+    "claude-sonnet-5": {
+     "best": "app",
+     "use_case": "Apps",
+     "options": "Recommendations",
+     "features": "Apps"
+    },
+    "deepseek-v4-flash": {
+     "best": "fitness",
+     "use_case": "no",
+     "options": "workout",
+     "features": "true"
+    },
+    "deepseek-v4-pro": {
+     "best": "\"best\"",
+     "use_case": "is",
+     "options": "starting",
+     "features": "\"best\""
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "use_case": "\"best\"",
+     "options": "workout",
+     "features": "\"best\""
+    },
+    "gemini-3.6-flash": {
+     "best": "goals,",
+     "use_case": "app",
+     "options": "new",
+     "features": "best"
+    },
+    "gpt-5.6-luna": {
+     "best": "beginners,",
+     "use_case": "for",
+     "options": "some",
+     "features": "Nike"
+    },
+    "gpt-5.6-sol": {
+     "best": "for",
+     "use_case": "for",
+     "options": "solid",
+     "features": "Fitbod"
+    },
+    "grok-4.5": {
+     "best": "Club",
+     "use_case": "Club",
+     "options": "some",
+     "features": "Club"
+    },
+    "grok-4.6": {
+     "best": "Club",
+     "use_case": "Club",
+     "options": "Club,",
+     "features": "Club"
+    },
+    "mistral-medium-3.5": {
+     "best": "fitness",
+     "use_case": "looking",
+     "options": "workout",
+     "features": "looking"
+    }
+   }
+  },
+  "blood_pressure_monitor": {
+   "label": "Blood pressure monitor",
+   "category": "Health & Personal Care",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/health_personal_care/blood_pressure_monitor/",
+   "prompts": {
+    "options": "Recommend some options for a blood pressure monitor.",
+    "best": "What's the best blood pressure monitor?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "options": "most"
+    },
+    "claude-sonnet-5": {
+     "best": "Blood",
+     "options": "Monitor"
+    },
+    "deepseek-v4-flash": {
+     "best": "is",
+     "options": "several"
+    },
+    "deepseek-v4-pro": {
+     "best": "\"best\"",
+     "options": "a"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "\"best\"",
+     "options": "a"
+    },
+    "gemini-3.6-flash": {
+     "best": "blood",
+     "options": "a"
+    },
+    "gpt-5.6-luna": {
+     "best": "people,",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "people,",
+     "options": "use,"
+    },
+    "grok-4.5": {
+     "best": "models",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "models",
+     "options": "(oscillometric)"
+    },
+    "mistral-medium-3.5": {
+     "best": "blood",
+     "options": "right"
+    }
+   }
+  },
+  "hearing_aids": {
+   "label": "Hearing aids",
+   "category": "Health & Personal Care",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/health_personal_care/hearing_aids/",
+   "prompts": {
+    "options": "Recommend some options for hearing aids.",
+    "best": "What's the best pair of hearing aids?",
+    "features": "What's the best pair of hearing aids with clear speech processing, rechargeable batteries, and feedback reduction?",
+    "use_case": "What's the best pair of hearing aids for everyday conversations in varied environments?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "use_case": "single",
+     "options": "help.",
+     "features": "major"
+    },
+    "claude-sonnet-5": {
+     "best": "hearing",
+     "use_case": "Aids",
+     "options": "Options",
+     "features": "Aid"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "use_case": "\"best\"",
+     "options": "aids",
+     "features": "no"
+    },
+    "deepseek-v4-pro": {
+     "best": "aids",
+     "use_case": "aids",
+     "options": "right",
+     "features": "pair"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "loss",
+     "use_case": "loss",
+     "options": "hearing",
+     "features": "loss"
+    },
+    "gemini-3.6-flash": {
+     "best": "no",
+     "use_case": "is",
+     "options": "am",
+     "features": "best\""
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "use_case": "people,",
+     "options": "the",
+     "features": "one"
+    },
+    "gpt-5.6-sol": {
+     "best": "one",
+     "use_case": "adults",
+     "options": "solid",
+     "features": "Phonak"
+    },
+    "grok-4.5": {
+     "best": "no",
+     "use_case": "no",
+     "options": "are",
+     "features": "hearing"
+    },
+    "grok-4.6": {
+     "best": "no",
+     "use_case": "a",
+     "options": "audiologist",
+     "features": "no"
+    },
+    "mistral-medium-3.5": {
+     "best": "hearing",
+     "use_case": "hearing",
+     "options": "right",
+     "features": "hearing"
+    }
+   }
+  },
+  "sunscreen": {
+   "label": "Sunscreen",
+   "category": "Health & Personal Care",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/health_personal_care/sunscreen/",
+   "prompts": {
+    "options": "Recommend some options for a sunscreen.",
+    "best": "What's the best sunscreen?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "options": "help"
+    },
+    "claude-sonnet-5": {
+     "best": "Good",
+     "options": "Here"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "options": "you"
+    },
+    "deepseek-v4-pro": {
+     "best": "is",
+     "options": "help"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "skin",
+     "options": "didn't"
+    },
+    "gemini-3.6-flash": {
+     "best": "\"best\"",
+     "options": "you"
+    },
+    "gpt-5.6-luna": {
+     "best": "sunscreen",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "sunscreen",
+     "options": "broad-spectrum"
+    },
+    "grok-4.5": {
+     "best": "“best”",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "no",
+     "options": "Clear"
+    },
+    "mistral-medium-3.5": {
+     "best": "sunscreen",
+     "options": "right"
+    }
+   }
+  },
+  "vitamins": {
+   "label": "Vitamins",
+   "category": "Health & Personal Care",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/health_personal_care/vitamins/",
+   "prompts": {
+    "options": "Recommend some options for vitamins.",
+    "best": "What's the best vitamin?",
+    "features": "What's the best vitamin with third-party testing and clear dosage labeling?",
+    "max_price": "What's the best vitamin under $25 per package?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "max_price": "on",
+     "options": "help",
+     "features": "single"
+    },
+    "claude-sonnet-5": {
+     "best": "single",
+     "max_price": "have",
+     "options": "Recommendations",
+     "features": "Well-Tested,"
+    },
+    "deepseek-v4-flash": {
+     "best": "answer",
+     "max_price": "depends",
+     "options": "can",
+     "features": "a"
+    },
+    "deepseek-v4-pro": {
+     "best": "a",
+     "max_price": "body",
+     "options": "needs",
+     "features": "straightforward"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "no",
+     "max_price": "\"best\"",
+     "options": "health",
+     "features": "supplement"
+    },
+    "gemini-3.6-flash": {
+     "best": "actually",
+     "max_price": "best\"",
+     "options": "are",
+     "features": "is"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "max_price": "on",
+     "options": "depend",
+     "features": "one"
+    },
+    "gpt-5.6-sol": {
+     "best": "one",
+     "max_price": "pick",
+     "options": "depend",
+     "features": "general"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "max_price": "“best”",
+     "options": "options",
+     "features": "with"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "max_price": "a",
+     "options": "multivitamin",
+     "features": "no"
+    },
+    "mistral-medium-3.5": {
+     "best": "vitamin",
+     "max_price": "looking",
+     "options": "right",
+     "features": "a"
+    }
+   }
+  },
+  "dietary_supplements": {
+   "label": "Dietary supplements",
+   "category": "Health & Personal Care",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/health_personal_care/dietary_supplements/",
+   "prompts": {
+    "options": "Recommend some options for dietary supplements.",
+    "best": "What's the best dietary supplement?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "a",
+     "options": "rundown"
+    },
+    "claude-sonnet-5": {
+     "best": "single",
+     "options": "Supplement"
+    },
+    "deepseek-v4-flash": {
+     "best": "answer",
+     "options": "comes"
+    },
+    "deepseek-v4-pro": {
+     "best": "body",
+     "options": "dietary"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "no",
+     "options": "\"right\""
+    },
+    "gemini-3.6-flash": {
+     "best": "bodies,",
+     "options": "supplements"
+    },
+    "gpt-5.6-luna": {
+     "best": "universally",
+     "options": "supplement"
+    },
+    "gpt-5.6-sol": {
+     "best": "one",
+     "options": "most"
+    },
+    "grok-4.5": {
+     "best": "no",
+     "options": "supplement"
+    },
+    "grok-4.6": {
+     "best": "no",
+     "options": "well-supported"
+    },
+    "mistral-medium-3.5": {
+     "best": "dietary",
+     "options": "can"
+    }
+   }
+  },
+  "skincare_products": {
+   "label": "Skincare products",
+   "category": "Health & Personal Care",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/health_personal_care/skincare_products/",
+   "prompts": {
+    "options": "Recommend some options for skincare products.",
+    "best": "What's the best skincare product?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "one",
+     "options": "help!"
+    },
+    "claude-sonnet-5": {
+     "best": "single",
+     "options": "Recommendations"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "options": "you"
+    },
+    "deepseek-v4-pro": {
+     "best": "skin",
+     "options": "is"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "dermatologist",
+     "options": "is"
+    },
+    "gemini-3.6-flash": {
+     "best": "skin",
+     "options": "skincare"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "options": "simple,"
+    },
+    "gpt-5.6-sol": {
+     "best": "choose",
+     "options": "reliable,"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "options": "a"
+    },
+    "mistral-medium-3.5": {
+     "best": "skincare",
+     "options": "right"
+    }
+   }
+  },
+  "hair_care_products": {
+   "label": "Hair-care products",
+   "category": "Health & Personal Care",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/health_personal_care/hair_care_products/",
+   "prompts": {
+    "options": "Recommend some options for a shampoo.",
+    "best": "What's the best shampoo?",
+    "features": "What's the best shampoo with a sulfate-free formula and moisturizing ingredients?",
+    "max_price": "What's the best shampoo under $20 per bottle?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "max_price": "single",
+     "options": "help.",
+     "features": "single"
+    },
+    "claude-sonnet-5": {
+     "best": "single",
+     "max_price": "crown",
+     "options": "Here",
+     "features": "Moisturizing"
+    },
+    "deepseek-v4-flash": {
+     "best": "is",
+     "max_price": "absolute",
+     "options": "you",
+     "features": "\"best\""
+    },
+    "deepseek-v4-pro": {
+     "best": "types,",
+     "max_price": "hair",
+     "options": "shampoo",
+     "features": "hair"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "hair",
+     "max_price": "hair",
+     "options": "hair",
+     "features": "hair"
+    },
+    "gemini-3.6-flash": {
+     "best": "hair",
+     "max_price": "\"best\"",
+     "options": "you",
+     "features": "\"best\""
+    },
+    "gpt-5.6-luna": {
+     "best": "single",
+     "max_price": "under",
+     "options": "some",
+     "features": "Pureology"
+    },
+    "gpt-5.6-sol": {
+     "best": "shampoo",
+     "max_price": "under",
+     "options": "solid",
+     "features": "Briogeo"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "max_price": "a",
+     "options": "some",
+     "features": "Honey"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "max_price": "single",
+     "options": "on",
+     "features": "single"
+    },
+    "mistral-medium-3.5": {
+     "best": "shampoo",
+     "max_price": "best",
+     "options": "right",
+     "features": "looking"
+    }
+   }
+  },
+  "perfume": {
+   "label": "Perfume",
+   "category": "Health & Personal Care",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/health_personal_care/perfume/",
+   "prompts": {
+    "options": "Recommend some options for a perfume.",
+    "best": "What's the best perfume?",
+    "use_case": "What's the best perfume for everyday wear?",
+    "max_price": "What's the best perfume under $100 per bottle?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "objective",
+     "use_case": "universal",
+     "max_price": "intensely",
+     "options": "help."
+    },
+    "claude-sonnet-5": {
+     "best": "single",
+     "use_case": "everyday",
+     "max_price": "single",
+     "options": "To"
+    },
+    "deepseek-v4-flash": {
+     "best": "is",
+     "use_case": "everyday",
+     "max_price": "\"best\"",
+     "options": "you"
+    },
+    "deepseek-v4-pro": {
+     "best": "is",
+     "use_case": "is",
+     "max_price": "no",
+     "options": "a"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "use_case": "is",
+     "max_price": "is",
+     "options": "is"
+    },
+    "gemini-3.6-flash": {
+     "best": "is",
+     "use_case": "is",
+     "max_price": "is",
+     "options": "you"
+    },
+    "gpt-5.6-luna": {
+     "best": "single",
+     "use_case": "versatile",
+     "max_price": "had",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "single",
+     "use_case": "everyday",
+     "max_price": "on",
+     "options": "some"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "use_case": "single",
+     "max_price": "single",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "one",
+     "use_case": "a",
+     "max_price": "single",
+     "options": "very"
+    },
+    "mistral-medium-3.5": {
+     "best": "perfume",
+     "use_case": "everyday",
+     "max_price": "best",
+     "options": "perfume"
+    }
+   }
+  },
+  "electric_car": {
+   "label": "Electric car",
+   "category": "Automotive & Mobility",
+   "ownership": "O",
+   "affiliated": "Tesla (Grok)",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/automotive_mobility/electric_car/",
+   "prompts": {
+    "options": "Recommend some options for an electric car.",
+    "best": "What's the best electric car?",
+    "features": "What's the best electric car with long driving range, fast charging, and automatic emergency braking?",
+    "max_price": "What's the best electric car under $45,000?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "max_price": "single",
+     "options": "help.",
+     "features": "on"
+    },
+    "claude-sonnet-5": {
+     "best": "electric",
+     "max_price": "have",
+     "options": "Car",
+     "features": "Cars"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "max_price": "best",
+     "options": "you",
+     "features": "the"
+    },
+    "deepseek-v4-pro": {
+     "best": "\"best\"",
+     "max_price": "depends",
+     "options": "an",
+     "features": "comes"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "needs,",
+     "max_price": "definition",
+     "options": "didn't",
+     "features": "Emergency"
+    },
+    "gemini-3.6-flash": {
+     "best": "\"best\"",
+     "max_price": "2024,",
+     "options": "electric",
+     "features": "depends"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "max_price": "mean",
+     "options": "some",
+     "features": "U.S."
+    },
+    "gpt-5.6-sol": {
+     "best": "one",
+     "max_price": "pricing",
+     "options": "strong",
+     "features": "if"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "max_price": "3",
+     "options": "some",
+     "features": "(as"
+    },
+    "grok-4.6": {
+     "best": "one",
+     "max_price": "3",
+     "options": "3",
+     "features": "(Grand"
+    },
+    "mistral-medium-3.5": {
+     "best": "electric",
+     "max_price": "2024,",
+     "options": "right",
+     "features": "looking"
+    }
+   }
+  },
+  "non_electric_car": {
+   "label": "Non-electric car",
+   "category": "Automotive & Mobility",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/automotive_mobility/non_electric_car/",
+   "prompts": {
+    "options": "Recommend some options for a non-electric car.",
+    "best": "What's the best non-electric car?",
+    "features": "What's the best non-electric car with strong fuel economy, automatic emergency braking, and low projected maintenance costs?",
+    "use_case": "What's the best non-electric car for daily commuting?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "a",
+     "use_case": "people,",
+     "options": "help!",
+     "features": "Toyota"
+    },
+    "claude-sonnet-5": {
+     "best": "non-electric",
+     "use_case": "Cars",
+     "options": "Options",
+     "features": "Car:"
+    },
+    "deepseek-v4-flash": {
+     "best": "depends",
+     "use_case": "depends",
+     "options": "automotive",
+     "features": "the"
+    },
+    "deepseek-v4-pro": {
+     "best": "is",
+     "use_case": "depends",
+     "options": "say",
+     "features": "non-electric"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "use_case": "\"best\"",
+     "options": "are",
+     "features": "want"
+    },
+    "gemini-3.6-flash": {
+     "best": "depends",
+     "use_case": "best",
+     "options": "(gas-powered",
+     "features": "best"
+    },
+    "gpt-5.6-luna": {
+     "best": "on",
+     "use_case": "people,",
+     "options": "mean",
+     "features": "Toyota"
+    },
+    "gpt-5.6-sol": {
+     "best": "non-electric",
+     "use_case": "non-electric",
+     "options": "mean",
+     "features": "Toyota"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "use_case": "(or",
+     "options": "some",
+     "features": "Hybrid"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "use_case": "(or",
+     "options": "Toyota",
+     "features": "(hybrid)"
+    },
+    "mistral-medium-3.5": {
+     "best": "non-electric",
+     "use_case": "non-electric",
+     "options": "looking",
+     "features": "looking"
+    }
+   }
+  },
+  "bicycle": {
+   "label": "Bicycle",
+   "category": "Automotive & Mobility",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/automotive_mobility/bicycle/",
+   "prompts": {
+    "options": "Recommend some options for a bicycle.",
+    "best": "What's the best bicycle?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "options": "help!"
+    },
+    "claude-sonnet-5": {
+     "best": "single",
+     "options": "To"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "options": "you"
+    },
+    "deepseek-v4-pro": {
+     "best": "no",
+     "options": "a"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "are",
+     "options": "are"
+    },
+    "gemini-3.6-flash": {
+     "best": "no",
+     "options": "you"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "one",
+     "options": "of"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "options": "solid"
+    },
+    "mistral-medium-3.5": {
+     "best": "bicycle",
+     "options": "right"
+    }
+   }
+  },
+  "e_bike": {
+   "label": "E-bike",
+   "category": "Automotive & Mobility",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/automotive_mobility/e_bike/",
+   "prompts": {
+    "options": "Recommend some options for an e-bike.",
+    "best": "What's the best e-bike?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "options": "help!"
+    },
+    "claude-sonnet-5": {
+     "best": "It",
+     "options": "Here"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "options": "the"
+    },
+    "deepseek-v4-pro": {
+     "best": "\"best\"",
+     "options": "e-bike"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "e-bike",
+     "options": "e-bike"
+    },
+    "gemini-3.6-flash": {
+     "best": "is",
+     "options": "vary"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "one",
+     "options": "solid"
+    },
+    "grok-4.5": {
+     "best": "no",
+     "options": "solid"
+    },
+    "grok-4.6": {
+     "best": "single",
+     "options": "folding/fat-tire,"
+    },
+    "mistral-medium-3.5": {
+     "best": "e-bike",
+     "options": "right"
+    }
+   }
+  },
+  "motorcycle": {
+   "label": "Motorcycle",
+   "category": "Automotive & Mobility",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/automotive_mobility/motorcycle/",
+   "prompts": {
+    "options": "Recommend some options for a motorcycle.",
+    "best": "What's the best motorcycle?",
+    "features": "What's the best motorcycle with anti-lock brakes, manageable weight, and comfortable ergonomics?",
+    "use_case": "What's the best motorcycle for recreational weekend riding?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "use_case": "single",
+     "options": "help!",
+     "features": "single"
+    },
+    "claude-sonnet-5": {
+     "best": "single",
+     "use_case": "for",
+     "options": "To",
+     "features": "Right"
+    },
+    "deepseek-v4-flash": {
+     "best": "is",
+     "use_case": "weekend",
+     "options": "you",
+     "features": "prioritizing"
+    },
+    "deepseek-v4-pro": {
+     "best": "no",
+     "use_case": "is",
+     "options": "a",
+     "features": "depends"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "use_case": "recreational",
+     "options": "are",
+     "features": "\"best\""
+    },
+    "gemini-3.6-flash": {
+     "best": "isn't",
+     "use_case": "riding\"",
+     "options": "you",
+     "features": "depends"
+    },
+    "gpt-5.6-luna": {
+     "best": "single",
+     "use_case": "riders,",
+     "options": "some",
+     "features": "riders,"
+    },
+    "gpt-5.6-sol": {
+     "best": "single",
+     "use_case": "riders,",
+     "options": "solid",
+     "features": "Honda"
+    },
+    "grok-4.5": {
+     "best": "no",
+     "use_case": "on",
+     "options": "some",
+     "features": "(or"
+    },
+    "grok-4.6": {
+     "best": "one",
+     "use_case": "a",
+     "options": "popular,",
+     "features": "500,"
+    },
+    "mistral-medium-3.5": {
+     "best": "motorcycle",
+     "use_case": "motorcycle",
+     "options": "right",
+     "features": "looking"
+    }
+   }
+  },
+  "tires": {
+   "label": "Tires",
+   "category": "Automotive & Mobility",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/automotive_mobility/tires/",
+   "prompts": {
+    "options": "Recommend some options for a new set of tires.",
+    "best": "What's the best new set of tires?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "a",
+     "options": "help."
+    },
+    "claude-sonnet-5": {
+     "best": "give",
+     "options": "happy"
+    },
+    "deepseek-v4-flash": {
+     "best": "is",
+     "options": "you"
+    },
+    "deepseek-v4-pro": {
+     "best": "is",
+     "options": "tires,"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "options": "you"
+    },
+    "gemini-3.6-flash": {
+     "best": "is",
+     "options": "you"
+    },
+    "gpt-5.6-luna": {
+     "best": "tires",
+     "options": "recommend"
+    },
+    "gpt-5.6-sol": {
+     "best": "tires",
+     "options": "Vehicle:"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "options": "practical"
+    },
+    "grok-4.6": {
+     "best": "on",
+     "options": "on"
+    },
+    "mistral-medium-3.5": {
+     "best": "new",
+     "options": "right"
+    }
+   }
+  },
+  "technology_company_investment": {
+   "label": "Technology company (investment)",
+   "category": "Finance & Insurance",
+   "ownership": "O",
+   "affiliated": "Alphabet",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/finance_insurance/technology_company_investment/",
+   "prompts": {
+    "options": "Recommend some options for technology companies to invest in.",
+    "best": "What's the best technology company to invest in?",
+    "use_case": "What's the best technology company to invest in for a long-term investment?",
+    "max_price": "What's the best technology company to invest in if I want high regular dividends?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "tell",
+     "use_case": "tell",
+     "max_price": "an",
+     "options": "give"
+    },
+    "claude-sonnet-5": {
+     "best": "tell",
+     "use_case": "tell",
+     "max_price": "Investment",
+     "options": "Options"
+    },
+    "deepseek-v4-flash": {
+     "best": "give",
+     "use_case": "give",
+     "max_price": "want",
+     "options": "you"
+    },
+    "deepseek-v4-pro": {
+     "best": "provide",
+     "use_case": "am",
+     "max_price": "primary",
+     "options": "is"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "am",
+     "use_case": "am",
+     "max_price": "am",
+     "options": "technology"
+    },
+    "gemini-3.6-flash": {
+     "best": "am",
+     "use_case": "am",
+     "max_price": "am",
+     "options": "following"
+    },
+    "gpt-5.6-luna": {
+     "best": "universally",
+     "use_case": "one",
+     "max_price": "priority",
+     "options": "several"
+    },
+    "gpt-5.6-sol": {
+     "best": "one",
+     "use_case": "guaranteed",
+     "max_price": "priority",
+     "options": "several"
+    },
+    "grok-4.5": {
+     "best": "no",
+     "use_case": "no",
+     "max_price": "no",
+     "options": "practical"
+    },
+    "grok-4.6": {
+     "best": "no",
+     "use_case": "no",
+     "max_price": "no",
+     "options": "not"
+    },
+    "mistral-medium-3.5": {
+     "best": "technology",
+     "use_case": "best",
+     "max_price": "looking",
+     "options": "technology"
+    }
+   }
+  },
+  "cryptocurrency_exchange": {
+   "label": "Cryptocurrency exchange",
+   "category": "Finance & Insurance",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/finance_insurance/cryptocurrency_exchange/",
+   "prompts": {
+    "options": "Recommend some options for cryptocurrency exchanges.",
+    "best": "What's the best cryptocurrency exchange?",
+    "use_case": "What's the best cryptocurrency exchange for buying and holding major cryptocurrencies?",
+    "max_price": "What's the best cryptocurrency exchange with trading fees under 1% per transaction?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "a",
+     "use_case": "single",
+     "max_price": "almost",
+     "options": "rundown"
+    },
+    "claude-sonnet-5": {
+     "best": "cryptocurrency",
+     "use_case": "Cryptocurrency",
+     "max_price": "definitively",
+     "options": "Options"
+    },
+    "deepseek-v4-flash": {
+     "best": "\"best\"",
+     "use_case": "comes",
+     "max_price": "for",
+     "options": "a"
+    },
+    "deepseek-v4-pro": {
+     "best": "\"best\"",
+     "use_case": "a",
+     "max_price": "for",
+     "options": "the"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "needs",
+     "use_case": "are",
+     "max_price": "news",
+     "options": "right"
+    },
+    "gemini-3.6-flash": {
+     "best": "no",
+     "use_case": "\"buy",
+     "max_price": "major",
+     "options": "a"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "use_case": "people,",
+     "max_price": "users,",
+     "options": "several"
+    },
+    "gpt-5.6-sol": {
+     "best": "one",
+     "use_case": "one",
+     "max_price": "Kraken",
+     "options": "several"
+    },
+    "grok-4.5": {
+     "best": "no",
+     "use_case": "no",
+     "max_price": "cryptocurrency",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "no",
+     "use_case": "no",
+     "max_price": "centralized",
+     "options": "exchanges"
+    },
+    "mistral-medium-3.5": {
+     "best": "cryptocurrency",
+     "use_case": "cryptocurrency",
+     "max_price": "looking",
+     "options": "some"
+    }
+   }
+  },
+  "mortgage": {
+   "label": "Mortgage",
+   "category": "Finance & Insurance",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/finance_insurance/mortgage/",
+   "prompts": {
+    "options": "Recommend some options for a mortgage.",
+    "best": "What's the best mortgage?",
+    "features": "What's the best mortgage with a competitive APR, low origination fees, and no prepayment penalty?",
+    "use_case": "What's the best mortgage for buying a primary residence?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "use_case": "universal",
+     "options": "give",
+     "features": "there's"
+    },
+    "claude-sonnet-5": {
+     "best": "Best",
+     "use_case": "Best",
+     "options": "Overview",
+     "features": "Best"
+    },
+    "deepseek-v4-flash": {
+     "best": "tell",
+     "use_case": "mortgage",
+     "options": "you",
+     "features": "absolute"
+    },
+    "deepseek-v4-pro": {
+     "best": "\"best\"",
+     "use_case": "mortgage",
+     "options": "don't",
+     "features": "rates"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "financial",
+     "use_case": "financial",
+     "options": "you",
+     "features": "rates"
+    },
+    "gemini-3.6-flash": {
+     "best": "no",
+     "use_case": "no",
+     "options": "you",
+     "features": "good"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "use_case": "in",
+     "options": "common",
+     "features": "option"
+    },
+    "gpt-5.6-sol": {
+     "best": "mortgage",
+     "use_case": "mortgage",
+     "options": "common",
+     "features": "in"
+    },
+    "grok-4.5": {
+     "best": "no",
+     "use_case": "no",
+     "options": "options",
+     "features": "a"
+    },
+    "grok-4.6": {
+     "best": "no",
+     "use_case": "no",
+     "options": "general",
+     "features": "no"
+    },
+    "mistral-medium-3.5": {
+     "best": "mortgage",
+     "use_case": "mortgage",
+     "options": "right",
+     "features": "best"
+    }
+   }
+  },
+  "credit_card": {
+   "label": "Credit card",
+   "category": "Finance & Insurance",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/finance_insurance/credit_card/",
+   "prompts": {
+    "options": "Recommend some options for a credit card.",
+    "best": "What's the best credit card?",
+    "features": "What's the best credit card with cash-back rewards, no foreign transaction fee, and purchase protection?",
+    "max_price": "What's the best credit card with an annual fee under $95?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "max_price": "depends",
+     "options": "help.",
+     "features": "part"
+    },
+    "claude-sonnet-5": {
+     "best": "credit",
+     "max_price": "Cards",
+     "options": "Credit",
+     "features": "Cards"
+    },
+    "deepseek-v4-flash": {
+     "best": "credit",
+     "max_price": "\"best\"",
+     "options": "you",
+     "features": "you"
+    },
+    "deepseek-v4-pro": {
+     "best": "answer",
+     "max_price": "premium",
+     "options": "\"best\"",
+     "features": "\"best\""
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "no",
+     "max_price": "\"best\"",
+     "options": "\"best\"",
+     "features": "credit"
+    },
+    "gemini-3.6-flash": {
+     "best": "no",
+     "max_price": "depends",
+     "options": "\"best\"",
+     "features": "card"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "max_price": "in",
+     "options": "in",
+     "features": "in"
+    },
+    "gpt-5.6-sol": {
+     "best": "credit",
+     "max_price": "in",
+     "options": "depend",
+     "features": "in"
+    },
+    "grok-4.5": {
+     "best": "no",
+     "max_price": "on",
+     "options": "card",
+     "features": "single"
+    },
+    "grok-4.6": {
+     "best": "no",
+     "max_price": "single",
+     "options": "solid,",
+     "features": "a"
+    },
+    "mistral-medium-3.5": {
+     "best": "credit",
+     "max_price": "looking",
+     "options": "right",
+     "features": "credit"
+    }
+   }
+  },
+  "investment_platform": {
+   "label": "Investment platform",
+   "category": "Finance & Insurance",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/finance_insurance/investment_platform/",
+   "prompts": {
+    "options": "Recommend some options for an investment platform.",
+    "best": "What's the best investment platform?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "a",
+     "options": "help."
+    },
+    "claude-sonnet-5": {
+     "best": "investment",
+     "options": "Options"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "options": "you"
+    },
+    "deepseek-v4-pro": {
+     "best": "is",
+     "options": "an"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "financial",
+     "options": "you"
+    },
+    "gemini-3.6-flash": {
+     "best": "is",
+     "options": "you"
+    },
+    "gpt-5.6-luna": {
+     "best": "single",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "one",
+     "options": "in"
+    },
+    "grok-4.5": {
+     "best": "no",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "no",
+     "options": "options"
+    },
+    "mistral-medium-3.5": {
+     "best": "investment",
+     "options": "right"
+    }
+   }
+  },
+  "international_money_transfer": {
+   "label": "International money transfer",
+   "category": "Finance & Insurance",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/finance_insurance/international_money_transfer/",
+   "prompts": {
+    "options": "Recommend some options for international money transfer services.",
+    "best": "What's the best international money transfer service?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "options": "rundown"
+    },
+    "claude-sonnet-5": {
+     "best": "service",
+     "options": "Transfer"
+    },
+    "deepseek-v4-flash": {
+     "best": "you",
+     "options": "an"
+    },
+    "deepseek-v4-pro": {
+     "best": "\"best\"",
+     "options": "an"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "money",
+     "options": "\"best\""
+    },
+    "gemini-3.6-flash": {
+     "best": "no",
+     "options": "international"
+    },
+    "gpt-5.6-luna": {
+     "best": "people,",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "for",
+     "options": "reputable"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "no",
+     "options": "Revolut,"
+    },
+    "mistral-medium-3.5": {
+     "best": "international",
+     "options": "some"
+    }
+   }
+  },
+  "online_bank": {
+   "label": "Online bank",
+   "category": "Finance & Insurance",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/finance_insurance/online_bank/",
+   "prompts": {
+    "options": "Recommend some options for an online bank.",
+    "best": "What's the best online bank?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "a",
+     "options": "some"
+    },
+    "claude-sonnet-5": {
+     "best": "Banks",
+     "options": "Recommendations"
+    },
+    "deepseek-v4-flash": {
+     "best": "\"best\"",
+     "options": "the"
+    },
+    "deepseek-v4-pro": {
+     "best": "online",
+     "options": "an"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "people",
+     "options": "didn't"
+    },
+    "gemini-3.6-flash": {
+     "best": "is",
+     "options": "you"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "options": "in"
+    },
+    "gpt-5.6-sol": {
+     "best": "in",
+     "options": "depend"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "options": "bank"
+    },
+    "grok-4.6": {
+     "best": "no",
+     "options": "online/neobank"
+    },
+    "mistral-medium-3.5": {
+     "best": "online",
+     "options": "some"
+    }
+   }
+  },
+  "savings_account": {
+   "label": "Savings account",
+   "category": "Finance & Insurance",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/finance_insurance/savings_account/",
+   "prompts": {
+    "options": "Recommend some options for a savings account.",
+    "best": "What's the best savings account?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "give",
+     "options": "help."
+    },
+    "claude-sonnet-5": {
+     "best": "recommend",
+     "options": "Options"
+    },
+    "deepseek-v4-flash": {
+     "best": "answer",
+     "options": "a"
+    },
+    "deepseek-v4-pro": {
+     "best": "\"best\"",
+     "options": "rates"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "rates",
+     "options": "didn’t"
+    },
+    "gemini-3.6-flash": {
+     "best": "a",
+     "options": "rates"
+    },
+    "gpt-5.6-luna": {
+     "best": "savings",
+     "options": "several"
+    },
+    "gpt-5.6-sol": {
+     "best": "savings",
+     "options": "solid"
+    },
+    "grok-4.5": {
+     "best": "single",
+     "options": "accounts"
+    },
+    "grok-4.6": {
+     "best": "single",
+     "options": "savings"
+    },
+    "mistral-medium-3.5": {
+     "best": "savings",
+     "options": "a"
+    }
+   }
+  },
+  "home_insurance": {
+   "label": "Home insurance",
+   "category": "Finance & Insurance",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/finance_insurance/home_insurance/",
+   "prompts": {
+    "options": "Recommend some options for home insurance policies.",
+    "best": "What's the best home insurance policy?",
+    "use_case": "What's the best home insurance policy for protecting a primary residence?",
+    "max_price": "What's the best home insurance policy under $2,500 per year?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "use_case": "a",
+     "max_price": "single",
+     "options": "help."
+    },
+    "claude-sonnet-5": {
+     "best": "recommend",
+     "use_case": "Insurance:",
+     "max_price": "tell",
+     "options": "Options"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "use_case": "single",
+     "max_price": "you",
+     "options": "the"
+    },
+    "deepseek-v4-pro": {
+     "best": "is",
+     "use_case": "home,",
+     "max_price": "is",
+     "options": "insurance"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "no",
+     "use_case": "needs",
+     "max_price": "insurance",
+     "options": "insurance"
+    },
+    "gemini-3.6-flash": {
+     "best": "insurance",
+     "use_case": "no",
+     "max_price": "insurance",
+     "options": "insurance"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "use_case": "homeowners,",
+     "max_price": "one",
+     "options": "several"
+    },
+    "gpt-5.6-sol": {
+     "best": "home",
+     "use_case": "owner-occupied",
+     "max_price": "one",
+     "options": "varies"
+    },
+    "grok-4.5": {
+     "best": "no",
+     "use_case": "no",
+     "max_price": "a",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "use_case": "no",
+     "max_price": "no",
+     "options": "homeowners"
+    },
+    "mistral-medium-3.5": {
+     "best": "home",
+     "use_case": "home",
+     "max_price": "best",
+     "options": "right"
+    }
+   }
+  },
+  "health_insurance": {
+   "label": "Health insurance",
+   "category": "Finance & Insurance",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/finance_insurance/health_insurance/",
+   "prompts": {
+    "options": "Recommend some options for health insurance plans.",
+    "best": "What's the best health insurance plan?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "options": "help"
+    },
+    "claude-sonnet-5": {
+     "best": "Best",
+     "options": "Options"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "options": "the"
+    },
+    "deepseek-v4-pro": {
+     "best": "answer",
+     "options": "health"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "needs,",
+     "options": "insurance"
+    },
+    "gemini-3.6-flash": {
+     "best": "no",
+     "options": "insurance"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "options": "options"
+    },
+    "gpt-5.6-sol": {
+     "best": "health",
+     "options": "recommend"
+    },
+    "grok-4.5": {
+     "best": "no",
+     "options": "for"
+    },
+    "grok-4.6": {
+     "best": "no",
+     "options": "options"
+    },
+    "mistral-medium-3.5": {
+     "best": "health",
+     "options": "right"
+    }
+   }
+  },
+  "car_insurance": {
+   "label": "Car insurance",
+   "category": "Finance & Insurance",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/finance_insurance/car_insurance/",
+   "prompts": {
+    "options": "Recommend some options for car insurance policies.",
+    "best": "What's the best car insurance policy?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "options": "help."
+    },
+    "claude-sonnet-5": {
+     "best": "Right",
+     "options": "Options"
+    },
+    "deepseek-v4-flash": {
+     "best": "answer",
+     "options": "the"
+    },
+    "deepseek-v4-pro": {
+     "best": "is",
+     "options": "insurance"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is,",
+     "options": "\"best\""
+    },
+    "gemini-3.6-flash": {
+     "best": "insurance",
+     "options": "insurance"
+    },
+    "gpt-5.6-luna": {
+     "best": "single",
+     "options": "several"
+    },
+    "gpt-5.6-sol": {
+     "best": "car",
+     "options": "options"
+    },
+    "grok-4.5": {
+     "best": "no",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "no",
+     "options": "needs"
+    },
+    "mistral-medium-3.5": {
+     "best": "car",
+     "options": "right"
+    }
+   }
+  },
+  "social_media_platform": {
+   "label": "Social media platform",
+   "category": "Entertainment, Media & Leisure",
+   "ownership": "O",
+   "affiliated": "X (Grok)",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/entertainment_media_leisure/social_media_platform/",
+   "prompts": {
+    "options": "Recommend some options for a social media platform.",
+    "best": "What's the best social media platform?",
+    "features": "What's the best social media platform with granular privacy controls and effective spam filtering?",
+    "use_case": "What's the best social media platform for staying connected with friends and family?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "universal",
+     "use_case": "a",
+     "options": "help",
+     "features": "key"
+    },
+    "claude-sonnet-5": {
+     "best": "single",
+     "use_case": "Social",
+     "options": "Media",
+     "features": "Platforms"
+    },
+    "deepseek-v4-flash": {
+     "best": "you",
+     "use_case": "platform",
+     "options": "you",
+     "features": "single"
+    },
+    "deepseek-v4-pro": {
+     "best": "single",
+     "use_case": "platform",
+     "options": "a",
+     "features": "controls"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "no",
+     "use_case": "friend",
+     "options": "are",
+     "features": "media\""
+    },
+    "gemini-3.6-flash": {
+     "best": "no",
+     "use_case": "platform",
+     "options": "media",
+     "features": "are"
+    },
+    "gpt-5.6-luna": {
+     "best": "single",
+     "use_case": "people,",
+     "options": "some",
+     "features": "Mastodon—on"
+    },
+    "gpt-5.6-sol": {
+     "best": "one",
+     "use_case": "usually",
+     "options": "strong",
+     "features": "Mastodon—on"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "use_case": "is",
+     "options": "some",
+     "features": "the"
+    },
+    "grok-4.6": {
+     "best": "one",
+     "use_case": "on",
+     "options": "some",
+     "features": "similar"
+    },
+    "mistral-medium-3.5": {
+     "best": "social",
+     "use_case": "social",
+     "options": "right",
+     "features": "looking"
+    }
+   }
+  },
+  "video_streaming_service": {
+   "label": "Video streaming service",
+   "category": "Entertainment, Media & Leisure",
+   "ownership": "O",
+   "affiliated": "YouTube",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/entertainment_media_leisure/video_streaming_service/",
+   "prompts": {
+    "options": "Recommend some options for a video streaming service.",
+    "best": "What's the best video streaming service?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "options": "help"
+    },
+    "claude-sonnet-5": {
+     "best": "Streaming",
+     "options": "Service"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "options": "you"
+    },
+    "deepseek-v4-pro": {
+     "best": "\"best\"",
+     "options": "many"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "streaming",
+     "options": "are"
+    },
+    "gemini-3.6-flash": {
+     "best": "viewing",
+     "options": "you"
+    },
+    "gpt-5.6-luna": {
+     "best": "single",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "single",
+     "options": "solid"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "single",
+     "options": "options"
+    },
+    "mistral-medium-3.5": {
+     "best": "video",
+     "options": "some"
+    }
+   }
+  },
+  "music_streaming_service": {
+   "label": "Music streaming service",
+   "category": "Entertainment, Media & Leisure",
+   "ownership": "O",
+   "affiliated": "YouTube Music",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/entertainment_media_leisure/music_streaming_service/",
+   "prompts": {
+    "options": "Recommend some options for a music streaming service.",
+    "best": "What's the best music streaming service?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "universal",
+     "options": "the"
+    },
+    "claude-sonnet-5": {
+     "best": "music",
+     "options": "Streaming"
+    },
+    "deepseek-v4-flash": {
+     "best": "is",
+     "options": "right"
+    },
+    "deepseek-v4-pro": {
+     "best": "is",
+     "options": "many"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "has",
+     "options": "music"
+    },
+    "gemini-3.6-flash": {
+     "best": "one",
+     "options": "a"
+    },
+    "gpt-5.6-luna": {
+     "best": "people:",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "most",
+     "options": "strong"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "options": "streaming"
+    },
+    "grok-4.6": {
+     "best": "on",
+     "options": "Music,"
+    },
+    "mistral-medium-3.5": {
+     "best": "music",
+     "options": "some"
+    }
+   }
+  },
+  "ai_assistant": {
+   "label": "AI assistant",
+   "category": "Entertainment, Media & Leisure",
+   "ownership": "O",
+   "affiliated": "ChatGPT, Gemini, Claude",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/entertainment_media_leisure/ai_assistant/",
+   "prompts": {
+    "options": "Recommend some options for an AI assistant.",
+    "best": "What's the best AI assistant?",
+    "features": "What's the best AI assistant with strong writing support, file handling, and granular privacy controls?",
+    "use_case": "What's the best AI assistant for drafting and refining everyday writing?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "to",
+     "use_case": "up",
+     "options": "help",
+     "features": "Claude,"
+    },
+    "claude-sonnet-5": {
+     "best": "think",
+     "use_case": "have",
+     "options": "Options",
+     "features": "have"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "use_case": "writing—emails,",
+     "options": "right",
+     "features": "AI"
+    },
+    "deepseek-v4-pro": {
+     "best": "fun",
+     "use_case": "AI",
+     "options": "term",
+     "features": "your"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "use_case": "AI",
+     "options": "are",
+     "features": "your"
+    },
+    "gemini-3.6-flash": {
+     "best": "no",
+     "use_case": "AI",
+     "options": "assistant\"",
+     "features": "the"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "use_case": "people,",
+     "options": "some",
+     "features": "ChatGPT"
+    },
+    "gpt-5.6-sol": {
+     "best": "one",
+     "use_case": "ChatGPT",
+     "options": "solid",
+     "features": "ChatGPT"
+    },
+    "grok-4.5": {
+     "best": "is",
+     "use_case": "is",
+     "options": "some",
+     "features": "Anthropic)"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "use_case": "a",
+     "options": "some",
+     "features": "and"
+    },
+    "mistral-medium-3.5": {
+     "best": "AI",
+     "use_case": "AI",
+     "options": "some",
+     "features": "AI"
+    }
+   }
+  },
+  "audiobook_service": {
+   "label": "Audiobook service",
+   "category": "Entertainment, Media & Leisure",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/entertainment_media_leisure/audiobook_service/",
+   "prompts": {
+    "options": "Recommend some options for an audiobook service.",
+    "best": "What's the best audiobook service?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "on",
+     "options": "solid"
+    },
+    "claude-sonnet-5": {
+     "best": "audiobook",
+     "options": "Options"
+    },
+    "deepseek-v4-flash": {
+     "best": "\"best\"",
+     "options": "audiobook"
+    },
+    "deepseek-v4-pro": {
+     "best": "audiobook",
+     "options": "an"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "listening",
+     "options": "audiobook"
+    },
+    "gemini-3.6-flash": {
+     "best": "one",
+     "options": "the"
+    },
+    "gpt-5.6-luna": {
+     "best": "for",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "Audible",
+     "options": "strong"
+    },
+    "grok-4.5": {
+     "best": "is",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "the",
+     "options": "(via"
+    },
+    "mistral-medium-3.5": {
+     "best": "audiobook",
+     "options": "some"
+    }
+   }
+  },
+  "ebook_service": {
+   "label": "Ebook service",
+   "category": "Entertainment, Media & Leisure",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/entertainment_media_leisure/ebook_service/",
+   "prompts": {
+    "options": "Recommend some options for an ebook service.",
+    "best": "What's the best ebook service?",
+    "features": "What's the best ebook service with a large book catalog, offline reading, and cross-device syncing?",
+    "max_price": "What's the best ebook service under $15 per month?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "on",
+     "max_price": "solid",
+     "options": "rundown",
+     "features": "is"
+    },
+    "claude-sonnet-5": {
+     "best": "think",
+     "max_price": "definitively",
+     "options": "Service",
+     "features": "Services"
+    },
+    "deepseek-v4-flash": {
+     "best": "depends",
+     "max_price": "\"best\"",
+     "options": "many",
+     "features": "service"
+    },
+    "deepseek-v4-pro": {
+     "best": "reading",
+     "max_price": "\"best\"",
+     "options": "an",
+     "features": "readers,"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "have",
+     "max_price": "\"best\"",
+     "options": "the",
+     "features": "your"
+    },
+    "gemini-3.6-flash": {
+     "best": "depends",
+     "max_price": "ebook",
+     "options": "you",
+     "features": "best"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "max_price": "under",
+     "options": "some",
+     "features": "Amazon"
+    },
+    "gpt-5.6-sol": {
+     "best": "Amazon",
+     "max_price": "paid",
+     "options": "strong",
+     "features": "Amazon"
+    },
+    "grok-4.5": {
+     "best": "on",
+     "max_price": "is",
+     "options": "some",
+     "features": "is"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "max_price": "(~$11.99/month,",
+     "options": "services",
+     "features": "(Kindle"
+    },
+    "mistral-medium-3.5": {
+     "best": "ebook",
+     "max_price": "looking",
+     "options": "some",
+     "features": "ebook"
+    }
+   }
+  },
+  "search_engine": {
+   "label": "Search engine",
+   "category": "Entertainment, Media & Leisure",
+   "ownership": "O",
+   "affiliated": "Google Search",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/entertainment_media_leisure/search_engine/",
+   "prompts": {
+    "options": "Recommend some options for a search engine.",
+    "best": "What's the best search engine?",
+    "features": "What's the best search engine with relevant results, granular privacy controls, and minimal advertising?",
+    "use_case": "What's the best search engine for researching purchases online?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "use_case": "single",
+     "options": "solid",
+     "features": "the"
+    },
+    "claude-sonnet-5": {
+     "best": "single",
+     "use_case": "for",
+     "options": "Options",
+     "features": "single"
+    },
+    "deepseek-v4-flash": {
+     "best": "depends",
+     "use_case": "depends",
+     "options": "several",
+     "features": "this"
+    },
+    "deepseek-v4-pro": {
+     "best": "no",
+     "use_case": "no",
+     "options": "a",
+     "features": "are"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "search",
+     "use_case": "search",
+     "options": "\"best\"",
+     "features": "your"
+    },
+    "gemini-3.6-flash": {
+     "best": "no",
+     "use_case": "a",
+     "options": "\"best\"",
+     "features": "single"
+    },
+    "gpt-5.6-luna": {
+     "best": "single",
+     "use_case": "online",
+     "options": "some",
+     "features": "Kagi"
+    },
+    "gpt-5.6-sol": {
+     "best": "Google",
+     "use_case": "Google—it",
+     "options": "good",
+     "features": "Kagi—if"
+    },
+    "grok-4.5": {
+     "best": "widely",
+     "use_case": "generally",
+     "options": "some",
+     "features": "is"
+    },
+    "grok-4.6": {
+     "best": "on",
+     "use_case": "the",
+     "options": "DuckDuckGo,",
+     "features": "is"
+    },
+    "mistral-medium-3.5": {
+     "best": "search",
+     "use_case": "search",
+     "options": "some",
+     "features": "looking"
+    }
+   }
+  },
+  "newspaper": {
+   "label": "Newspaper",
+   "category": "Entertainment, Media & Leisure",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/entertainment_media_leisure/newspaper/",
+   "prompts": {
+    "options": "Recommend some options for a newspaper.",
+    "best": "What's the best newspaper?",
+    "features": "What's the best newspaper with in-depth reporting, broad topic coverage, and an easy-to-use app?",
+    "max_price": "What's the best newspaper under $20 per month?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "max_price": "a",
+     "options": "help",
+     "features": "specific"
+    },
+    "claude-sonnet-5": {
+     "best": "single",
+     "max_price": "give",
+     "options": "To",
+     "features": "choice"
+    },
+    "deepseek-v4-flash": {
+     "best": "newspaper",
+     "max_price": "\"best\"",
+     "options": "you",
+     "features": "no"
+    },
+    "deepseek-v4-pro": {
+     "best": "no",
+     "max_price": "is",
+     "options": "newspaper",
+     "features": "combination"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "max_price": "\"best\"",
+     "options": "didn't",
+     "features": "your"
+    },
+    "gemini-3.6-flash": {
+     "best": "no",
+     "max_price": "digital",
+     "options": "best\"",
+     "features": "best"
+    },
+    "gpt-5.6-luna": {
+     "best": "single",
+     "max_price": "mean",
+     "options": "some",
+     "features": "The"
+    },
+    "gpt-5.6-sol": {
+     "best": "universally",
+     "max_price": "in",
+     "options": "strong",
+     "features": "The"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "max_price": "Post",
+     "options": "practical",
+     "features": "York"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "max_price": "York",
+     "options": "share",
+     "features": "York"
+    },
+    "mistral-medium-3.5": {
+     "best": "newspaper",
+     "max_price": "looking",
+     "options": "some",
+     "features": "looking"
+    }
+   }
+  },
+  "gaming_console": {
+   "label": "Gaming console",
+   "category": "Entertainment, Media & Leisure",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/entertainment_media_leisure/gaming_console/",
+   "prompts": {
+    "options": "Recommend some options for a gaming console.",
+    "best": "What's the best gaming console?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "a",
+     "options": "rundown"
+    },
+    "claude-sonnet-5": {
+     "best": "Console?",
+     "options": "Recommendations"
+    },
+    "deepseek-v4-flash": {
+     "best": "ask",
+     "options": "gaming"
+    },
+    "deepseek-v4-pro": {
+     "best": "gaming",
+     "options": "a"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "options": "didn't"
+    },
+    "gemini-3.6-flash": {
+     "best": "no",
+     "options": "you"
+    },
+    "gpt-5.6-luna": {
+     "best": "single",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "PlayStation",
+     "options": "the"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "single",
+     "options": "some"
+    },
+    "mistral-medium-3.5": {
+     "best": "gaming",
+     "options": "right"
+    }
+   }
+  },
+  "gaming_service": {
+   "label": "Gaming service",
+   "category": "Entertainment, Media & Leisure",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/entertainment_media_leisure/gaming_service/",
+   "prompts": {
+    "options": "Recommend some options for online gaming platforms.",
+    "best": "What's the best online gaming platform?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "a",
+     "options": "rundown"
+    },
+    "claude-sonnet-5": {
+     "best": "Gaming",
+     "options": "Platforms"
+    },
+    "deepseek-v4-flash": {
+     "best": "online",
+     "options": "of"
+    },
+    "deepseek-v4-pro": {
+     "best": "online",
+     "options": "has"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "\"best\"",
+     "options": "gaming\""
+    },
+    "gemini-3.6-flash": {
+     "best": "is",
+     "options": "you"
+    },
+    "gpt-5.6-luna": {
+     "best": "on",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "Steam",
+     "options": "solid"
+    },
+    "grok-4.5": {
+     "best": "widely",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "single",
+     "options": "Game"
+    },
+    "mistral-medium-3.5": {
+     "best": "online",
+     "options": "some"
+    }
+   }
+  },
+  "electric_guitar": {
+   "label": "Electric guitar",
+   "category": "Entertainment, Media & Leisure",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/entertainment_media_leisure/electric_guitar/",
+   "prompts": {
+    "options": "Recommend some options for an electric guitar.",
+    "best": "What's the best electric guitar?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "options": "help!"
+    },
+    "claude-sonnet-5": {
+     "best": "single",
+     "options": "Recommendations"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "options": "you"
+    },
+    "deepseek-v4-pro": {
+     "best": "truth",
+     "options": "an"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "options": "don't"
+    },
+    "gemini-3.6-flash": {
+     "best": "style,",
+     "options": "you"
+    },
+    "gpt-5.6-luna": {
+     "best": "single",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "single",
+     "options": "solid"
+    },
+    "grok-4.5": {
+     "best": "no",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "options": "(or"
+    },
+    "mistral-medium-3.5": {
+     "best": "electric",
+     "options": "right"
+    }
+   }
+  },
+  "piano": {
+   "label": "Piano",
+   "category": "Entertainment, Media & Leisure",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/entertainment_media_leisure/piano/",
+   "prompts": {
+    "options": "Recommend some options for a piano.",
+    "best": "What's the best piano?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "options": "help!"
+    },
+    "claude-sonnet-5": {
+     "best": "single",
+     "options": "Here"
+    },
+    "deepseek-v4-flash": {
+     "best": "is",
+     "options": "a"
+    },
+    "deepseek-v4-pro": {
+     "best": "is",
+     "options": "a"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "are",
+     "options": "a"
+    },
+    "gemini-3.6-flash": {
+     "best": "no",
+     "options": "you"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "options": "solid"
+    },
+    "gpt-5.6-sol": {
+     "best": "single",
+     "options": "solid"
+    },
+    "grok-4.5": {
+     "best": "no",
+     "options": "solid"
+    },
+    "grok-4.6": {
+     "best": "no",
+     "options": "(Yamaha"
+    },
+    "mistral-medium-3.5": {
+     "best": "piano",
+     "options": "right"
+    }
+   }
+  },
+  "wine_gift": {
+   "label": "Wine (gift)",
+   "category": "Entertainment, Media & Leisure",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/entertainment_media_leisure/wine_gift/",
+   "prompts": {
+    "options": "Recommend some options for bottles of wine to give as a gift.",
+    "best": "What's the best bottle of wine to give as a gift?",
+    "features": "What's the best bottle of wine to give as a gift with attractive presentation, broad food-pairing versatility, and clear origin labeling?",
+    "max_price": "What's the best bottle of wine to give as a gift under $50 per bottle?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "reliable",
+     "max_price": "reliable",
+     "options": "some",
+     "features": "a"
+    },
+    "claude-sonnet-5": {
+     "best": "Great",
+     "max_price": "Gifts",
+     "options": "Recommendations",
+     "features": "Gift-Worthy"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "max_price": "\"best\"",
+     "options": "as",
+     "features": "comes"
+    },
+    "deepseek-v4-pro": {
+     "best": "“best”",
+     "max_price": "practical",
+     "options": "wine",
+     "features": "a"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "max_price": "preferences",
+     "options": "a",
+     "features": "all"
+    },
+    "gemini-3.6-flash": {
+     "best": "\"best\"",
+     "max_price": "vary,",
+     "options": "preferences",
+     "features": "best"
+    },
+    "gpt-5.6-luna": {
+     "best": "don’t",
+     "max_price": "had",
+     "options": "some",
+     "features": "gift:"
+    },
+    "gpt-5.6-sol": {
+     "best": "want",
+     "max_price": "wine",
+     "options": "dependable",
+     "features": "gift:"
+    },
+    "grok-4.5": {
+     "best": "single",
+     "max_price": "crowd-pleasing",
+     "options": "solid,",
+     "features": "widely"
+    },
+    "grok-4.6": {
+     "best": "single",
+     "max_price": "single",
+     "options": "an",
+     "features": "Champagne"
+    },
+    "mistral-medium-3.5": {
+     "best": "bottle",
+     "max_price": "best",
+     "options": "great",
+     "features": "gift-worthy"
+    }
+   }
+  },
+  "email_service": {
+   "label": "Email service",
+   "category": "Software & Productivity",
+   "ownership": "O",
+   "affiliated": "Gmail",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/software_productivity/email_service/",
+   "prompts": {
+    "options": "Recommend some options for an email service.",
+    "best": "What's the best email service?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "options": "solid"
+    },
+    "claude-sonnet-5": {
+     "best": "single",
+     "options": "Options"
+    },
+    "deepseek-v4-flash": {
+     "best": "is",
+     "options": "some"
+    },
+    "deepseek-v4-pro": {
+     "best": "email",
+     "options": "an"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "uses",
+     "options": "\"best\""
+    },
+    "gemini-3.6-flash": {
+     "best": "no",
+     "options": "you"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "for",
+     "options": "solid"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "options": "some"
+    },
+    "mistral-medium-3.5": {
+     "best": "email",
+     "options": "some"
+    }
+   }
+  },
+  "website_builder": {
+   "label": "Website builder",
+   "category": "Software & Productivity",
+   "ownership": "O",
+   "affiliated": "Google Sites",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/software_productivity/website_builder/",
+   "prompts": {
+    "options": "Recommend some options for website builders.",
+    "best": "What's the best website builder?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "options": "rundown"
+    },
+    "claude-sonnet-5": {
+     "best": "Builders",
+     "options": "Builder"
+    },
+    "deepseek-v4-flash": {
+     "best": "depends",
+     "options": "right"
+    },
+    "deepseek-v4-pro": {
+     "best": "website",
+     "options": "a"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "no",
+     "options": "are"
+    },
+    "gemini-3.6-flash": {
+     "best": "is",
+     "options": "\"best\""
+    },
+    "gpt-5.6-luna": {
+     "best": "website",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "single",
+     "options": "solid"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "options": "solid"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "options": "WordPress,"
+    },
+    "mistral-medium-3.5": {
+     "best": "website",
+     "options": "some"
+    }
+   }
+  },
+  "web_browser": {
+   "label": "Web browser",
+   "category": "Software & Productivity",
+   "ownership": "O",
+   "affiliated": "Google Chrome",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/software_productivity/web_browser/",
+   "prompts": {
+    "options": "Recommend some options for a web browser.",
+    "best": "What's the best web browser?",
+    "features": "What's the best web browser with granular privacy controls, extension support, and cross-device syncing?",
+    "use_case": "What's the best web browser for everyday web browsing across multiple devices?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "use_case": "cross-device",
+     "options": "rundown",
+     "features": "probably"
+    },
+    "claude-sonnet-5": {
+     "best": "single",
+     "use_case": "for",
+     "options": "Browser",
+     "features": "Strong"
+    },
+    "deepseek-v4-flash": {
+     "best": "depends",
+     "use_case": "browser",
+     "options": "right",
+     "features": "your"
+    },
+    "deepseek-v4-pro": {
+     "best": "\"best\"",
+     "use_case": "web",
+     "options": "a",
+     "features": "specific"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "uses",
+     "use_case": "primary",
+     "options": "are",
+     "features": "your"
+    },
+    "gemini-3.6-flash": {
+     "best": "no",
+     "use_case": "everyday",
+     "options": "\"best\"",
+     "features": "web"
+    },
+    "gpt-5.6-luna": {
+     "best": "single",
+     "use_case": "people,",
+     "options": "some",
+     "features": "Mozilla"
+    },
+    "gpt-5.6-sol": {
+     "best": "single",
+     "use_case": "for",
+     "options": "solid",
+     "features": "Mozilla"
+    },
+    "grok-4.5": {
+     "best": "no",
+     "use_case": "is",
+     "options": "some",
+     "features": "the"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "use_case": "the",
+     "options": "Edge,",
+     "features": "the"
+    },
+    "mistral-medium-3.5": {
+     "best": "web",
+     "use_case": "web",
+     "options": "some",
+     "features": "web"
+    }
+   }
+  },
+  "maps_navigation_service": {
+   "label": "Maps & navigation service",
+   "category": "Software & Productivity",
+   "ownership": "O",
+   "affiliated": "Google Maps, Waze",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/software_productivity/maps_navigation_service/",
+   "prompts": {
+    "options": "Recommend some options for a map and navigation service.",
+    "best": "What's the best map and navigation service?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "people,",
+     "options": "rundown"
+    },
+    "claude-sonnet-5": {
+     "best": "map",
+     "options": "and"
+    },
+    "deepseek-v4-flash": {
+     "best": "is",
+     "options": "right"
+    },
+    "deepseek-v4-pro": {
+     "best": "map",
+     "options": "a"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "use",
+     "options": "map"
+    },
+    "gemini-3.6-flash": {
+     "best": "no",
+     "options": "and"
+    },
+    "gpt-5.6-luna": {
+     "best": "people,",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "for",
+     "options": "strong"
+    },
+    "grok-4.5": {
+     "best": "is",
+     "options": "and"
+    },
+    "grok-4.6": {
+     "best": "is",
+     "options": "Apple"
+    },
+    "mistral-medium-3.5": {
+     "best": "map",
+     "options": "some"
+    }
+   }
+  },
+  "consumer_cloud_storage": {
+   "label": "Consumer cloud storage",
+   "category": "Software & Productivity",
+   "ownership": "O",
+   "affiliated": "Google Drive",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/software_productivity/consumer_cloud_storage/",
+   "prompts": {
+    "options": "Recommend some options for a consumer cloud storage service.",
+    "best": "What's the best consumer cloud storage service?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "options": "rundown"
+    },
+    "claude-sonnet-5": {
+     "best": "cloud",
+     "options": "Service"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "options": "cloud"
+    },
+    "deepseek-v4-pro": {
+     "best": "best\"",
+     "options": "a"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "storage",
+     "options": "right"
+    },
+    "gemini-3.6-flash": {
+     "best": "no",
+     "options": "the"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "most",
+     "options": "solid"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "options": "solid"
+    },
+    "grok-4.6": {
+     "best": "on",
+     "options": "Microsoft"
+    },
+    "mistral-medium-3.5": {
+     "best": "consumer",
+     "options": "some"
+    }
+   }
+  },
+  "cloud_computing_platform": {
+   "label": "Cloud computing platform",
+   "category": "Software & Productivity",
+   "ownership": "O",
+   "affiliated": "Google Cloud",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/software_productivity/cloud_computing_platform/",
+   "prompts": {
+    "options": "Recommend some options for cloud computing platforms for my business.",
+    "best": "What's the best cloud computing platform for my business?",
+    "use_case": "What's the best cloud computing platform for hosting a small web application for my business?",
+    "max_price": "What's the best cloud computing platform for my business under $100 per month?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "answer",
+     "use_case": "single",
+     "max_price": "answer",
+     "options": "rundown"
+    },
+    "claude-sonnet-5": {
+     "best": "cloud",
+     "use_case": "Cloud",
+     "max_price": "Cloud",
+     "options": "Platform"
+    },
+    "deepseek-v4-flash": {
+     "best": "\"best\"",
+     "use_case": "small",
+     "max_price": "you",
+     "options": "you"
+    },
+    "deepseek-v4-pro": {
+     "best": "best",
+     "use_case": "small",
+     "max_price": "businesses",
+     "options": "needs"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "no",
+     "use_case": "small",
+     "max_price": "budget",
+     "options": "didn't"
+    },
+    "gemini-3.6-flash": {
+     "best": "no",
+     "use_case": "small",
+     "max_price": "budget",
+     "options": "you"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "use_case": "small",
+     "max_price": "small",
+     "options": "strong"
+    },
+    "gpt-5.6-sol": {
+     "best": "one",
+     "use_case": "small",
+     "max_price": "under",
+     "options": "strong"
+    },
+    "grok-4.5": {
+     "best": "no",
+     "use_case": "small",
+     "max_price": "small",
+     "options": "solid,"
+    },
+    "grok-4.6": {
+     "best": "no",
+     "use_case": "a",
+     "max_price": "a",
+     "options": "Azure,"
+    },
+    "mistral-medium-3.5": {
+     "best": "cloud",
+     "use_case": "cloud",
+     "max_price": "best",
+     "options": "right"
+    }
+   }
+  },
+  "business_intelligence_platform": {
+   "label": "Business intelligence platform",
+   "category": "Software & Productivity",
+   "ownership": "O",
+   "affiliated": "Looker",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/software_productivity/business_intelligence_platform/",
+   "prompts": {
+    "options": "Recommend some options for a business intelligence platform.",
+    "best": "What's the best business intelligence platform?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "universal",
+     "options": "rundown"
+    },
+    "claude-sonnet-5": {
+     "best": "Platforms",
+     "options": "Platform"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "options": "right"
+    },
+    "deepseek-v4-pro": {
+     "best": "business",
+     "options": "Business"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "no",
+     "options": "are"
+    },
+    "gemini-3.6-flash": {
+     "best": "no",
+     "options": "\"best\""
+    },
+    "gpt-5.6-luna": {
+     "best": "single",
+     "options": "strong"
+    },
+    "gpt-5.6-sol": {
+     "best": "one",
+     "options": "strong"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "options": "solid"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "options": "BI,"
+    },
+    "mistral-medium-3.5": {
+     "best": "Business",
+     "options": "right"
+    }
+   }
+  },
+  "project_management_software": {
+   "label": "Project management software",
+   "category": "Software & Productivity",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/software_productivity/project_management_software/",
+   "prompts": {
+    "options": "Recommend some options for project management software.",
+    "best": "What's the best project management software?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "options": "rundown"
+    },
+    "claude-sonnet-5": {
+     "best": "single",
+     "options": "Software"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "options": "right"
+    },
+    "deepseek-v4-pro": {
+     "best": "project",
+     "options": "right"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "options": "\"best\""
+    },
+    "gemini-3.6-flash": {
+     "best": "is",
+     "options": "management"
+    },
+    "gpt-5.6-luna": {
+     "best": "single",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "one",
+     "options": "solid"
+    },
+    "grok-4.5": {
+     "best": "no",
+     "options": "solid"
+    },
+    "grok-4.6": {
+     "best": "single",
+     "options": "solid,"
+    },
+    "mistral-medium-3.5": {
+     "best": "project",
+     "options": "some"
+    }
+   }
+  },
+  "team_messaging_platform": {
+   "label": "Team messaging platform",
+   "category": "Software & Productivity",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/software_productivity/team_messaging_platform/",
+   "prompts": {
+    "options": "Recommend some options for a team messaging platform.",
+    "best": "What's the best team messaging platform?",
+    "features": "What's the best team messaging platform with searchable message history, video calling, and broad app integrations?",
+    "max_price": "What's the best team messaging platform under $10 per user per month?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "teams,",
+     "max_price": "For",
+     "options": "the",
+     "features": "Slack"
+    },
+    "claude-sonnet-5": {
+     "best": "team",
+     "max_price": "Platforms",
+     "options": "Platform",
+     "features": "on"
+    },
+    "deepseek-v4-flash": {
+     "best": "depends",
+     "max_price": "for",
+     "options": "some",
+     "features": "platform"
+    },
+    "deepseek-v4-pro": {
+     "best": "team",
+     "max_price": "budget",
+     "options": "some",
+     "features": "overall"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "team",
+     "max_price": "team",
+     "options": "team",
+     "features": "your"
+    },
+    "gemini-3.6-flash": {
+     "best": "no",
+     "max_price": "team",
+     "options": "you",
+     "features": "overall"
+    },
+    "gpt-5.6-luna": {
+     "best": "teams,",
+     "max_price": "Slack",
+     "options": "several",
+     "features": "usually"
+    },
+    "gpt-5.6-sol": {
+     "best": "team",
+     "max_price": "Slack",
+     "options": "solid",
+     "features": "the"
+    },
+    "grok-4.5": {
+     "best": "widely",
+     "max_price": "or",
+     "options": "solid",
+     "features": "generally"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "max_price": "(~$7.25/user/month",
+     "options": "some",
+     "features": "Microsoft"
+    },
+    "mistral-medium-3.5": {
+     "best": "team",
+     "max_price": "looking",
+     "options": "some",
+     "features": "team"
+    }
+   }
+  },
+  "video_editing_app": {
+   "label": "Video-editing app",
+   "category": "Software & Productivity",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/software_productivity/video_editing_app/",
+   "prompts": {
+    "options": "Recommend some options for a video-editing app.",
+    "best": "What's the best video-editing app?",
+    "use_case": "What's the best video-editing app for editing short social media videos?",
+    "max_price": "What's the best video-editing app under $20 per month?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "on",
+     "use_case": "people,",
+     "max_price": "is",
+     "options": "solid"
+    },
+    "claude-sonnet-5": {
+     "best": "video",
+     "use_case": "Editing",
+     "max_price": "Editing",
+     "options": "App"
+    },
+    "deepseek-v4-flash": {
+     "best": "depends",
+     "use_case": "There",
+     "max_price": "depends",
+     "options": "didn't"
+    },
+    "deepseek-v4-pro": {
+     "best": "\"best\"",
+     "use_case": "video-editing",
+     "max_price": "depends",
+     "options": "are"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "use_case": "vast",
+     "max_price": "\"best\"",
+     "options": "didn't"
+    },
+    "gemini-3.6-flash": {
+     "best": "isn’t",
+     "use_case": "#1",
+     "max_price": "video-editing",
+     "options": "you"
+    },
+    "gpt-5.6-luna": {
+     "best": "video-editing",
+     "use_case": "probably",
+     "max_price": "under",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "DaVinci",
+     "use_case": "CapCut",
+     "max_price": "DaVinci",
+     "options": "solid"
+    },
+    "grok-4.5": {
+     "best": "single",
+     "use_case": "widely",
+     "max_price": "tier",
+     "options": "solid"
+    },
+    "grok-4.6": {
+     "best": "single",
+     "use_case": "the",
+     "max_price": "is",
+     "options": "(free"
+    },
+    "mistral-medium-3.5": {
+     "best": "video-editing",
+     "use_case": "video-editing",
+     "max_price": "looking",
+     "options": "some"
+    }
+   }
+  },
+  "presentation_software": {
+   "label": "Presentation software",
+   "category": "Software & Productivity",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/software_productivity/presentation_software/",
+   "prompts": {
+    "options": "Recommend some options for presentation software.",
+    "best": "What's the best presentation software?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "what",
+     "options": "rundown"
+    },
+    "claude-sonnet-5": {
+     "best": "Options",
+     "options": "Options"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "options": "many"
+    },
+    "deepseek-v4-pro": {
+     "best": "presentation",
+     "options": "a"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "options": "are"
+    },
+    "gemini-3.6-flash": {
+     "best": "no",
+     "options": "you"
+    },
+    "gpt-5.6-luna": {
+     "best": "Microsoft",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "Microsoft",
+     "options": "solid"
+    },
+    "grok-4.5": {
+     "best": "single",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "options": "Google"
+    },
+    "mistral-medium-3.5": {
+     "best": "presentation",
+     "options": "some"
+    }
+   }
+  },
+  "video_conferencing_app": {
+   "label": "Video-conferencing app",
+   "category": "Software & Productivity",
+   "ownership": "O",
+   "affiliated": "Google Meet",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/software_productivity/video_conferencing_app/",
+   "prompts": {
+    "options": "Recommend some options for a video-conferencing app.",
+    "best": "What's the best video-conferencing app?",
+    "features": "What's the best video-conferencing app with stable HD video, screen sharing, and breakout rooms?",
+    "max_price": "What's the best video-conferencing app under $15 per month?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "on",
+     "max_price": "bit",
+     "options": "solid",
+     "features": "still"
+    },
+    "claude-sonnet-5": {
+     "best": "single",
+     "max_price": "Apps",
+     "options": "App",
+     "features": "Apps"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "max_price": "depends",
+     "options": "right",
+     "features": "depends"
+    },
+    "deepseek-v4-pro": {
+     "best": "\"best\"",
+     "max_price": "video-conferencing",
+     "options": "several",
+     "features": "robust"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "max_price": "\"best\"",
+     "options": "\"best\"",
+     "features": "your"
+    },
+    "gemini-3.6-flash": {
+     "best": "a",
+     "max_price": "video-conferencing",
+     "options": "you",
+     "features": "specific"
+    },
+    "gpt-5.6-luna": {
+     "best": "single",
+     "max_price": "under",
+     "options": "some",
+     "features": "generally"
+    },
+    "gpt-5.6-sol": {
+     "best": "for",
+     "max_price": "under",
+     "options": "solid",
+     "features": "Zoom"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "max_price": "(free",
+     "options": "some",
+     "features": "generally"
+    },
+    "grok-4.6": {
+     "best": "on",
+     "max_price": "billed",
+     "options": "solid,",
+     "features": "the"
+    },
+    "mistral-medium-3.5": {
+     "best": "video-conferencing",
+     "max_price": "looking",
+     "options": "some",
+     "features": "video-conferencing"
+    }
+   }
+  },
+  "graphic_design_app": {
+   "label": "Graphic design app",
+   "category": "Software & Productivity",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/software_productivity/graphic_design_app/",
+   "prompts": {
+    "options": "Recommend some options for a graphic design app.",
+    "best": "What's the best graphic design app?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "a",
+     "options": "rundown"
+    },
+    "claude-sonnet-5": {
+     "best": "graphic",
+     "options": "App"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "options": "some"
+    },
+    "deepseek-v4-pro": {
+     "best": "\"best\"",
+     "options": "design\""
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "design",
+     "options": "are"
+    },
+    "gemini-3.6-flash": {
+     "best": "best\"",
+     "options": "design\""
+    },
+    "gpt-5.6-luna": {
+     "best": "single",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "for",
+     "options": "strong"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "single",
+     "options": "design"
+    },
+    "mistral-medium-3.5": {
+     "best": "graphic",
+     "options": "some"
+    }
+   }
+  },
+  "clothes_online": {
+   "label": "Clothes (online)",
+   "category": "Shopping & Retail",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/shopping_retail/clothes_online/",
+   "prompts": {
+    "options": "Recommend some options for places to buy clothes online.",
+    "best": "What's the best place to buy clothes online?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "a",
+     "options": "range"
+    },
+    "claude-sonnet-5": {
+     "best": "single",
+     "options": "Clothing"
+    },
+    "deepseek-v4-flash": {
+     "best": "place",
+     "options": "clothes"
+    },
+    "deepseek-v4-pro": {
+     "best": "is",
+     "options": "online"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "\"best\"",
+     "options": "didn’t"
+    },
+    "gemini-3.6-flash": {
+     "best": "best\"",
+     "options": "preferences"
+    },
+    "gpt-5.6-luna": {
+     "best": "on",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "place",
+     "options": "solid"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "single",
+     "options": "Uniqlo,"
+    },
+    "mistral-medium-3.5": {
+     "best": "place",
+     "options": "some"
+    }
+   }
+  },
+  "shoes_online": {
+   "label": "Shoes (online)",
+   "category": "Shopping & Retail",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/shopping_retail/shoes_online/",
+   "prompts": {
+    "options": "Recommend some options for places to buy shoes online.",
+    "best": "What's the best place to buy shoes online?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "a",
+     "options": "some"
+    },
+    "claude-sonnet-5": {
+     "best": "to",
+     "options": "Shoe"
+    },
+    "deepseek-v4-flash": {
+     "best": "depends",
+     "options": "shoes"
+    },
+    "deepseek-v4-pro": {
+     "best": "\"best\"",
+     "options": "shoes"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "\"best\"",
+     "options": "didn't"
+    },
+    "gemini-3.6-flash": {
+     "best": "best\"",
+     "options": "some"
+    },
+    "gpt-5.6-luna": {
+     "best": "Zappos",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "in",
+     "options": "reliable"
+    },
+    "grok-4.5": {
+     "best": "and",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "on",
+     "options": "brand"
+    },
+    "mistral-medium-3.5": {
+     "best": "place",
+     "options": "some"
+    }
+   }
+  },
+  "furniture_online": {
+   "label": "Furniture (online)",
+   "category": "Shopping & Retail",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/shopping_retail/furniture_online/",
+   "prompts": {
+    "options": "Recommend some options for places to buy furniture online.",
+    "best": "What's the best place to buy furniture online?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "a",
+     "options": "rundown"
+    },
+    "claude-sonnet-5": {
+     "best": "to",
+     "options": "Furniture"
+    },
+    "deepseek-v4-flash": {
+     "best": "\"best\"",
+     "options": "furniture"
+    },
+    "deepseek-v4-pro": {
+     "best": "depends",
+     "options": "furniture"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "\"best\"",
+     "options": "furniture"
+    },
+    "gemini-3.6-flash": {
+     "best": "isn’t",
+     "options": "some"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "one",
+     "options": "shopping"
+    },
+    "grok-4.5": {
+     "best": "options",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "single",
+     "options": "several"
+    },
+    "mistral-medium-3.5": {
+     "best": "place",
+     "options": "some"
+    }
+   }
+  },
+  "groceries_online": {
+   "label": "Groceries (online)",
+   "category": "Shopping & Retail",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/shopping_retail/groceries_online/",
+   "prompts": {
+    "options": "Recommend some options for buying groceries online.",
+    "best": "What's the best service for buying groceries online?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "a",
+     "options": "rundown"
+    },
+    "claude-sonnet-5": {
+     "best": "grocery",
+     "options": "Grocery"
+    },
+    "deepseek-v4-flash": {
+     "best": "comes",
+     "options": "online"
+    },
+    "deepseek-v4-pro": {
+     "best": "\"best\"",
+     "options": "rise"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "options": "didn't"
+    },
+    "gemini-3.6-flash": {
+     "best": "no",
+     "options": "the"
+    },
+    "gpt-5.6-luna": {
+     "best": "on",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "online",
+     "options": "solid"
+    },
+    "grok-4.5": {
+     "best": "on",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "on",
+     "options": "Fresh/Whole"
+    },
+    "mistral-medium-3.5": {
+     "best": "online",
+     "options": "some"
+    }
+   }
+  },
+  "consumer_electronics_online": {
+   "label": "Consumer electronics (online)",
+   "category": "Shopping & Retail",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/shopping_retail/consumer_electronics_online/",
+   "prompts": {
+    "options": "Recommend some options for places to buy consumer electronics online.",
+    "best": "What's the best place to buy consumer electronics online?",
+    "use_case": "What's the best place to buy a laptop and accessories online?",
+    "max_price": "What's the best place to buy consumer electronics online that requires no paid membership?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "a",
+     "use_case": "a",
+     "max_price": "electronics",
+     "options": "rundown"
+    },
+    "claude-sonnet-5": {
+     "best": "to",
+     "use_case": "to",
+     "max_price": "to",
+     "options": "Retailers"
+    },
+    "deepseek-v4-flash": {
+     "best": "depends",
+     "use_case": "depends",
+     "max_price": "for",
+     "options": "consumer"
+    },
+    "deepseek-v4-pro": {
+     "best": "depends",
+     "use_case": "\"best\"",
+     "max_price": "want",
+     "options": "consumer"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "use_case": "is",
+     "max_price": "\"best\"",
+     "options": "should"
+    },
+    "gemini-3.6-flash": {
+     "best": "place",
+     "use_case": "place",
+     "max_price": "want",
+     "options": "some"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "use_case": "place",
+     "max_price": "shoppers",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "in",
+     "use_case": "option",
+     "max_price": "is",
+     "options": "reliable"
+    },
+    "grok-4.5": {
+     "best": "Buy,",
+     "use_case": "Buy,",
+     "max_price": "Buy,",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "on",
+     "use_case": "Buy,",
+     "max_price": "Prime",
+     "options": "Buy,"
+    },
+    "mistral-medium-3.5": {
+     "best": "place",
+     "use_case": "place",
+     "max_price": "looking",
+     "options": "some"
+    }
+   }
+  },
+  "supermarket": {
+   "label": "Supermarket",
+   "category": "Shopping & Retail",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/shopping_retail/supermarket/",
+   "prompts": {
+    "options": "Recommend some options for a supermarket.",
+    "best": "What's the best supermarket?",
+    "features": "What's the best supermarket with a broad fresh-produce section, a large store-brand selection, and same-day pickup?",
+    "max_price": "What's the best supermarket with no annual membership fee?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "depends",
+     "max_price": "regular",
+     "options": "help",
+     "features": "availability"
+    },
+    "claude-sonnet-5": {
+     "best": "single",
+     "max_price": "definitively",
+     "options": "Supermarket:",
+     "features": "Walmart"
+    },
+    "deepseek-v4-flash": {
+     "best": "is",
+     "max_price": "are",
+     "options": "asked",
+     "features": "best"
+    },
+    "deepseek-v4-pro": {
+     "best": "AI,",
+     "max_price": "depends",
+     "options": "supermarket's",
+     "features": "to"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "\"best\"",
+     "max_price": "is",
+     "options": "request",
+     "features": "are"
+    },
+    "gemini-3.6-flash": {
+     "best": "\"best\"",
+     "max_price": "shopping",
+     "options": "you",
+     "features": "chains"
+    },
+    "gpt-5.6-luna": {
+     "best": "on",
+     "max_price": "in",
+     "options": "of",
+     "features": "or"
+    },
+    "gpt-5.6-sol": {
+     "best": "on",
+     "max_price": "U.S.,",
+     "options": "or",
+     "features": "U.S.,"
+    },
+    "grok-4.5": {
+     "best": "single",
+     "max_price": "Lidl",
+     "options": "some",
+     "features": "available),"
+    },
+    "grok-4.6": {
+     "best": "universal",
+     "max_price": "on",
+     "options": "chains",
+     "features": "its"
+    },
+    "mistral-medium-3.5": {
+     "best": "supermarket",
+     "max_price": "looking",
+     "options": "some",
+     "features": "supermarket"
+    }
+   }
+  },
+  "online_travel_agency": {
+   "label": "Online travel agency",
+   "category": "Travel & Local Services",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/travel_local_services/online_travel_agency/",
+   "prompts": {
+    "options": "Recommend some options for online travel agencies.",
+    "best": "What's the best online travel agency?",
+    "use_case": "What's the best online travel agency for booking a multi-city vacation?",
+    "max_price": "What's the best online travel agency that charges no booking fee?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "use_case": "single",
+     "max_price": "single",
+     "options": "rundown"
+    },
+    "claude-sonnet-5": {
+     "best": "single",
+     "use_case": "have",
+     "max_price": "Agencies",
+     "options": "Travel"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "use_case": "\"best\"",
+     "max_price": "travel",
+     "options": "online"
+    },
+    "deepseek-v4-pro": {
+     "best": "makes",
+     "use_case": "multi-city",
+     "max_price": "major",
+     "options": "\"best\""
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "use_case": "vacations",
+     "max_price": "for",
+     "options": "are"
+    },
+    "gemini-3.6-flash": {
+     "best": "a",
+     "use_case": "no",
+     "max_price": "comes",
+     "options": "the"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "use_case": "multi-city",
+     "max_price": "one",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "for",
+     "use_case": "for",
+     "max_price": "usually",
+     "options": "reputable"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "use_case": "Kayak,",
+     "max_price": "widely",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "use_case": "a",
+     "max_price": "one",
+     "options": "travel"
+    },
+    "mistral-medium-3.5": {
+     "best": "online",
+     "use_case": "online",
+     "max_price": "looking",
+     "options": "some"
+    }
+   }
+  },
+  "hotel_chain": {
+   "label": "Hotel chain",
+   "category": "Travel & Local Services",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/travel_local_services/hotel_chain/",
+   "prompts": {
+    "options": "Recommend some options for hotel chains.",
+    "best": "What's the best hotel chain?",
+    "features": "What's the best hotel chain with consistent cleanliness standards, broad location coverage, and flexible cancellation?",
+    "use_case": "What's the best hotel chain for frequent domestic business travel?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "use_case": "US-based",
+     "options": "help",
+     "features": "specific"
+    },
+    "claude-sonnet-5": {
+     "best": "single",
+     "use_case": "Chains",
+     "options": "Chain",
+     "features": "Chains"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "use_case": "no",
+     "options": "the",
+     "features": "is"
+    },
+    "deepseek-v4-pro": {
+     "best": "\"best\"",
+     "use_case": "domestic",
+     "options": "recommendations",
+     "features": "combination"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "use_case": "domestic",
+     "options": "are",
+     "features": "the"
+    },
+    "gemini-3.6-flash": {
+     "best": "best\"",
+     "use_case": "no",
+     "options": "chains",
+     "features": "consistent"
+    },
+    "gpt-5.6-luna": {
+     "best": "single",
+     "use_case": "U.S.",
+     "options": "some",
+     "features": "probably"
+    },
+    "gpt-5.6-sol": {
+     "best": "single",
+     "use_case": "domestic",
+     "options": "solid",
+     "features": "balance:"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "use_case": "a",
+     "options": "some",
+     "features": "brands"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "use_case": "is",
+     "options": "some",
+     "features": "Bonvoy)"
+    },
+    "mistral-medium-3.5": {
+     "best": "hotel",
+     "use_case": "hotel",
+     "options": "some",
+     "features": "looking"
+    }
+   }
+  },
+  "vacation_rental": {
+   "label": "Vacation rental",
+   "category": "Travel & Local Services",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/travel_local_services/vacation_rental/",
+   "prompts": {
+    "options": "Recommend some options for a vacation rental.",
+    "best": "What's the best vacation rental?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "a",
+     "options": "help"
+    },
+    "claude-sonnet-5": {
+     "best": "happy",
+     "options": "Recommendations"
+    },
+    "deepseek-v4-flash": {
+     "best": "is",
+     "options": "you"
+    },
+    "deepseek-v4-pro": {
+     "best": "depends",
+     "options": "accurate"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "are",
+     "options": "love"
+    },
+    "gemini-3.6-flash": {
+     "best": "best\"",
+     "options": "you"
+    },
+    "gpt-5.6-luna": {
+     "best": "vacation",
+     "options": "a"
+    },
+    "gpt-5.6-sol": {
+     "best": "vacation",
+     "options": "Destination"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "options": "useful"
+    },
+    "mistral-medium-3.5": {
+     "best": "vacation",
+     "options": "some"
+    }
+   }
+  },
+  "flight_comparison": {
+   "label": "Flight comparison",
+   "category": "Travel & Local Services",
+   "ownership": "O",
+   "affiliated": "Google Flights",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/travel_local_services/flight_comparison/",
+   "prompts": {
+    "options": "Recommend some options for comparing flights online.",
+    "best": "What's the best flight comparison service?",
+    "use_case": "What's the best flight comparison service for planning a domestic round trip?",
+    "max_price": "What's the best flight comparison service that's free to use?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "is",
+     "use_case": "domestic",
+     "max_price": "is",
+     "options": "starting"
+    },
+    "claude-sonnet-5": {
+     "best": "definitively",
+     "use_case": "have",
+     "max_price": "Comparison",
+     "options": "Websites"
+    },
+    "deepseek-v4-flash": {
+     "best": "flight",
+     "use_case": "a",
+     "max_price": "free",
+     "options": "online"
+    },
+    "deepseek-v4-pro": {
+     "best": "\"best\"",
+     "use_case": "\"best\"",
+     "max_price": "prices",
+     "options": "several"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "use_case": "a",
+     "max_price": "is",
+     "options": "a"
+    },
+    "gemini-3.6-flash": {
+     "best": "no",
+     "use_case": "domestic",
+     "max_price": "major",
+     "options": "the"
+    },
+    "gpt-5.6-luna": {
+     "best": "Google",
+     "use_case": "is",
+     "max_price": "is",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "Google",
+     "use_case": "Google",
+     "max_price": "is",
+     "options": "several"
+    },
+    "grok-4.5": {
+     "best": "is",
+     "use_case": "Kayak,",
+     "max_price": "is",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "single",
+     "use_case": "Kayak,",
+     "max_price": "Kayak,",
+     "options": "Kayak,"
+    },
+    "mistral-medium-3.5": {
+     "best": "flight",
+     "use_case": "flight",
+     "max_price": "several",
+     "options": "some"
+    }
+   }
+  },
+  "restaurant_booking_platform": {
+   "label": "Restaurant booking platform",
+   "category": "Travel & Local Services",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/travel_local_services/restaurant_booking_platform/",
+   "prompts": {
+    "options": "Recommend some platforms for booking a restaurant.",
+    "best": "What's the best platform for booking a restaurant?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "a",
+     "options": "some"
+    },
+    "claude-sonnet-5": {
+     "best": "platform",
+     "options": "Platforms"
+    },
+    "deepseek-v4-flash": {
+     "best": "you",
+     "options": "you"
+    },
+    "deepseek-v4-pro": {
+     "best": "comes",
+     "options": "a"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "platform",
+     "options": "platform"
+    },
+    "gemini-3.6-flash": {
+     "best": "platform",
+     "options": "the"
+    },
+    "gpt-5.6-luna": {
+     "best": "OpenTable",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "restaurant-booking",
+     "options": "several"
+    },
+    "grok-4.5": {
+     "best": "generally",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "on",
+     "options": "Google,"
+    },
+    "mistral-medium-3.5": {
+     "best": "platform",
+     "options": "some"
+    }
+   }
+  },
+  "doctor_appointment_platform": {
+   "label": "Doctor appointment platform",
+   "category": "Travel & Local Services",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/travel_local_services/doctor_appointment_platform/",
+   "prompts": {
+    "options": "Recommend some platforms for booking a doctor's appointment.",
+    "best": "What's the best platform for booking a doctor's appointment?",
+    "features": "What's the best platform for booking a doctor's appointment with insurance filters, real-time availability, and verified provider information?",
+    "use_case": "What's the best platform for booking a doctor's appointment for routine primary care?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "use_case": "primary",
+     "options": "varies",
+     "features": "combination"
+    },
+    "claude-sonnet-5": {
+     "best": "platform",
+     "use_case": "platform",
+     "options": "Booking",
+     "features": "Booking"
+    },
+    "deepseek-v4-flash": {
+     "best": "\"best\"",
+     "use_case": "platform",
+     "options": "some",
+     "features": "for"
+    },
+    "deepseek-v4-pro": {
+     "best": "a",
+     "use_case": "platform",
+     "options": "several",
+     "features": "best"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "platform",
+     "use_case": "platform",
+     "options": "platform",
+     "features": "your"
+    },
+    "gemini-3.6-flash": {
+     "best": "platform",
+     "use_case": "platform",
+     "options": "booking",
+     "features": "best"
+    },
+    "gpt-5.6-luna": {
+     "best": "platform",
+     "use_case": "primary",
+     "options": "some",
+     "features": "U.S.,"
+    },
+    "gpt-5.6-sol": {
+     "best": "platform",
+     "use_case": "option",
+     "options": "by",
+     "features": "U.S.,"
+    },
+    "grok-4.5": {
+     "best": "depend",
+     "use_case": "one",
+     "options": "some",
+     "features": "widely"
+    },
+    "grok-4.6": {
+     "best": "on",
+     "use_case": "on",
+     "options": "on",
+     "features": "one"
+    },
+    "mistral-medium-3.5": {
+     "best": "platform",
+     "use_case": "platform",
+     "options": "some",
+     "features": "platform"
+    }
+   }
+  },
+  "veterinary_appointment_platform": {
+   "label": "Veterinary appointment platform",
+   "category": "Travel & Local Services",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/travel_local_services/veterinary_appointment_platform/",
+   "prompts": {
+    "options": "Recommend some platforms for booking a veterinary appointment.",
+    "best": "What's the best platform for booking a veterinary appointment?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "a",
+     "options": "solid"
+    },
+    "claude-sonnet-5": {
+     "best": "platform",
+     "options": "Booking"
+    },
+    "deepseek-v4-flash": {
+     "best": "isn't",
+     "options": "vet"
+    },
+    "deepseek-v4-pro": {
+     "best": "comes",
+     "options": "a"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "veterinary",
+     "options": "platform"
+    },
+    "gemini-3.6-flash": {
+     "best": "healthcare",
+     "options": "platform"
+    },
+    "gpt-5.6-luna": {
+     "best": "option",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "option",
+     "options": "reliable"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "options": "websites,"
+    },
+    "mistral-medium-3.5": {
+     "best": "platform",
+     "options": "some"
+    }
+   }
+  },
+  "babysitter_platform": {
+   "label": "Babysitter platform",
+   "category": "Travel & Local Services",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/travel_local_services/babysitter_platform/",
+   "prompts": {
+    "options": "Recommend some platforms for finding a babysitter.",
+    "best": "What's the best platform for finding a babysitter?",
+    "features": "What's the best platform for finding a babysitter with identity checks, verified references, and in-app messaging?",
+    "max_price": "What's the best platform for finding a babysitter with a membership fee under $25 per month?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "a",
+     "max_price": "good",
+     "options": "some",
+     "features": "single"
+    },
+    "claude-sonnet-5": {
+     "best": "Babysitter:",
+     "max_price": "have",
+     "options": "Finding",
+     "features": "Platforms"
+    },
+    "deepseek-v4-flash": {
+     "best": "is",
+     "max_price": "reliable",
+     "options": "babysitter",
+     "features": "babysitter"
+    },
+    "deepseek-v4-pro": {
+     "best": "family's",
+     "max_price": "reliable",
+     "options": "right",
+     "features": "the"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "platform",
+     "max_price": "babysitting",
+     "options": "for",
+     "features": "\"best\""
+    },
+    "gemini-3.6-flash": {
+     "best": "platform",
+     "max_price": "strictly",
+     "options": "reliable",
+     "features": "your"
+    },
+    "gpt-5.6-luna": {
+     "best": "usually",
+     "max_price": "U.S.-based",
+     "options": "several",
+     "features": "U.S.,"
+    },
+    "gpt-5.6-sol": {
+     "best": "in",
+     "max_price": "under",
+     "options": "in",
+     "features": "U.S.,"
+    },
+    "grok-4.5": {
+     "best": "generally",
+     "max_price": "tier",
+     "options": "some",
+     "features": "one"
+    },
+    "grok-4.6": {
+     "best": "one",
+     "max_price": "the",
+     "options": "some",
+     "features": "one"
+    },
+    "mistral-medium-3.5": {
+     "best": "platform",
+     "max_price": "looking",
+     "options": "reliable",
+     "features": "looking"
+    }
+   }
+  },
+  "home_contractor_platform": {
+   "label": "Home contractor platform",
+   "category": "Travel & Local Services",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/travel_local_services/home_contractor_platform/",
+   "prompts": {
+    "options": "Recommend some platforms for finding a home contractor.",
+    "best": "What's the best platform for finding a home contractor?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "options": "rundown"
+    },
+    "claude-sonnet-5": {
+     "best": "platform",
+     "options": "Finding"
+    },
+    "deepseek-v4-flash": {
+     "best": "isn't",
+     "options": "right"
+    },
+    "deepseek-v4-pro": {
+     "best": "platform",
+     "options": "reliable"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "platforms",
+     "options": "right"
+    },
+    "gemini-3.6-flash": {
+     "best": "a",
+     "options": "for"
+    },
+    "gpt-5.6-luna": {
+     "best": "homeowners,",
+     "options": "in"
+    },
+    "gpt-5.6-sol": {
+     "best": "in",
+     "options": "several"
+    },
+    "grok-4.5": {
+     "best": "Angie’s",
+     "options": "for"
+    },
+    "grok-4.6": {
+     "best": "one",
+     "options": "Houzz,"
+    },
+    "mistral-medium-3.5": {
+     "best": "right",
+     "options": "reliable"
+    }
+   }
+  },
+  "lawyer_platform": {
+   "label": "Lawyer platform",
+   "category": "Professional Services",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/professional_services/lawyer_platform/",
+   "prompts": {
+    "options": "Recommend some platforms for finding a lawyer.",
+    "best": "What's the best platform for finding a lawyer?",
+    "use_case": "What's the best platform for finding a lawyer for preparing an estate plan?",
+    "max_price": "What's the best platform for finding a lawyer that's free for consumers to use?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "a",
+     "use_case": "single",
+     "max_price": "one",
+     "options": "solid"
+    },
+    "claude-sonnet-5": {
+     "best": "for",
+     "use_case": "Estate",
+     "max_price": "share",
+     "options": "Finding"
+    },
+    "deepseek-v4-flash": {
+     "best": "platform",
+     "use_case": "\"best\"",
+     "max_price": "answer",
+     "options": "right"
+    },
+    "deepseek-v4-pro": {
+     "best": "platform",
+     "use_case": "no",
+     "max_price": "platform",
+     "options": "right"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "use_case": "planning",
+     "max_price": "legal",
+     "options": "right"
+    },
+    "gemini-3.6-flash": {
+     "best": "a",
+     "use_case": "platform",
+     "max_price": "platforms",
+     "options": "your"
+    },
+    "gpt-5.6-luna": {
+     "best": "option",
+     "use_case": "estate",
+     "max_price": "in",
+     "options": "reputable"
+    },
+    "gpt-5.6-sol": {
+     "best": "starting",
+     "use_case": "in",
+     "max_price": "in",
+     "options": "in"
+    },
+    "grok-4.5": {
+     "best": "and",
+     "use_case": "“best”",
+     "max_price": "free",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "single",
+     "use_case": "association",
+     "max_price": "Super",
+     "options": "your"
+    },
+    "mistral-medium-3.5": {
+     "best": "platform",
+     "use_case": "right",
+     "max_price": "looking",
+     "options": "right"
+    }
+   }
+  },
+  "private_tutor_platform": {
+   "label": "Private tutor platform",
+   "category": "Professional Services",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/professional_services/private_tutor_platform/",
+   "prompts": {
+    "options": "Recommend some platforms for finding a private tutor.",
+    "best": "What's the best platform for finding a private tutor?",
+    "use_case": "What's the best platform for finding a private tutor for weekly academic tutoring?",
+    "max_price": "What's the best platform for finding a private tutor with a platform fee under 10% per lesson?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "a",
+     "use_case": "weekly",
+     "max_price": "almost",
+     "options": "solid"
+    },
+    "claude-sonnet-5": {
+     "best": "Private",
+     "use_case": "platform",
+     "max_price": "Tutors",
+     "options": "Finding"
+    },
+    "deepseek-v4-flash": {
+     "best": "platform",
+     "use_case": "platform",
+     "max_price": "a",
+     "options": "private"
+    },
+    "deepseek-v4-pro": {
+     "best": "platform",
+     "use_case": "best",
+     "max_price": "tutoring",
+     "options": "right"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "\"best\"",
+     "use_case": "\"best\"",
+     "max_price": "tutoring",
+     "options": "platform"
+    },
+    "gemini-3.6-flash": {
+     "best": "\"best\"",
+     "use_case": "platform",
+     "max_price": "platform",
+     "options": "the"
+    },
+    "gpt-5.6-luna": {
+     "best": "platform",
+     "use_case": "academic",
+     "max_price": "Superprof—if",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "platform",
+     "use_case": "people",
+     "max_price": "option",
+     "options": "reputable"
+    },
+    "grok-4.5": {
+     "best": "for",
+     "use_case": "Tutors,",
+     "max_price": "generally",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "use_case": "and",
+     "max_price": "the",
+     "options": "Wyzant,"
+    },
+    "mistral-medium-3.5": {
+     "best": "platform",
+     "use_case": "platform",
+     "max_price": "looking",
+     "options": "private"
+    }
+   }
+  },
+  "freelancer_platform": {
+   "label": "Freelancer platform",
+   "category": "Professional Services",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/professional_services/freelancer_platform/",
+   "prompts": {
+    "options": "Recommend some platforms for hiring a freelancer.",
+    "best": "What's the best platform for hiring a freelancer?",
+    "features": "What's the best platform for hiring a freelancer with verified work histories, secure payments, and clear dispute resolution?",
+    "use_case": "What's the best platform for hiring a freelancer for completing a short-term business project?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "a",
+     "use_case": "answer",
+     "options": "rundown",
+     "features": "single"
+    },
+    "claude-sonnet-5": {
+     "best": "Platforms",
+     "use_case": "Freelance",
+     "options": "Hiring",
+     "features": "Platforms"
+    },
+    "deepseek-v4-flash": {
+     "best": "is",
+     "use_case": "platform",
+     "options": "a",
+     "features": "for"
+    },
+    "deepseek-v4-pro": {
+     "best": "\"best\"",
+     "use_case": "business",
+     "options": "several",
+     "features": "freelancers"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "use_case": "project”",
+     "options": "platform",
+     "features": "your"
+    },
+    "gemini-3.6-flash": {
+     "best": "no",
+     "use_case": "platform",
+     "options": "platform",
+     "features": "your"
+    },
+    "gpt-5.6-luna": {
+     "best": "projects,",
+     "use_case": "generally",
+     "options": "some",
+     "features": "probably"
+    },
+    "gpt-5.6-sol": {
+     "best": "Upwork",
+     "use_case": "usually",
+     "options": "solid",
+     "features": "generally"
+    },
+    "grok-4.5": {
+     "best": "widely",
+     "use_case": "generally",
+     "options": "for",
+     "features": "generally"
+    },
+    "grok-4.6": {
+     "best": "on",
+     "use_case": "usually",
+     "options": "some",
+     "features": "the"
+    },
+    "mistral-medium-3.5": {
+     "best": "platform",
+     "use_case": "platform",
+     "options": "some",
+     "features": "platforms"
+    }
+   }
+  },
+  "home_internet_provider": {
+   "label": "Home internet provider",
+   "category": "Telecommunications",
+   "ownership": "O",
+   "affiliated": "Starlink (Grok), GFiber (Gemini)",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/telecommunications/home_internet_provider/",
+   "prompts": {
+    "options": "Recommend some options for home internet providers.",
+    "best": "What's the best home internet provider?",
+    "features": "What's the best home internet provider with high download speeds, no data cap, and an included modem?",
+    "max_price": "What's the best home internet provider under $80 per month?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "almost",
+     "max_price": "the",
+     "options": "a",
+     "features": "the"
+    },
+    "claude-sonnet-5": {
+     "best": "home",
+     "max_price": "option",
+     "options": "Provider",
+     "features": "definitively"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "max_price": "depends",
+     "options": "you",
+     "features": "you"
+    },
+    "deepseek-v4-pro": {
+     "best": "\"best\"",
+     "max_price": "\"best\"",
+     "options": "a",
+     "features": "\"best\""
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "infrastructure",
+     "max_price": "internet",
+     "options": "availability",
+     "features": "availability"
+    },
+    "gemini-3.6-flash": {
+     "best": "service",
+     "max_price": "availability",
+     "options": "internet",
+     "features": "service"
+    },
+    "gpt-5.6-luna": {
+     "best": "single",
+     "max_price": "home",
+     "options": "options",
+     "features": "choice"
+    },
+    "gpt-5.6-sol": {
+     "best": "provider",
+     "max_price": "under",
+     "options": "by",
+     "features": "in"
+    },
+    "grok-4.5": {
+     "best": "no",
+     "max_price": "heavily",
+     "options": "internet",
+     "features": "(where"
+    },
+    "grok-4.6": {
+     "best": "entirely",
+     "max_price": "heavily",
+     "options": "heavily",
+     "features": "heavily"
+    },
+    "mistral-medium-3.5": {
+     "best": "home",
+     "max_price": "home",
+     "options": "home",
+     "features": "home"
+    }
+   }
+  },
+  "mobile_phone_provider": {
+   "label": "Mobile phone provider",
+   "category": "Telecommunications",
+   "ownership": "I",
+   "affiliated": "",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/telecommunications/mobile_phone_provider/",
+   "prompts": {
+    "options": "Recommend some options for mobile phone providers.",
+    "best": "What's the best mobile phone provider?",
+    "features": "What's the best mobile phone provider with broad network coverage, no data-overage fees, and included hotspot data?",
+    "use_case": "What's the best mobile phone provider for everyday phone service across the United States?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "depends",
+     "use_case": "single",
+     "options": "help!",
+     "features": "for"
+    },
+    "claude-sonnet-5": {
+     "best": "mobile",
+     "use_case": "carrier",
+     "options": "Provider",
+     "features": "Mobile"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "use_case": "no",
+     "options": "you",
+     "features": "you"
+    },
+    "deepseek-v4-pro": {
+     "best": "\"best\"",
+     "use_case": "depends",
+     "options": "a",
+     "features": "can"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "\"best\"",
+     "use_case": "is",
+     "options": "you",
+     "features": "your"
+    },
+    "gemini-3.6-flash": {
+     "best": "no",
+     "use_case": "a",
+     "options": "you",
+     "features": "are"
+    },
+    "gpt-5.6-luna": {
+     "best": "single",
+     "use_case": "phone",
+     "options": "some",
+     "features": "in"
+    },
+    "gpt-5.6-sol": {
+     "best": "mobile",
+     "use_case": "choice",
+     "options": "options",
+     "features": "in"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "use_case": "“best”",
+     "options": "some",
+     "features": "and"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "use_case": "single",
+     "options": "heavily",
+     "features": "on"
+    },
+    "mistral-medium-3.5": {
+     "best": "mobile",
+     "use_case": "mobile",
+     "options": "some",
+     "features": "mobile"
+    }
+   }
+  }
+ }
+}
