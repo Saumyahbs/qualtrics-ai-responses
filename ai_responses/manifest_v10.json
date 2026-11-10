@@ -1152,174 +1152,6 @@
     }
    }
   },
-  "clothes_online": {
-   "label": "Clothes",
-   "source_label": "Clothes (online)",
-   "category": "Shopping & Retail",
-   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/shopping_retail/clothes_online/",
-   "prompts": {
-    "options": "Recommend some options for places to buy clothes online.",
-    "best": "What's the best place to buy clothes online?"
-   },
-   "word3": {
-    "claude-opus-5": {
-     "best": "a",
-     "options": "range"
-    },
-    "claude-sonnet-5": {
-     "best": "single",
-     "options": "Clothing"
-    },
-    "deepseek-v4-flash": {
-     "best": "place",
-     "options": "clothes"
-    },
-    "deepseek-v4-pro": {
-     "best": "is",
-     "options": "online"
-    },
-    "gemini-3.1-pro-preview": {
-     "best": "\"best\"",
-     "options": "didn’t"
-    },
-    "gemini-3.6-flash": {
-     "best": "best\"",
-     "options": "preferences"
-    },
-    "gpt-5.6-luna": {
-     "best": "on",
-     "options": "some"
-    },
-    "gpt-5.6-sol": {
-     "best": "place",
-     "options": "solid"
-    },
-    "grok-4.5": {
-     "best": "a",
-     "options": "some"
-    },
-    "grok-4.6": {
-     "best": "single",
-     "options": "Uniqlo,"
-    },
-    "mistral-medium-3.5": {
-     "best": "place",
-     "options": "some"
-    }
-   }
-  },
-  "shoes_online": {
-   "label": "Shoes",
-   "source_label": "Shoes (online)",
-   "category": "Shopping & Retail",
-   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/shopping_retail/shoes_online/",
-   "prompts": {
-    "options": "Recommend some options for places to buy shoes online.",
-    "best": "What's the best place to buy shoes online?"
-   },
-   "word3": {
-    "claude-opus-5": {
-     "best": "a",
-     "options": "some"
-    },
-    "claude-sonnet-5": {
-     "best": "to",
-     "options": "Shoe"
-    },
-    "deepseek-v4-flash": {
-     "best": "depends",
-     "options": "shoes"
-    },
-    "deepseek-v4-pro": {
-     "best": "\"best\"",
-     "options": "shoes"
-    },
-    "gemini-3.1-pro-preview": {
-     "best": "\"best\"",
-     "options": "didn't"
-    },
-    "gemini-3.6-flash": {
-     "best": "best\"",
-     "options": "some"
-    },
-    "gpt-5.6-luna": {
-     "best": "Zappos",
-     "options": "some"
-    },
-    "gpt-5.6-sol": {
-     "best": "in",
-     "options": "reliable"
-    },
-    "grok-4.5": {
-     "best": "and",
-     "options": "some"
-    },
-    "grok-4.6": {
-     "best": "on",
-     "options": "brand"
-    },
-    "mistral-medium-3.5": {
-     "best": "place",
-     "options": "some"
-    }
-   }
-  },
-  "tv": {
-   "label": "TV",
-   "source_label": "TV",
-   "category": "Consumer Electronics",
-   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/consumer_electronics/tv/",
-   "prompts": {
-    "options": "Recommend some options for a TV.",
-    "best": "What's the best TV?"
-   },
-   "word3": {
-    "claude-opus-5": {
-     "best": "single",
-     "options": "help!"
-    },
-    "claude-sonnet-5": {
-     "best": "single",
-     "options": "Here"
-    },
-    "deepseek-v4-flash": {
-     "best": "is",
-     "options": "you"
-    },
-    "deepseek-v4-pro": {
-     "best": "can",
-     "options": "a"
-    },
-    "gemini-3.1-pro-preview": {
-     "best": "is",
-     "options": "didn't"
-    },
-    "gemini-3.6-flash": {
-     "best": "depends",
-     "options": "you"
-    },
-    "gpt-5.6-luna": {
-     "best": "one",
-     "options": "some"
-    },
-    "gpt-5.6-sol": {
-     "best": "TV:",
-     "options": "strong"
-    },
-    "grok-4.5": {
-     "best": "a",
-     "options": "some"
-    },
-    "grok-4.6": {
-     "best": "single",
-     "options": "(C-series"
-    },
-    "mistral-medium-3.5": {
-     "best": "TV",
-     "options": "right"
-    }
-   }
-  },
   "hotel_chain": {
    "label": "Hotel",
    "source_label": "Hotel chain",
@@ -1480,58 +1312,322 @@
     }
    }
   },
-  "skincare_products": {
-   "label": "Skincare",
-   "source_label": "Skincare products",
-   "category": "Health & Personal Care",
-   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/health_personal_care/skincare_products/",
+  "consumer_electronics_online": {
+   "label": "Consumer electronics (online)",
+   "source_label": "Consumer electronics (online)",
+   "category": "Shopping & Retail",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/shopping_retail/consumer_electronics_online/",
    "prompts": {
-    "options": "Recommend some options for skincare products.",
-    "best": "What's the best skincare product?"
+    "options": "Recommend some options for places to buy consumer electronics online.",
+    "best": "What's the best place to buy consumer electronics online?",
+    "use_case": "What's the best place to buy a laptop and accessories online?",
+    "max_price": "What's the best place to buy consumer electronics online that requires no paid membership?"
    },
    "word3": {
     "claude-opus-5": {
+     "best": "a",
+     "use_case": "a",
+     "max_price": "electronics",
+     "options": "rundown"
+    },
+    "claude-sonnet-5": {
+     "best": "to",
+     "use_case": "to",
+     "max_price": "to",
+     "options": "Retailers"
+    },
+    "deepseek-v4-flash": {
+     "best": "depends",
+     "use_case": "depends",
+     "max_price": "for",
+     "options": "consumer"
+    },
+    "deepseek-v4-pro": {
+     "best": "depends",
+     "use_case": "\"best\"",
+     "max_price": "want",
+     "options": "consumer"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "use_case": "is",
+     "max_price": "\"best\"",
+     "options": "should"
+    },
+    "gemini-3.6-flash": {
+     "best": "place",
+     "use_case": "place",
+     "max_price": "want",
+     "options": "some"
+    },
+    "gpt-5.6-luna": {
      "best": "one",
-     "options": "help!"
+     "use_case": "place",
+     "max_price": "shoppers",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "in",
+     "use_case": "option",
+     "max_price": "is",
+     "options": "reliable"
+    },
+    "grok-4.5": {
+     "best": "Buy,",
+     "use_case": "Buy,",
+     "max_price": "Buy,",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "on",
+     "use_case": "Buy,",
+     "max_price": "Prime",
+     "options": "Buy,"
+    },
+    "mistral-medium-3.5": {
+     "best": "place",
+     "use_case": "place",
+     "max_price": "looking",
+     "options": "some"
+    }
+   }
+  },
+  "vitamins": {
+   "label": "Vitamins",
+   "source_label": "Vitamins",
+   "category": "Health & Personal Care",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/health_personal_care/vitamins/",
+   "prompts": {
+    "options": "Recommend some options for vitamins.",
+    "best": "What's the best vitamin?",
+    "features": "What's the best vitamin with third-party testing and clear dosage labeling?",
+    "max_price": "What's the best vitamin under $25 per package?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "max_price": "on",
+     "options": "help",
+     "features": "single"
     },
     "claude-sonnet-5": {
      "best": "single",
+     "max_price": "have",
+     "options": "Recommendations",
+     "features": "Well-Tested,"
+    },
+    "deepseek-v4-flash": {
+     "best": "answer",
+     "max_price": "depends",
+     "options": "can",
+     "features": "a"
+    },
+    "deepseek-v4-pro": {
+     "best": "a",
+     "max_price": "body",
+     "options": "needs",
+     "features": "straightforward"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "no",
+     "max_price": "\"best\"",
+     "options": "health",
+     "features": "supplement"
+    },
+    "gemini-3.6-flash": {
+     "best": "actually",
+     "max_price": "best\"",
+     "options": "are",
+     "features": "is"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "max_price": "on",
+     "options": "depend",
+     "features": "one"
+    },
+    "gpt-5.6-sol": {
+     "best": "one",
+     "max_price": "pick",
+     "options": "depend",
+     "features": "general"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "max_price": "“best”",
+     "options": "options",
+     "features": "with"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "max_price": "a",
+     "options": "multivitamin",
+     "features": "no"
+    },
+    "mistral-medium-3.5": {
+     "best": "vitamin",
+     "max_price": "looking",
+     "options": "right",
+     "features": "a"
+    }
+   }
+  },
+  "coffee_maker": {
+   "label": "Coffee maker",
+   "source_label": "Coffee maker",
+   "category": "Home Appliances",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/home_appliances/coffee_maker/",
+   "prompts": {
+    "options": "Recommend some options for a coffee maker.",
+    "best": "What's the best coffee maker?",
+    "features": "What's the best coffee maker with consistent brew temperature, a programmable timer, and removable parts for cleaning?",
+    "max_price": "What's the best coffee maker under $250?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "on",
+     "max_price": "depends",
+     "options": "solid",
+     "features": "Breville"
+    },
+    "claude-sonnet-5": {
+     "best": "Makers",
+     "max_price": "give",
+     "options": "Recommendations",
+     "features": "Coffee"
+    },
+    "deepseek-v4-flash": {
+     "best": "is",
+     "max_price": "\"best\"",
+     "options": "the",
+     "features": "the"
+    },
+    "deepseek-v4-pro": {
+     "best": "is",
+     "max_price": "no",
+     "options": "a",
+     "features": "for"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "likes",
+     "max_price": "best\"",
+     "options": "are",
+     "features": "coffee"
+    },
+    "gemini-3.6-flash": {
+     "best": "drinks",
+     "max_price": "overall",
+     "options": "you",
+     "features": "for"
+    },
+    "gpt-5.6-luna": {
+     "best": "people,",
+     "max_price": "OXO",
+     "options": "some",
+     "features": "Breville"
+    },
+    "gpt-5.6-sol": {
+     "best": "drip",
+     "max_price": "under",
+     "options": "solid",
+     "features": "Breville"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "max_price": "on",
+     "options": "solid",
+     "features": "Brewer"
+    },
+    "grok-4.6": {
+     "best": "on",
+     "max_price": "universal",
+     "options": "some",
+     "features": "Brewer"
+    },
+    "mistral-medium-3.5": {
+     "best": "coffee",
+     "max_price": "looking",
+     "options": "some",
+     "features": "looking"
+    }
+   }
+  },
+  "vacuum_cleaner": {
+   "label": "Vacuum cleaner",
+   "source_label": "Vacuum cleaner",
+   "category": "Home Appliances",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/home_appliances/vacuum_cleaner/",
+   "prompts": {
+    "options": "Recommend some options for a vacuum cleaner.",
+    "best": "What's the best vacuum cleaner?",
+    "use_case": "What's the best vacuum cleaner for cleaning a home with both carpet and hard floors?",
+    "max_price": "What's the best vacuum cleaner under $500?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "a",
+     "use_case": "features",
+     "max_price": "a",
+     "options": "rundown"
+    },
+    "claude-sonnet-5": {
+     "best": "Best",
+     "use_case": "Cleaners",
+     "max_price": "have",
      "options": "Recommendations"
     },
     "deepseek-v4-flash": {
      "best": "no",
+     "use_case": "\"best\"",
+     "max_price": "depends",
      "options": "you"
     },
     "deepseek-v4-pro": {
-     "best": "skin",
-     "options": "is"
+     "best": "is",
+     "use_case": "have",
+     "max_price": "\"best\"",
+     "options": "a"
     },
     "gemini-3.1-pro-preview": {
-     "best": "dermatologist",
-     "options": "is"
+     "best": "is",
+     "use_case": "is",
+     "max_price": "\"best\"",
+     "options": "\"best\""
     },
     "gemini-3.6-flash": {
-     "best": "skin",
-     "options": "skincare"
+     "best": "is",
+     "use_case": "vacuum",
+     "max_price": "\"best\"",
+     "options": "right"
     },
     "gpt-5.6-luna": {
      "best": "one",
-     "options": "simple,"
+     "use_case": "homes",
+     "max_price": "homes,",
+     "options": "solid"
     },
     "gpt-5.6-sol": {
-     "best": "choose",
-     "options": "reliable,"
+     "best": "one",
+     "use_case": "SEBO",
+     "max_price": "prices,",
+     "options": "solid"
     },
     "grok-4.5": {
      "best": "a",
+     "use_case": "carpet",
+     "max_price": "Detect",
      "options": "some"
     },
     "grok-4.6": {
      "best": "a",
-     "options": "a"
+     "use_case": "cordless",
+     "max_price": "on",
+     "options": "some"
     },
     "mistral-medium-3.5": {
-     "best": "skincare",
+     "best": "vacuum",
+     "use_case": "vacuum",
+     "max_price": "best",
      "options": "right"
     }
    }
