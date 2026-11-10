@@ -71,13 +71,13 @@
    [
     "deepseek-v4-pro",
     "claude-sonnet-5"
-   ]
-  ],
-  [
+   ],
    [
     "grok-4.6",
     "gemini-3.6-flash"
-   ],
+   ]
+  ],
+  [
    [
     "mistral-medium-3.5",
     "gpt-5.6-luna"
@@ -85,9 +85,7 @@
    [
     "gemini-3.1-pro-preview",
     "grok-4.5"
-   ]
-  ],
-  [
+   ],
    [
     "claude-opus-5",
     "deepseek-v4-flash"
@@ -95,13 +93,13 @@
    [
     "deepseek-v4-pro",
     "claude-sonnet-5"
-   ],
-   [
-    "grok-4.6",
-    "gemini-3.6-flash"
    ]
   ],
   [
+   [
+    "grok-4.6",
+    "gemini-3.6-flash"
+   ],
    [
     "mistral-medium-3.5",
     "gpt-5.6-luna"
@@ -116,6 +114,28 @@
    ]
   ],
   [
+   [
+    "deepseek-v4-pro",
+    "claude-sonnet-5"
+   ],
+   [
+    "grok-4.6",
+    "gemini-3.6-flash"
+   ],
+   [
+    "mistral-medium-3.5",
+    "gpt-5.6-luna"
+   ],
+   [
+    "gemini-3.1-pro-preview",
+    "grok-4.5"
+   ]
+  ],
+  [
+   [
+    "claude-opus-5",
+    "deepseek-v4-flash"
+   ],
    [
     "deepseek-v4-pro",
     "claude-sonnet-5"
@@ -141,13 +161,13 @@
    [
     "grok-4.6",
     "deepseek-v4-flash"
-   ]
-  ],
-  [
+   ],
    [
     "mistral-medium-3.5",
     "claude-sonnet-5"
-   ],
+   ]
+  ],
+  [
    [
     "gpt-5.6-luna",
     "gemini-3.6-flash"
@@ -155,9 +175,7 @@
    [
     "gpt-5.6-sol",
     "claude-opus-5"
-   ]
-  ],
-  [
+   ],
    [
     "deepseek-v4-pro",
     "grok-4.5"
@@ -165,13 +183,13 @@
    [
     "grok-4.6",
     "deepseek-v4-flash"
-   ],
-   [
-    "mistral-medium-3.5",
-    "claude-sonnet-5"
    ]
   ],
   [
+   [
+    "mistral-medium-3.5",
+    "claude-sonnet-5"
+   ],
    [
     "gpt-5.6-luna",
     "gemini-3.6-flash"
@@ -197,9 +215,53 @@
    [
     "gpt-5.6-luna",
     "gemini-3.6-flash"
+   ],
+   [
+    "gpt-5.6-sol",
+    "claude-opus-5"
    ]
   ],
   [
+   [
+    "deepseek-v4-pro",
+    "grok-4.5"
+   ],
+   [
+    "grok-4.6",
+    "deepseek-v4-flash"
+   ],
+   [
+    "mistral-medium-3.5",
+    "claude-sonnet-5"
+   ],
+   [
+    "gpt-5.6-luna",
+    "gemini-3.6-flash"
+   ]
+  ],
+  [
+   [
+    "gemini-3.1-pro-preview",
+    "deepseek-v4-pro"
+   ],
+   [
+    "gpt-5.6-sol",
+    "grok-4.6"
+   ],
+   [
+    "mistral-medium-3.5",
+    "grok-4.5"
+   ],
+   [
+    "gpt-5.6-luna",
+    "deepseek-v4-flash"
+   ]
+  ],
+  [
+   [
+    "gemini-3.6-flash",
+    "claude-sonnet-5"
+   ],
    [
     "gemini-3.1-pro-preview",
     "deepseek-v4-pro"
@@ -225,13 +287,13 @@
    [
     "gemini-3.1-pro-preview",
     "deepseek-v4-pro"
-   ]
-  ],
-  [
+   ],
    [
     "gpt-5.6-sol",
     "grok-4.6"
-   ],
+   ]
+  ],
+  [
    [
     "mistral-medium-3.5",
     "grok-4.5"
@@ -239,9 +301,7 @@
    [
     "gpt-5.6-luna",
     "deepseek-v4-flash"
-   ]
-  ],
-  [
+   ],
    [
     "gemini-3.6-flash",
     "claude-sonnet-5"
@@ -249,13 +309,13 @@
    [
     "gemini-3.1-pro-preview",
     "deepseek-v4-pro"
-   ],
-   [
-    "gpt-5.6-sol",
-    "grok-4.6"
    ]
   ],
   [
+   [
+    "gpt-5.6-sol",
+    "grok-4.6"
+   ],
    [
     "mistral-medium-3.5",
     "grok-4.5"
@@ -281,9 +341,53 @@
    [
     "gpt-5.6-sol",
     "gpt-5.6-luna"
+   ],
+   [
+    "gemini-3.6-flash",
+    "grok-4.5"
    ]
   ],
   [
+   [
+    "claude-sonnet-5",
+    "deepseek-v4-flash"
+   ],
+   [
+    "claude-opus-5",
+    "grok-4.6"
+   ],
+   [
+    "gemini-3.1-pro-preview",
+    "mistral-medium-3.5"
+   ],
+   [
+    "gpt-5.6-sol",
+    "gpt-5.6-luna"
+   ]
+  ],
+  [
+   [
+    "gemini-3.6-flash",
+    "grok-4.5"
+   ],
+   [
+    "claude-sonnet-5",
+    "deepseek-v4-flash"
+   ],
+   [
+    "claude-opus-5",
+    "grok-4.6"
+   ],
+   [
+    "gemini-3.1-pro-preview",
+    "mistral-medium-3.5"
+   ]
+  ],
+  [
+   [
+    "gpt-5.6-sol",
+    "gpt-5.6-luna"
+   ],
    [
     "gemini-3.6-flash",
     "grok-4.5"
@@ -309,37 +413,35 @@
    [
     "gemini-3.6-flash",
     "grok-4.5"
+   ],
+   [
+    "claude-sonnet-5",
+    "deepseek-v4-flash"
    ]
   ],
   [
    [
-    "claude-sonnet-5",
-    "deepseek-v4-flash"
+    "deepseek-v4-pro",
+    "mistral-medium-3.5"
    ],
    [
     "claude-opus-5",
-    "grok-4.6"
-   ],
-   [
-    "gemini-3.1-pro-preview",
-    "mistral-medium-3.5"
-   ]
-  ],
-  [
-   [
-    "gpt-5.6-sol",
     "gpt-5.6-luna"
    ],
    [
-    "gemini-3.6-flash",
-    "grok-4.5"
+    "gemini-3.1-pro-preview",
+    "gemini-3.6-flash"
    ],
    [
-    "claude-sonnet-5",
-    "deepseek-v4-flash"
+    "gpt-5.6-sol",
+    "claude-sonnet-5"
    ]
   ],
   [
+   [
+    "deepseek-v4-flash",
+    "grok-4.5"
+   ],
    [
     "deepseek-v4-pro",
     "mistral-medium-3.5"
@@ -365,30 +467,6 @@
    [
     "deepseek-v4-pro",
     "mistral-medium-3.5"
-   ]
-  ],
-  [
-   [
-    "claude-opus-5",
-    "gpt-5.6-luna"
-   ],
-   [
-    "gemini-3.1-pro-preview",
-    "gemini-3.6-flash"
-   ],
-   [
-    "gpt-5.6-sol",
-    "claude-sonnet-5"
-   ]
-  ],
-  [
-   [
-    "deepseek-v4-flash",
-    "grok-4.5"
-   ],
-   [
-    "deepseek-v4-pro",
-    "mistral-medium-3.5"
    ],
    [
     "claude-opus-5",
@@ -407,9 +485,53 @@
    [
     "deepseek-v4-flash",
     "grok-4.5"
+   ],
+   [
+    "deepseek-v4-pro",
+    "mistral-medium-3.5"
    ]
   ],
   [
+   [
+    "claude-opus-5",
+    "gpt-5.6-luna"
+   ],
+   [
+    "gemini-3.1-pro-preview",
+    "gemini-3.6-flash"
+   ],
+   [
+    "gpt-5.6-sol",
+    "claude-sonnet-5"
+   ],
+   [
+    "deepseek-v4-flash",
+    "grok-4.5"
+   ]
+  ],
+  [
+   [
+    "grok-4.6",
+    "gpt-5.6-luna"
+   ],
+   [
+    "deepseek-v4-pro",
+    "gemini-3.6-flash"
+   ],
+   [
+    "claude-opus-5",
+    "claude-sonnet-5"
+   ],
+   [
+    "gemini-3.1-pro-preview",
+    "deepseek-v4-flash"
+   ]
+  ],
+  [
+   [
+    "gpt-5.6-sol",
+    "grok-4.5"
+   ],
    [
     "grok-4.6",
     "gpt-5.6-luna"
@@ -435,13 +557,13 @@
    [
     "grok-4.6",
     "gpt-5.6-luna"
-   ]
-  ],
-  [
+   ],
    [
     "deepseek-v4-pro",
     "gemini-3.6-flash"
-   ],
+   ]
+  ],
+  [
    [
     "claude-opus-5",
     "claude-sonnet-5"
@@ -449,9 +571,7 @@
    [
     "gemini-3.1-pro-preview",
     "deepseek-v4-flash"
-   ]
-  ],
-  [
+   ],
    [
     "gpt-5.6-sol",
     "grok-4.5"
@@ -459,13 +579,13 @@
    [
     "grok-4.6",
     "gpt-5.6-luna"
-   ],
-   [
-    "deepseek-v4-pro",
-    "gemini-3.6-flash"
    ]
   ],
   [
+   [
+    "deepseek-v4-pro",
+    "gemini-3.6-flash"
+   ],
    [
     "claude-opus-5",
     "claude-sonnet-5"
@@ -480,6 +600,28 @@
    ]
   ],
   [
+   [
+    "mistral-medium-3.5",
+    "gemini-3.6-flash"
+   ],
+   [
+    "grok-4.6",
+    "claude-sonnet-5"
+   ],
+   [
+    "deepseek-v4-pro",
+    "deepseek-v4-flash"
+   ],
+   [
+    "claude-opus-5",
+    "grok-4.5"
+   ]
+  ],
+  [
+   [
+    "gpt-5.6-sol",
+    "gemini-3.1-pro-preview"
+   ],
    [
     "mistral-medium-3.5",
     "gemini-3.6-flash"
@@ -505,13 +647,13 @@
    [
     "mistral-medium-3.5",
     "gemini-3.6-flash"
-   ]
-  ],
-  [
+   ],
    [
     "grok-4.6",
     "claude-sonnet-5"
-   ],
+   ]
+  ],
+  [
    [
     "deepseek-v4-pro",
     "deepseek-v4-flash"
@@ -519,9 +661,7 @@
    [
     "claude-opus-5",
     "grok-4.5"
-   ]
-  ],
-  [
+   ],
    [
     "gpt-5.6-sol",
     "gemini-3.1-pro-preview"
@@ -529,13 +669,13 @@
    [
     "mistral-medium-3.5",
     "gemini-3.6-flash"
-   ],
-   [
-    "grok-4.6",
-    "claude-sonnet-5"
    ]
   ],
   [
+   [
+    "grok-4.6",
+    "claude-sonnet-5"
+   ],
    [
     "deepseek-v4-pro",
     "deepseek-v4-flash"
@@ -561,9 +701,53 @@
    [
     "grok-4.6",
     "grok-4.5"
+   ],
+   [
+    "gpt-5.6-sol",
+    "deepseek-v4-pro"
    ]
   ],
   [
+   [
+    "gemini-3.1-pro-preview",
+    "claude-opus-5"
+   ],
+   [
+    "gpt-5.6-luna",
+    "claude-sonnet-5"
+   ],
+   [
+    "mistral-medium-3.5",
+    "deepseek-v4-flash"
+   ],
+   [
+    "grok-4.6",
+    "grok-4.5"
+   ]
+  ],
+  [
+   [
+    "gpt-5.6-sol",
+    "deepseek-v4-pro"
+   ],
+   [
+    "gemini-3.1-pro-preview",
+    "claude-opus-5"
+   ],
+   [
+    "gpt-5.6-luna",
+    "claude-sonnet-5"
+   ],
+   [
+    "mistral-medium-3.5",
+    "deepseek-v4-flash"
+   ]
+  ],
+  [
+   [
+    "grok-4.6",
+    "grok-4.5"
+   ],
    [
     "gpt-5.6-sol",
     "deepseek-v4-pro"
@@ -589,30 +773,6 @@
    [
     "gpt-5.6-sol",
     "deepseek-v4-pro"
-   ]
-  ],
-  [
-   [
-    "gemini-3.1-pro-preview",
-    "claude-opus-5"
-   ],
-   [
-    "gpt-5.6-luna",
-    "claude-sonnet-5"
-   ],
-   [
-    "mistral-medium-3.5",
-    "deepseek-v4-flash"
-   ]
-  ],
-  [
-   [
-    "grok-4.6",
-    "grok-4.5"
-   ],
-   [
-    "gpt-5.6-sol",
-    "deepseek-v4-pro"
    ],
    [
     "gemini-3.1-pro-preview",
@@ -631,9 +791,53 @@
    [
     "gpt-5.6-sol",
     "mistral-medium-3.5"
+   ],
+   [
+    "gemini-3.1-pro-preview",
+    "grok-4.6"
    ]
   ],
   [
+   [
+    "claude-opus-5",
+    "deepseek-v4-pro"
+   ],
+   [
+    "gemini-3.6-flash",
+    "deepseek-v4-flash"
+   ],
+   [
+    "gpt-5.6-luna",
+    "grok-4.5"
+   ],
+   [
+    "gpt-5.6-sol",
+    "mistral-medium-3.5"
+   ]
+  ],
+  [
+   [
+    "gemini-3.1-pro-preview",
+    "grok-4.6"
+   ],
+   [
+    "claude-opus-5",
+    "deepseek-v4-pro"
+   ],
+   [
+    "gemini-3.6-flash",
+    "deepseek-v4-flash"
+   ],
+   [
+    "gpt-5.6-luna",
+    "grok-4.5"
+   ]
+  ],
+  [
+   [
+    "gpt-5.6-sol",
+    "mistral-medium-3.5"
+   ],
    [
     "gemini-3.1-pro-preview",
     "grok-4.6"
@@ -659,30 +863,6 @@
    [
     "gemini-3.1-pro-preview",
     "grok-4.6"
-   ]
-  ],
-  [
-   [
-    "claude-opus-5",
-    "deepseek-v4-pro"
-   ],
-   [
-    "gemini-3.6-flash",
-    "deepseek-v4-flash"
-   ],
-   [
-    "gpt-5.6-luna",
-    "grok-4.5"
-   ]
-  ],
-  [
-   [
-    "gpt-5.6-sol",
-    "mistral-medium-3.5"
-   ],
-   [
-    "gemini-3.1-pro-preview",
-    "grok-4.6"
    ],
    [
     "claude-opus-5",
@@ -701,9 +881,53 @@
    [
     "gemini-3.1-pro-preview",
     "gpt-5.6-luna"
+   ],
+   [
+    "claude-opus-5",
+    "mistral-medium-3.5"
    ]
   ],
   [
+   [
+    "deepseek-v4-pro",
+    "grok-4.6"
+   ],
+   [
+    "claude-sonnet-5",
+    "grok-4.5"
+   ],
+   [
+    "gpt-5.6-sol",
+    "gemini-3.6-flash"
+   ],
+   [
+    "gemini-3.1-pro-preview",
+    "gpt-5.6-luna"
+   ]
+  ],
+  [
+   [
+    "claude-opus-5",
+    "mistral-medium-3.5"
+   ],
+   [
+    "deepseek-v4-pro",
+    "grok-4.6"
+   ],
+   [
+    "claude-sonnet-5",
+    "grok-4.5"
+   ],
+   [
+    "gpt-5.6-sol",
+    "gemini-3.6-flash"
+   ]
+  ],
+  [
+   [
+    "gemini-3.1-pro-preview",
+    "gpt-5.6-luna"
+   ],
    [
     "claude-opus-5",
     "mistral-medium-3.5"
@@ -729,30 +953,6 @@
    [
     "claude-opus-5",
     "mistral-medium-3.5"
-   ]
-  ],
-  [
-   [
-    "deepseek-v4-pro",
-    "grok-4.6"
-   ],
-   [
-    "claude-sonnet-5",
-    "grok-4.5"
-   ],
-   [
-    "gpt-5.6-sol",
-    "gemini-3.6-flash"
-   ]
-  ],
-  [
-   [
-    "gemini-3.1-pro-preview",
-    "gpt-5.6-luna"
-   ],
-   [
-    "claude-opus-5",
-    "mistral-medium-3.5"
    ],
    [
     "deepseek-v4-pro",
@@ -764,30 +964,6 @@
     "gpt-5.6-sol",
     "deepseek-v4-flash"
    ],
-   [
-    "gemini-3.1-pro-preview",
-    "claude-sonnet-5"
-   ],
-   [
-    "claude-opus-5",
-    "gemini-3.6-flash"
-   ]
-  ],
-  [
-   [
-    "deepseek-v4-pro",
-    "gpt-5.6-luna"
-   ],
-   [
-    "grok-4.6",
-    "mistral-medium-3.5"
-   ],
-   [
-    "gpt-5.6-sol",
-    "deepseek-v4-flash"
-   ]
-  ],
-  [
    [
     "gemini-3.1-pro-preview",
     "claude-sonnet-5"
@@ -813,9 +989,53 @@
    [
     "gemini-3.1-pro-preview",
     "claude-sonnet-5"
+   ],
+   [
+    "claude-opus-5",
+    "gemini-3.6-flash"
    ]
   ],
   [
+   [
+    "deepseek-v4-pro",
+    "gpt-5.6-luna"
+   ],
+   [
+    "grok-4.6",
+    "mistral-medium-3.5"
+   ],
+   [
+    "gpt-5.6-sol",
+    "deepseek-v4-flash"
+   ],
+   [
+    "gemini-3.1-pro-preview",
+    "claude-sonnet-5"
+   ]
+  ],
+  [
+   [
+    "claude-opus-5",
+    "gemini-3.6-flash"
+   ],
+   [
+    "deepseek-v4-pro",
+    "gpt-5.6-luna"
+   ],
+   [
+    "grok-4.6",
+    "mistral-medium-3.5"
+   ],
+   [
+    "gpt-5.6-sol",
+    "deepseek-v4-flash"
+   ]
+  ],
+  [
+   [
+    "gemini-3.1-pro-preview",
+    "claude-sonnet-5"
+   ],
    [
     "claude-opus-5",
     "gemini-3.6-flash"
