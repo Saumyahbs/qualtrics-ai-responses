@@ -1,0 +1,1540 @@
+{
+ "version": 10,
+ "source": "df_clean_august.csv (lowest idx with a non-blank answer)",
+ "models": [
+  {
+   "model": "gpt-5.6-sol",
+   "platform": "chatgpt",
+   "tier": "top"
+  },
+  {
+   "model": "gemini-3.1-pro-preview",
+   "platform": "gemini",
+   "tier": "top"
+  },
+  {
+   "model": "claude-opus-5",
+   "platform": "claude",
+   "tier": "top"
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "platform": "deepseek",
+   "tier": "top"
+  },
+  {
+   "model": "grok-4.6",
+   "platform": "grok",
+   "tier": "top"
+  },
+  {
+   "model": "mistral-medium-3.5",
+   "platform": "mistral",
+   "tier": "top+fast"
+  },
+  {
+   "model": "gpt-5.6-luna",
+   "platform": "chatgpt",
+   "tier": "fast"
+  },
+  {
+   "model": "gemini-3.6-flash",
+   "platform": "gemini",
+   "tier": "fast"
+  },
+  {
+   "model": "claude-sonnet-5",
+   "platform": "claude",
+   "tier": "fast"
+  },
+  {
+   "model": "deepseek-v4-flash",
+   "platform": "deepseek",
+   "tier": "fast"
+  },
+  {
+   "model": "grok-4.5",
+   "platform": "grok",
+   "tier": "fast"
+  }
+ ],
+ "pair_sets": [
+  [
+   [
+    "gemini-3.1-pro-preview",
+    "grok-4.5"
+   ],
+   [
+    "claude-opus-5",
+    "deepseek-v4-flash"
+   ],
+   [
+    "deepseek-v4-pro",
+    "claude-sonnet-5"
+   ]
+  ],
+  [
+   [
+    "grok-4.6",
+    "gemini-3.6-flash"
+   ],
+   [
+    "mistral-medium-3.5",
+    "gpt-5.6-luna"
+   ],
+   [
+    "gemini-3.1-pro-preview",
+    "grok-4.5"
+   ]
+  ],
+  [
+   [
+    "claude-opus-5",
+    "deepseek-v4-flash"
+   ],
+   [
+    "deepseek-v4-pro",
+    "claude-sonnet-5"
+   ],
+   [
+    "grok-4.6",
+    "gemini-3.6-flash"
+   ]
+  ],
+  [
+   [
+    "mistral-medium-3.5",
+    "gpt-5.6-luna"
+   ],
+   [
+    "gemini-3.1-pro-preview",
+    "grok-4.5"
+   ],
+   [
+    "claude-opus-5",
+    "deepseek-v4-flash"
+   ]
+  ],
+  [
+   [
+    "deepseek-v4-pro",
+    "claude-sonnet-5"
+   ],
+   [
+    "grok-4.6",
+    "gemini-3.6-flash"
+   ],
+   [
+    "mistral-medium-3.5",
+    "gpt-5.6-luna"
+   ]
+  ],
+  [
+   [
+    "gpt-5.6-sol",
+    "claude-opus-5"
+   ],
+   [
+    "deepseek-v4-pro",
+    "grok-4.5"
+   ],
+   [
+    "grok-4.6",
+    "deepseek-v4-flash"
+   ]
+  ],
+  [
+   [
+    "mistral-medium-3.5",
+    "claude-sonnet-5"
+   ],
+   [
+    "gpt-5.6-luna",
+    "gemini-3.6-flash"
+   ],
+   [
+    "gpt-5.6-sol",
+    "claude-opus-5"
+   ]
+  ],
+  [
+   [
+    "deepseek-v4-pro",
+    "grok-4.5"
+   ],
+   [
+    "grok-4.6",
+    "deepseek-v4-flash"
+   ],
+   [
+    "mistral-medium-3.5",
+    "claude-sonnet-5"
+   ]
+  ],
+  [
+   [
+    "gpt-5.6-luna",
+    "gemini-3.6-flash"
+   ],
+   [
+    "gpt-5.6-sol",
+    "claude-opus-5"
+   ],
+   [
+    "deepseek-v4-pro",
+    "grok-4.5"
+   ]
+  ],
+  [
+   [
+    "grok-4.6",
+    "deepseek-v4-flash"
+   ],
+   [
+    "mistral-medium-3.5",
+    "claude-sonnet-5"
+   ],
+   [
+    "gpt-5.6-luna",
+    "gemini-3.6-flash"
+   ]
+  ],
+  [
+   [
+    "gemini-3.1-pro-preview",
+    "deepseek-v4-pro"
+   ],
+   [
+    "gpt-5.6-sol",
+    "grok-4.6"
+   ],
+   [
+    "mistral-medium-3.5",
+    "grok-4.5"
+   ]
+  ],
+  [
+   [
+    "gpt-5.6-luna",
+    "deepseek-v4-flash"
+   ],
+   [
+    "gemini-3.6-flash",
+    "claude-sonnet-5"
+   ],
+   [
+    "gemini-3.1-pro-preview",
+    "deepseek-v4-pro"
+   ]
+  ],
+  [
+   [
+    "gpt-5.6-sol",
+    "grok-4.6"
+   ],
+   [
+    "mistral-medium-3.5",
+    "grok-4.5"
+   ],
+   [
+    "gpt-5.6-luna",
+    "deepseek-v4-flash"
+   ]
+  ],
+  [
+   [
+    "gemini-3.6-flash",
+    "claude-sonnet-5"
+   ],
+   [
+    "gemini-3.1-pro-preview",
+    "deepseek-v4-pro"
+   ],
+   [
+    "gpt-5.6-sol",
+    "grok-4.6"
+   ]
+  ],
+  [
+   [
+    "mistral-medium-3.5",
+    "grok-4.5"
+   ],
+   [
+    "gpt-5.6-luna",
+    "deepseek-v4-flash"
+   ],
+   [
+    "gemini-3.6-flash",
+    "claude-sonnet-5"
+   ]
+  ],
+  [
+   [
+    "claude-opus-5",
+    "grok-4.6"
+   ],
+   [
+    "gemini-3.1-pro-preview",
+    "mistral-medium-3.5"
+   ],
+   [
+    "gpt-5.6-sol",
+    "gpt-5.6-luna"
+   ]
+  ],
+  [
+   [
+    "gemini-3.6-flash",
+    "grok-4.5"
+   ],
+   [
+    "claude-sonnet-5",
+    "deepseek-v4-flash"
+   ],
+   [
+    "claude-opus-5",
+    "grok-4.6"
+   ]
+  ],
+  [
+   [
+    "gemini-3.1-pro-preview",
+    "mistral-medium-3.5"
+   ],
+   [
+    "gpt-5.6-sol",
+    "gpt-5.6-luna"
+   ],
+   [
+    "gemini-3.6-flash",
+    "grok-4.5"
+   ]
+  ],
+  [
+   [
+    "claude-sonnet-5",
+    "deepseek-v4-flash"
+   ],
+   [
+    "claude-opus-5",
+    "grok-4.6"
+   ],
+   [
+    "gemini-3.1-pro-preview",
+    "mistral-medium-3.5"
+   ]
+  ],
+  [
+   [
+    "gpt-5.6-sol",
+    "gpt-5.6-luna"
+   ],
+   [
+    "gemini-3.6-flash",
+    "grok-4.5"
+   ],
+   [
+    "claude-sonnet-5",
+    "deepseek-v4-flash"
+   ]
+  ],
+  [
+   [
+    "deepseek-v4-pro",
+    "mistral-medium-3.5"
+   ],
+   [
+    "claude-opus-5",
+    "gpt-5.6-luna"
+   ],
+   [
+    "gemini-3.1-pro-preview",
+    "gemini-3.6-flash"
+   ]
+  ],
+  [
+   [
+    "gpt-5.6-sol",
+    "claude-sonnet-5"
+   ],
+   [
+    "deepseek-v4-flash",
+    "grok-4.5"
+   ],
+   [
+    "deepseek-v4-pro",
+    "mistral-medium-3.5"
+   ]
+  ],
+  [
+   [
+    "claude-opus-5",
+    "gpt-5.6-luna"
+   ],
+   [
+    "gemini-3.1-pro-preview",
+    "gemini-3.6-flash"
+   ],
+   [
+    "gpt-5.6-sol",
+    "claude-sonnet-5"
+   ]
+  ],
+  [
+   [
+    "deepseek-v4-flash",
+    "grok-4.5"
+   ],
+   [
+    "deepseek-v4-pro",
+    "mistral-medium-3.5"
+   ],
+   [
+    "claude-opus-5",
+    "gpt-5.6-luna"
+   ]
+  ],
+  [
+   [
+    "gemini-3.1-pro-preview",
+    "gemini-3.6-flash"
+   ],
+   [
+    "gpt-5.6-sol",
+    "claude-sonnet-5"
+   ],
+   [
+    "deepseek-v4-flash",
+    "grok-4.5"
+   ]
+  ],
+  [
+   [
+    "grok-4.6",
+    "gpt-5.6-luna"
+   ],
+   [
+    "deepseek-v4-pro",
+    "gemini-3.6-flash"
+   ],
+   [
+    "claude-opus-5",
+    "claude-sonnet-5"
+   ]
+  ],
+  [
+   [
+    "gemini-3.1-pro-preview",
+    "deepseek-v4-flash"
+   ],
+   [
+    "gpt-5.6-sol",
+    "grok-4.5"
+   ],
+   [
+    "grok-4.6",
+    "gpt-5.6-luna"
+   ]
+  ],
+  [
+   [
+    "deepseek-v4-pro",
+    "gemini-3.6-flash"
+   ],
+   [
+    "claude-opus-5",
+    "claude-sonnet-5"
+   ],
+   [
+    "gemini-3.1-pro-preview",
+    "deepseek-v4-flash"
+   ]
+  ],
+  [
+   [
+    "gpt-5.6-sol",
+    "grok-4.5"
+   ],
+   [
+    "grok-4.6",
+    "gpt-5.6-luna"
+   ],
+   [
+    "deepseek-v4-pro",
+    "gemini-3.6-flash"
+   ]
+  ],
+  [
+   [
+    "claude-opus-5",
+    "claude-sonnet-5"
+   ],
+   [
+    "gemini-3.1-pro-preview",
+    "deepseek-v4-flash"
+   ],
+   [
+    "gpt-5.6-sol",
+    "grok-4.5"
+   ]
+  ],
+  [
+   [
+    "mistral-medium-3.5",
+    "gemini-3.6-flash"
+   ],
+   [
+    "grok-4.6",
+    "claude-sonnet-5"
+   ],
+   [
+    "deepseek-v4-pro",
+    "deepseek-v4-flash"
+   ]
+  ],
+  [
+   [
+    "claude-opus-5",
+    "grok-4.5"
+   ],
+   [
+    "gpt-5.6-sol",
+    "gemini-3.1-pro-preview"
+   ],
+   [
+    "mistral-medium-3.5",
+    "gemini-3.6-flash"
+   ]
+  ],
+  [
+   [
+    "grok-4.6",
+    "claude-sonnet-5"
+   ],
+   [
+    "deepseek-v4-pro",
+    "deepseek-v4-flash"
+   ],
+   [
+    "claude-opus-5",
+    "grok-4.5"
+   ]
+  ],
+  [
+   [
+    "gpt-5.6-sol",
+    "gemini-3.1-pro-preview"
+   ],
+   [
+    "mistral-medium-3.5",
+    "gemini-3.6-flash"
+   ],
+   [
+    "grok-4.6",
+    "claude-sonnet-5"
+   ]
+  ],
+  [
+   [
+    "deepseek-v4-pro",
+    "deepseek-v4-flash"
+   ],
+   [
+    "claude-opus-5",
+    "grok-4.5"
+   ],
+   [
+    "gpt-5.6-sol",
+    "gemini-3.1-pro-preview"
+   ]
+  ],
+  [
+   [
+    "gpt-5.6-luna",
+    "claude-sonnet-5"
+   ],
+   [
+    "mistral-medium-3.5",
+    "deepseek-v4-flash"
+   ],
+   [
+    "grok-4.6",
+    "grok-4.5"
+   ]
+  ],
+  [
+   [
+    "gpt-5.6-sol",
+    "deepseek-v4-pro"
+   ],
+   [
+    "gemini-3.1-pro-preview",
+    "claude-opus-5"
+   ],
+   [
+    "gpt-5.6-luna",
+    "claude-sonnet-5"
+   ]
+  ],
+  [
+   [
+    "mistral-medium-3.5",
+    "deepseek-v4-flash"
+   ],
+   [
+    "grok-4.6",
+    "grok-4.5"
+   ],
+   [
+    "gpt-5.6-sol",
+    "deepseek-v4-pro"
+   ]
+  ],
+  [
+   [
+    "gemini-3.1-pro-preview",
+    "claude-opus-5"
+   ],
+   [
+    "gpt-5.6-luna",
+    "claude-sonnet-5"
+   ],
+   [
+    "mistral-medium-3.5",
+    "deepseek-v4-flash"
+   ]
+  ],
+  [
+   [
+    "grok-4.6",
+    "grok-4.5"
+   ],
+   [
+    "gpt-5.6-sol",
+    "deepseek-v4-pro"
+   ],
+   [
+    "gemini-3.1-pro-preview",
+    "claude-opus-5"
+   ]
+  ],
+  [
+   [
+    "gemini-3.6-flash",
+    "deepseek-v4-flash"
+   ],
+   [
+    "gpt-5.6-luna",
+    "grok-4.5"
+   ],
+   [
+    "gpt-5.6-sol",
+    "mistral-medium-3.5"
+   ]
+  ],
+  [
+   [
+    "gemini-3.1-pro-preview",
+    "grok-4.6"
+   ],
+   [
+    "claude-opus-5",
+    "deepseek-v4-pro"
+   ],
+   [
+    "gemini-3.6-flash",
+    "deepseek-v4-flash"
+   ]
+  ],
+  [
+   [
+    "gpt-5.6-luna",
+    "grok-4.5"
+   ],
+   [
+    "gpt-5.6-sol",
+    "mistral-medium-3.5"
+   ],
+   [
+    "gemini-3.1-pro-preview",
+    "grok-4.6"
+   ]
+  ],
+  [
+   [
+    "claude-opus-5",
+    "deepseek-v4-pro"
+   ],
+   [
+    "gemini-3.6-flash",
+    "deepseek-v4-flash"
+   ],
+   [
+    "gpt-5.6-luna",
+    "grok-4.5"
+   ]
+  ],
+  [
+   [
+    "gpt-5.6-sol",
+    "mistral-medium-3.5"
+   ],
+   [
+    "gemini-3.1-pro-preview",
+    "grok-4.6"
+   ],
+   [
+    "claude-opus-5",
+    "deepseek-v4-pro"
+   ]
+  ],
+  [
+   [
+    "claude-sonnet-5",
+    "grok-4.5"
+   ],
+   [
+    "gpt-5.6-sol",
+    "gemini-3.6-flash"
+   ],
+   [
+    "gemini-3.1-pro-preview",
+    "gpt-5.6-luna"
+   ]
+  ],
+  [
+   [
+    "claude-opus-5",
+    "mistral-medium-3.5"
+   ],
+   [
+    "deepseek-v4-pro",
+    "grok-4.6"
+   ],
+   [
+    "claude-sonnet-5",
+    "grok-4.5"
+   ]
+  ],
+  [
+   [
+    "gpt-5.6-sol",
+    "gemini-3.6-flash"
+   ],
+   [
+    "gemini-3.1-pro-preview",
+    "gpt-5.6-luna"
+   ],
+   [
+    "claude-opus-5",
+    "mistral-medium-3.5"
+   ]
+  ],
+  [
+   [
+    "deepseek-v4-pro",
+    "grok-4.6"
+   ],
+   [
+    "claude-sonnet-5",
+    "grok-4.5"
+   ],
+   [
+    "gpt-5.6-sol",
+    "gemini-3.6-flash"
+   ]
+  ],
+  [
+   [
+    "gemini-3.1-pro-preview",
+    "gpt-5.6-luna"
+   ],
+   [
+    "claude-opus-5",
+    "mistral-medium-3.5"
+   ],
+   [
+    "deepseek-v4-pro",
+    "grok-4.6"
+   ]
+  ],
+  [
+   [
+    "gpt-5.6-sol",
+    "deepseek-v4-flash"
+   ],
+   [
+    "gemini-3.1-pro-preview",
+    "claude-sonnet-5"
+   ],
+   [
+    "claude-opus-5",
+    "gemini-3.6-flash"
+   ]
+  ],
+  [
+   [
+    "deepseek-v4-pro",
+    "gpt-5.6-luna"
+   ],
+   [
+    "grok-4.6",
+    "mistral-medium-3.5"
+   ],
+   [
+    "gpt-5.6-sol",
+    "deepseek-v4-flash"
+   ]
+  ],
+  [
+   [
+    "gemini-3.1-pro-preview",
+    "claude-sonnet-5"
+   ],
+   [
+    "claude-opus-5",
+    "gemini-3.6-flash"
+   ],
+   [
+    "deepseek-v4-pro",
+    "gpt-5.6-luna"
+   ]
+  ],
+  [
+   [
+    "grok-4.6",
+    "mistral-medium-3.5"
+   ],
+   [
+    "gpt-5.6-sol",
+    "deepseek-v4-flash"
+   ],
+   [
+    "gemini-3.1-pro-preview",
+    "claude-sonnet-5"
+   ]
+  ],
+  [
+   [
+    "claude-opus-5",
+    "gemini-3.6-flash"
+   ],
+   [
+    "deepseek-v4-pro",
+    "gpt-5.6-luna"
+   ],
+   [
+    "grok-4.6",
+    "mistral-medium-3.5"
+   ]
+  ]
+ ],
+ "image_url": "base_url + model + '__' + prompt_type + '.jpg'",
+ "products": {
+  "laptop": {
+   "label": "Laptop",
+   "source_label": "Laptop",
+   "category": "Consumer Electronics",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/consumer_electronics/laptop/",
+   "prompts": {
+    "options": "Recommend some options for a laptop.",
+    "best": "What's the best laptop?",
+    "use_case": "What's the best laptop for working from home?",
+    "max_price": "What's the best laptop under $1,200?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "use_case": "clarifying",
+     "max_price": "a",
+     "options": "help!"
+    },
+    "claude-sonnet-5": {
+     "best": "laptop",
+     "use_case": "Laptop",
+     "max_price": "give",
+     "options": "To"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "use_case": "depends",
+     "max_price": "\"best\"",
+     "options": "you"
+    },
+    "deepseek-v4-pro": {
+     "best": "laptop",
+     "use_case": "from",
+     "max_price": "laptop",
+     "options": "be"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "needs",
+     "use_case": "from",
+     "max_price": "\"best\"",
+     "options": "are"
+    },
+    "gemini-3.6-flash": {
+     "best": "no",
+     "use_case": "from",
+     "max_price": "depends",
+     "options": "best"
+    },
+    "gpt-5.6-luna": {
+     "best": "people,",
+     "use_case": "people",
+     "max_price": "pricing,",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "for",
+     "use_case": "for",
+     "max_price": "under",
+     "options": "your:"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "use_case": "people",
+     "max_price": "on",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "use_case": "single",
+     "max_price": "on",
+     "options": "13\""
+    },
+    "mistral-medium-3.5": {
+     "best": "laptop",
+     "use_case": "laptop",
+     "max_price": "laptop",
+     "options": "right"
+    }
+   }
+  },
+  "phone": {
+   "label": "Phone",
+   "source_label": "Phone",
+   "category": "Consumer Electronics",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/consumer_electronics/phone/",
+   "prompts": {
+    "options": "Recommend some options for a phone.",
+    "best": "What's the best phone?",
+    "use_case": "What's the best phone for taking photos and videos on the go?",
+    "max_price": "What's the best phone under $1,000?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "use_case": "people,",
+     "max_price": "gets",
+     "options": "help."
+    },
+    "claude-sonnet-5": {
+     "best": "single",
+     "use_case": "for",
+     "max_price": "give",
+     "options": "To"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "use_case": "no",
+     "max_price": "is",
+     "options": "you"
+    },
+    "deepseek-v4-pro": {
+     "best": "is",
+     "use_case": "want",
+     "max_price": "depends",
+     "options": "a"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "uses",
+     "use_case": "comes",
+     "max_price": "budget",
+     "options": "smartphone"
+    },
+    "gemini-3.6-flash": {
+     "best": "is",
+     "use_case": "the",
+     "max_price": "$1,000",
+     "options": "you"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "use_case": "for",
+     "max_price": "phone",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "single",
+     "use_case": "the",
+     "max_price": "under",
+     "options": "budget,"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "use_case": "and",
+     "max_price": "on",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "use_case": "one",
+     "max_price": "on",
+     "options": "some"
+    },
+    "mistral-medium-3.5": {
+     "best": "phone",
+     "use_case": "phone",
+     "max_price": "phone",
+     "options": "right"
+    }
+   }
+  },
+  "headphones": {
+   "label": "Headphones",
+   "source_label": "Headphones",
+   "category": "Consumer Electronics",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/consumer_electronics/headphones/",
+   "prompts": {
+    "options": "Recommend some options for a pair of headphones.",
+    "best": "What's the best pair of headphones?",
+    "use_case": "What's the best pair of headphones for listening to music during a daily commute?",
+    "max_price": "What's the best pair of headphones under $300 per pair?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "use_case": "specifically,",
+     "max_price": "lot",
+     "options": "help!"
+    },
+    "claude-sonnet-5": {
+     "best": "headphones",
+     "use_case": "for",
+     "max_price": "give",
+     "options": "Here"
+    },
+    "deepseek-v4-flash": {
+     "best": "is",
+     "use_case": "daily",
+     "max_price": "depends",
+     "options": "you"
+    },
+    "deepseek-v4-pro": {
+     "best": "is",
+     "use_case": "headphones",
+     "max_price": "is",
+     "options": "you"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "ears,",
+     "use_case": "daily",
+     "max_price": "best\"",
+     "options": "world"
+    },
+    "gemini-3.6-flash": {
+     "best": "depends",
+     "use_case": "commuting",
+     "max_price": "depends",
+     "options": "you"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "use_case": "commuters,",
+     "max_price": "choice",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "single",
+     "use_case": "for",
+     "max_price": "under",
+     "options": "your"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "use_case": "(or",
+     "max_price": "(or",
+     "options": "solid"
+    },
+    "grok-4.6": {
+     "best": "single",
+     "use_case": "(over-ear)",
+     "max_price": "(often",
+     "options": "solid"
+    },
+    "mistral-medium-3.5": {
+     "best": "pair",
+     "use_case": "headphones",
+     "max_price": "you",
+     "options": "right"
+    }
+   }
+  },
+  "car": {
+   "label": "Car",
+   "source_label": "Car",
+   "category": "Automotive & Mobility",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/automotive_mobility/car/",
+   "prompts": {
+    "options": "Recommend some options for a car.",
+    "best": "What's the best car?",
+    "features": "What's the best car with strong fuel economy, automatic emergency braking, and ample cargo space?",
+    "max_price": "What's the best car under $35,000?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "lot",
+     "max_price": "single",
+     "options": "help",
+     "features": "single"
+    },
+    "claude-sonnet-5": {
+     "best": "single",
+     "max_price": "give",
+     "options": "To",
+     "features": "Honda"
+    },
+    "deepseek-v4-flash": {
+     "best": "is",
+     "max_price": "depends",
+     "options": "you",
+     "features": "the"
+    },
+    "deepseek-v4-pro": {
+     "best": "no",
+     "max_price": "depends",
+     "options": "request",
+     "features": "depends"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "has",
+     "max_price": "\"best\"",
+     "options": "are",
+     "features": "emergency"
+    },
+    "gemini-3.6-flash": {
+     "best": "no",
+     "max_price": "depends",
+     "options": "are",
+     "features": "best"
+    },
+    "gpt-5.6-luna": {
+     "best": "single",
+     "max_price": "mean",
+     "options": "some",
+     "features": "Honda"
+    },
+    "gpt-5.6-sol": {
+     "best": "single",
+     "max_price": "U.S.",
+     "options": "a",
+     "features": "choice:"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "max_price": "on",
+     "options": "some",
+     "features": "tend"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "max_price": "on",
+     "options": "popular,",
+     "features": "Hybrid"
+    },
+    "mistral-medium-3.5": {
+     "best": "car",
+     "max_price": "car",
+     "options": "right",
+     "features": "looking"
+    }
+   }
+  },
+  "clothes_online": {
+   "label": "Clothes",
+   "source_label": "Clothes (online)",
+   "category": "Shopping & Retail",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/shopping_retail/clothes_online/",
+   "prompts": {
+    "options": "Recommend some options for places to buy clothes online.",
+    "best": "What's the best place to buy clothes online?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "a",
+     "options": "range"
+    },
+    "claude-sonnet-5": {
+     "best": "single",
+     "options": "Clothing"
+    },
+    "deepseek-v4-flash": {
+     "best": "place",
+     "options": "clothes"
+    },
+    "deepseek-v4-pro": {
+     "best": "is",
+     "options": "online"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "\"best\"",
+     "options": "didn’t"
+    },
+    "gemini-3.6-flash": {
+     "best": "best\"",
+     "options": "preferences"
+    },
+    "gpt-5.6-luna": {
+     "best": "on",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "place",
+     "options": "solid"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "single",
+     "options": "Uniqlo,"
+    },
+    "mistral-medium-3.5": {
+     "best": "place",
+     "options": "some"
+    }
+   }
+  },
+  "shoes_online": {
+   "label": "Shoes",
+   "source_label": "Shoes (online)",
+   "category": "Shopping & Retail",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/shopping_retail/shoes_online/",
+   "prompts": {
+    "options": "Recommend some options for places to buy shoes online.",
+    "best": "What's the best place to buy shoes online?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "a",
+     "options": "some"
+    },
+    "claude-sonnet-5": {
+     "best": "to",
+     "options": "Shoe"
+    },
+    "deepseek-v4-flash": {
+     "best": "depends",
+     "options": "shoes"
+    },
+    "deepseek-v4-pro": {
+     "best": "\"best\"",
+     "options": "shoes"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "\"best\"",
+     "options": "didn't"
+    },
+    "gemini-3.6-flash": {
+     "best": "best\"",
+     "options": "some"
+    },
+    "gpt-5.6-luna": {
+     "best": "Zappos",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "in",
+     "options": "reliable"
+    },
+    "grok-4.5": {
+     "best": "and",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "on",
+     "options": "brand"
+    },
+    "mistral-medium-3.5": {
+     "best": "place",
+     "options": "some"
+    }
+   }
+  },
+  "tv": {
+   "label": "TV",
+   "source_label": "TV",
+   "category": "Consumer Electronics",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/consumer_electronics/tv/",
+   "prompts": {
+    "options": "Recommend some options for a TV.",
+    "best": "What's the best TV?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "options": "help!"
+    },
+    "claude-sonnet-5": {
+     "best": "single",
+     "options": "Here"
+    },
+    "deepseek-v4-flash": {
+     "best": "is",
+     "options": "you"
+    },
+    "deepseek-v4-pro": {
+     "best": "can",
+     "options": "a"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "options": "didn't"
+    },
+    "gemini-3.6-flash": {
+     "best": "depends",
+     "options": "you"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "TV:",
+     "options": "strong"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "single",
+     "options": "(C-series"
+    },
+    "mistral-medium-3.5": {
+     "best": "TV",
+     "options": "right"
+    }
+   }
+  },
+  "hotel_chain": {
+   "label": "Hotel",
+   "source_label": "Hotel chain",
+   "category": "Travel & Local Services",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/travel_local_services/hotel_chain/",
+   "prompts": {
+    "options": "Recommend some options for hotel chains.",
+    "best": "What's the best hotel chain?",
+    "features": "What's the best hotel chain with consistent cleanliness standards, broad location coverage, and flexible cancellation?",
+    "use_case": "What's the best hotel chain for frequent domestic business travel?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "single",
+     "use_case": "US-based",
+     "options": "help",
+     "features": "specific"
+    },
+    "claude-sonnet-5": {
+     "best": "single",
+     "use_case": "Chains",
+     "options": "Chain",
+     "features": "Chains"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "use_case": "no",
+     "options": "the",
+     "features": "is"
+    },
+    "deepseek-v4-pro": {
+     "best": "\"best\"",
+     "use_case": "domestic",
+     "options": "recommendations",
+     "features": "combination"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "use_case": "domestic",
+     "options": "are",
+     "features": "the"
+    },
+    "gemini-3.6-flash": {
+     "best": "best\"",
+     "use_case": "no",
+     "options": "chains",
+     "features": "consistent"
+    },
+    "gpt-5.6-luna": {
+     "best": "single",
+     "use_case": "U.S.",
+     "options": "some",
+     "features": "probably"
+    },
+    "gpt-5.6-sol": {
+     "best": "single",
+     "use_case": "domestic",
+     "options": "solid",
+     "features": "balance:"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "use_case": "a",
+     "options": "some",
+     "features": "brands"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "use_case": "is",
+     "options": "some",
+     "features": "Bonvoy)"
+    },
+    "mistral-medium-3.5": {
+     "best": "hotel",
+     "use_case": "hotel",
+     "options": "some",
+     "features": "looking"
+    }
+   }
+  },
+  "flight_comparison": {
+   "label": "Travel/Flights",
+   "source_label": "Flight comparison",
+   "category": "Travel & Local Services",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/travel_local_services/flight_comparison/",
+   "prompts": {
+    "options": "Recommend some options for comparing flights online.",
+    "best": "What's the best flight comparison service?",
+    "use_case": "What's the best flight comparison service for planning a domestic round trip?",
+    "max_price": "What's the best flight comparison service that's free to use?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "is",
+     "use_case": "domestic",
+     "max_price": "is",
+     "options": "starting"
+    },
+    "claude-sonnet-5": {
+     "best": "definitively",
+     "use_case": "have",
+     "max_price": "Comparison",
+     "options": "Websites"
+    },
+    "deepseek-v4-flash": {
+     "best": "flight",
+     "use_case": "a",
+     "max_price": "free",
+     "options": "online"
+    },
+    "deepseek-v4-pro": {
+     "best": "\"best\"",
+     "use_case": "\"best\"",
+     "max_price": "prices",
+     "options": "several"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "is",
+     "use_case": "a",
+     "max_price": "is",
+     "options": "a"
+    },
+    "gemini-3.6-flash": {
+     "best": "no",
+     "use_case": "domestic",
+     "max_price": "major",
+     "options": "the"
+    },
+    "gpt-5.6-luna": {
+     "best": "Google",
+     "use_case": "is",
+     "max_price": "is",
+     "options": "some"
+    },
+    "gpt-5.6-sol": {
+     "best": "Google",
+     "use_case": "Google",
+     "max_price": "is",
+     "options": "several"
+    },
+    "grok-4.5": {
+     "best": "is",
+     "use_case": "Kayak,",
+     "max_price": "is",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "single",
+     "use_case": "Kayak,",
+     "max_price": "Kayak,",
+     "options": "Kayak,"
+    },
+    "mistral-medium-3.5": {
+     "best": "flight",
+     "use_case": "flight",
+     "max_price": "several",
+     "options": "some"
+    }
+   }
+  },
+  "skincare_products": {
+   "label": "Skincare",
+   "source_label": "Skincare products",
+   "category": "Health & Personal Care",
+   "base_url": "https://raw.githubusercontent.com/Saumyahbs/qualtrics-ai-responses/main/ai_responses/health_personal_care/skincare_products/",
+   "prompts": {
+    "options": "Recommend some options for skincare products.",
+    "best": "What's the best skincare product?"
+   },
+   "word3": {
+    "claude-opus-5": {
+     "best": "one",
+     "options": "help!"
+    },
+    "claude-sonnet-5": {
+     "best": "single",
+     "options": "Recommendations"
+    },
+    "deepseek-v4-flash": {
+     "best": "no",
+     "options": "you"
+    },
+    "deepseek-v4-pro": {
+     "best": "skin",
+     "options": "is"
+    },
+    "gemini-3.1-pro-preview": {
+     "best": "dermatologist",
+     "options": "is"
+    },
+    "gemini-3.6-flash": {
+     "best": "skin",
+     "options": "skincare"
+    },
+    "gpt-5.6-luna": {
+     "best": "one",
+     "options": "simple,"
+    },
+    "gpt-5.6-sol": {
+     "best": "choose",
+     "options": "reliable,"
+    },
+    "grok-4.5": {
+     "best": "a",
+     "options": "some"
+    },
+    "grok-4.6": {
+     "best": "a",
+     "options": "a"
+    },
+    "mistral-medium-3.5": {
+     "best": "skincare",
+     "options": "right"
+    }
+   }
+  }
+ }
+}
